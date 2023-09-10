@@ -1,0 +1,5176 @@
+,Symbol,api_industry
+0,A,life_sciences
+1,AA,manufacturing
+2,AAIC,real_estate
+3,AAIN,real_estate
+4,AAN,financial_markets
+5,AAP,retail_wholesale
+6,AAT,real_estate
+7,AB,"finance, financial markets"
+8,ABBV,life_sciences
+9,ABG,retail_wholesale
+10,ABM,financial_markets
+11,ABR,real_estate
+12,ABT,"life_sciences, technology"
+13,AC,"finance, financial markets"
+14,ACA,manufacturing
+15,ACCO,financial_markets
+16,ACEL,retail_wholesale
+17,ACHR,technology
+18,ACI,retail_wholesale
+19,ACM,manufacturing
+20,ACP,"finance, financial markets"
+21,ACR,real_estate
+22,ACRE,real_estate
+23,ACV,"finance, financial markets"
+24,ADC,real_estate
+25,ADM,manufacturing
+26,ADNT,manufacturing
+27,ADT,financial_markets
+28,ADX,"finance, financial markets"
+29,AEE,energy_transportation
+30,AEL,financial_markets
+31,AEO,retail_wholesale
+32,AES,energy_transportation
+33,AESC,energy_transportation
+34,AFB,retail_wholesale
+35,AFG,financial_markets
+36,AFGB,financial_markets
+37,AFGC,financial_markets
+38,AFGE,financial_markets
+39,AFL,financial_markets
+40,AGCO,manufacturing
+41,AGD,retail_wholesale
+42,AGL,life_sciences
+43,AGM,finance
+44,AGR,energy_transportation
+45,AGS,manufacturing
+46,AGTI,life_sciences
+47,AGX,real_estate
+48,AHH,real_estate
+49,AHT,real_estate
+50,AI,technology
+51,AIC,real_estate
+52,AIG,financial_markets
+53,AIN,earnings
+54,AIR,technology
+55,AIRC,real_estate
+56,AIT,manufacturing
+57,AIV,real_estate
+58,AIZ,financial_markets
+59,AIZN,financial_markets
+60,AJG,financial_markets
+61,AJX,real_estate
+62,AJXA,real_estate
+63,AKR,real_estate
+64,AL,financial_markets
+65,ALB,"life_sciences, manufacturing"
+66,ALE,energy_transportation
+67,ALEX,real_estate
+68,ALG,manufacturing
+69,ALIT,technology
+70,ALK,energy_transportation
+71,ALL,financial_markets
+72,ALLE,financial_markets
+73,ALLY,"finance, financial markets"
+74,ALSN,manufacturing
+75,ALTG,manufacturing
+76,ALX,real_estate
+77,AM,energy_transportation
+78,AMBC,financial_markets
+79,AMC,technology
+80,AME,manufacturing
+81,AMG,"finance, financial markets"
+82,AMH,real_estate
+83,AMK,"finance, financial markets"
+84,AMN,real_estate
+85,AMP,"finance, financial markets"
+86,AMPX,manufacturing
+87,AMPY,energy_transportation
+88,AMR,energy_transportation
+89,AMRC,real_estate
+90,AMRX,life_sciences
+91,AMT,real_estate
+92,AMTB,"finance, financial markets"
+93,AMWL,retail_wholesale
+94,AN,retail_wholesale
+95,ANET,technology
+96,ANF,retail_wholesale
+97,ANVS,life_sciences
+98,AOD,"finance, financial markets"
+99,AOMR,real_estate
+100,AON,financial_markets
+101,AORT,"life_sciences, technology"
+102,AOS,technology
+103,AP,real_estate
+104,APAM,"finance, financial markets"
+105,APD,"life_sciences, manufacturing"
+106,APH,technology
+107,APLE,real_estate
+108,APRN,retail_wholesale
+109,AQN,energy_transportation
+110,AQNA,energy_transportation
+111,AQNB,energy_transportation
+112,AQNU,energy_transportation
+113,AR,energy_transportation
+114,ARC,technology
+115,ARCH,energy_transportation
+116,ARDC,"finance, financial markets"
+117,ARE,real_estate
+118,ARES,"finance, financial markets"
+119,ARI,real_estate
+120,ARIS,energy_transportation
+121,ARLO,technology
+122,ARMK,retail_wholesale
+123,AROC,energy_transportation
+124,ARR,real_estate
+125,ARW,"technology, manufacturing"
+126,ASA,manufacturing
+127,ASAN,retail_wholesale
+128,ASB,"finance, financial markets"
+129,ASBA,"finance, financial markets"
+130,ASG,"finance, financial markets"
+131,ASGN,technology
+132,ASH,manufacturing
+133,ASIX,"life_sciences, manufacturing"
+134,ASPN,retail_wholesale
+135,ATEN,technology
+136,ATI,financial_markets
+137,ATKR,manufacturing
+138,ATO,energy_transportation
+139,ATR,manufacturing
+140,ATUS,technology
+141,AUB,"finance, financial markets"
+142,AVA,energy_transportation
+143,AVB,real_estate
+144,AVD,life_sciences
+145,AVK,retail_wholesale
+146,AVNS,manufacturing
+147,AVNT,"life_sciences, manufacturing"
+148,AVTR,life_sciences
+149,AVY,manufacturing
+150,AWF,retail_wholesale
+151,AWI,manufacturing
+152,AWK,energy_transportation
+153,AWP,retail_wholesale
+154,AWR,energy_transportation
+155,AX,financial_markets
+156,AXL,manufacturing
+157,AXP,"finance, financial markets"
+158,AXR,real_estate
+159,AXTA,manufacturing
+160,AYI,real_estate
+161,AYX,technology
+162,AZEK,manufacturing
+163,AZO,retail_wholesale
+164,AZZ,manufacturing
+165,B,manufacturing
+166,BA,technology
+167,BAC,"finance, financial markets"
+168,BAH,technology
+169,BALL,manufacturing
+170,BALY,real_estate
+171,BANC,"finance, financial markets"
+172,BAX,"life_sciences, technology"
+173,BBDC,financial_markets
+174,BBN,finance
+175,BBW,retail_wholesale
+176,BBWI,retail_wholesale
+177,BBY,technology
+178,BC,manufacturing
+179,BCAT,"finance, financial markets"
+180,BCC,retail_wholesale
+181,BCO,energy_transportation
+182,BCSF,"finance, financial markets"
+183,BCX,"finance, financial markets"
+184,BDC,technology
+185,BDJ,finance
+186,BDN,real_estate
+187,BDX,"life_sciences, technology"
+188,BE,manufacturing
+189,BEN,"finance, financial markets"
+190,BERY,manufacturing
+191,BFAM,retail_wholesale
+192,BFH,technology
+193,BFK,finance
+194,BFLY,"life_sciences, technology"
+195,BFS,real_estate
+196,BFZ,finance
+197,BG,manufacturing
+198,BGB,retail_wholesale
+199,BGH,"finance, financial markets"
+200,BGR,retail_wholesale
+201,BGS,manufacturing
+202,BGSF,technology
+203,BGT,retail_wholesale
+204,BGY,retail_wholesale
+205,BH,retail_wholesale
+206,BHE,technology
+207,BHG,"life_sciences, technology"
+208,BHIL,manufacturing
+209,BHK,finance
+210,BHLB,finance
+211,BHR,real_estate
+212,BHV,"finance, financial markets"
+213,BHVN,life_sciences
+214,BIG,real_estate
+215,BILL,technology
+216,BIO,life_sciences
+217,BJ,real_estate
+218,BK,"finance, financial markets"
+219,BKD,"real_estate, life_sciences"
+220,BKE,retail_wholesale
+221,BKH,energy_transportation
+222,BKKT,technology
+223,BKN,retail_wholesale
+224,BKSY,retail_wholesale
+225,BKT,"finance, financial markets"
+226,BKU,financial_markets
+227,BLD,real_estate
+228,BLDR,retail_wholesale
+229,BLE,"finance, financial markets"
+230,BLK,"finance, financial markets"
+231,BLND,technology
+232,BLW,retail_wholesale
+233,BME,retail_wholesale
+234,BMI,manufacturing
+235,BMY,life_sciences
+236,BNED,retail_wholesale
+237,BNL,real_estate
+238,BNY,retail_wholesale
+239,BOAC,ipo
+240,BOC,real_estate
+241,BODY,manufacturing
+242,BOE,retail_wholesale
+243,BOH,"finance, financial markets"
+244,BOOT,retail_wholesale
+245,BOWL,retail_wholesale
+246,BOX,technology
+247,BPT,energy_transportation
+248,BR,technology
+249,BRBR,retail_wholesale
+250,BRC,manufacturing
+251,BRCC,retail_wholesale
+252,BRDG,"finance, financial markets"
+253,BRO,financial_markets
+254,BROS,retail_wholesale
+255,BRSP,real_estate
+256,BRT,real_estate
+257,BRW,retail_wholesale
+258,BRX,real_estate
+259,BSL,retail_wholesale
+260,BSM,energy_transportation
+261,BST,finance
+262,BSX,"life_sciences, technology"
+263,BTA,retail_wholesale
+264,BTO,"finance, financial markets"
+265,BTT,"finance, financial markets"
+266,BTU,energy_transportation
+267,BTZ,finance
+268,BUI,retail_wholesale
+269,BURL,real_estate
+270,BV,technology
+271,BVH,real_estate
+272,BW,real_estate
+273,BWA,manufacturing
+274,BWG,"finance, financial markets"
+275,BWNB,real_estate
+276,BWSN,real_estate
+277,BX,"finance, financial markets"
+278,BXC,retail_wholesale
+279,BXMT,real_estate
+280,BXMX,"finance, financial markets"
+281,BXP,real_estate
+282,BY,"finance, financial markets"
+283,BYD,real_estate
+284,BYM,"finance, financial markets"
+285,BZH,real_estate
+286,C,"finance, financial markets"
+287,CABO,technology
+288,CACI,technology
+289,CADE,"finance, financial markets"
+290,CAF,"finance, financial markets"
+291,CAG,manufacturing
+292,CAH,life_sciences
+293,CAL,manufacturing
+294,CALX,technology
+295,CANO,"life_sciences, technology"
+296,CAPL,energy_transportation
+297,CARR,manufacturing
+298,CAT,real_estate
+299,CATO,retail_wholesale
+300,CBH,retail_wholesale
+301,CBL,real_estate
+302,CBRE,real_estate
+303,CBT,"life_sciences, manufacturing"
+304,CBU,"finance, financial markets"
+305,CBZ,technology
+306,CC,"life_sciences, manufacturing"
+307,CCI,real_estate
+308,CCK,manufacturing
+309,CCL,energy_transportation
+310,CCO,technology
+311,CCRD,technology
+312,CCS,real_estate
+313,CCZ,technology
+314,CDAY,technology
+315,CDE,manufacturing
+316,CDRE,manufacturing
+317,CE,"life_sciences, manufacturing"
+318,CEE,finance
+319,CEIX,energy_transportation
+320,CEM,retail_wholesale
+321,CEN,finance
+322,CEQP,energy_transportation
+323,CF,life_sciences
+324,CFG,"finance, financial markets"
+325,CFR,"finance, financial markets"
+326,CHCT,real_estate
+327,CHD,manufacturing
+328,CHE,"life_sciences, technology"
+329,CHH,real_estate
+330,CHN,"finance, financial markets"
+331,CHPT,manufacturing
+332,CHS,retail_wholesale
+333,CHWY,retail_wholesale
+334,CI,"life_sciences, technology"
+335,CIA,financial_markets
+336,CIEN,technology
+337,CIF,retail_wholesale
+338,CII,"finance, financial markets"
+339,CIM,real_estate
+340,CION,"finance, financial markets"
+341,CIR,manufacturing
+342,CIVI,energy_transportation
+343,CL,manufacturing
+344,CLDT,real_estate
+345,CLF,manufacturing
+346,CLH,"manufacturing, real_estate"
+347,CLPR,real_estate
+348,CLW,manufacturing
+349,CLX,manufacturing
+350,CMA,"finance, financial markets"
+351,CMC,financial_markets
+352,CMG,retail_wholesale
+353,CMI,manufacturing
+354,CMP,manufacturing
+355,CMS,energy_transportation
+356,CMSA,energy_transportation
+357,CMSC,energy_transportation
+358,CMSD,energy_transportation
+359,CMTG,real_estate
+360,CMU,"finance, financial markets"
+361,CNA,financial_markets
+362,CNC,"life_sciences, technology"
+363,CNK,technology
+364,CNM,manufacturing
+365,CNMD,life_sciences
+366,CNNE,retail_wholesale
+367,CNO,financial_markets
+368,CNP,energy_transportation
+369,CNS,"finance, financial markets"
+370,CNX,energy_transportation
+371,CODI,"real_estate, retail_wholesale"
+372,COF,"finance, financial markets"
+373,COHR,"technology, manufacturing"
+374,COLD,real_estate
+375,COMP,technology
+376,COO,manufacturing
+377,COOK,retail_wholesale
+378,COP,energy_transportation
+379,COR,life_sciences
+380,CORR,real_estate
+381,COTY,manufacturing
+382,COUR,technology
+383,CPB,manufacturing
+384,CPE,energy_transportation
+385,CPF,"finance, financial markets"
+386,CPK,energy_transportation
+387,CPS,manufacturing
+388,CPT,real_estate
+389,CR,manufacturing
+390,CRBG,financial_markets
+391,CRC,energy_transportation
+392,CRGY,energy_transportation
+393,CRI,retail_wholesale
+394,CRK,energy_transportation
+395,CRL,life_sciences
+396,CRM,technology
+397,CRS,financial_markets
+398,CRT,energy_transportation
+399,CSL,manufacturing
+400,CSR,real_estate
+401,CSV,retail_wholesale
+402,CTBB,technology
+403,CTDD,technology
+404,CTLT,life_sciences
+405,CTO,real_estate
+406,CTR,"finance, financial markets"
+407,CTRA,energy_transportation
+408,CTRE,real_estate
+409,CTS,manufacturing
+410,CTVA,"life_sciences, manufacturing"
+411,CUBB,"finance, financial markets"
+412,CUBE,real_estate
+413,CUBI,"finance, financial markets"
+414,CUK,energy_transportation
+415,CULP,earnings
+416,CURO,"finance, financial markets"
+417,CUZ,real_estate
+418,CVI,energy_transportation
+419,CVNA,retail_wholesale
+420,CVS,retail_wholesale
+421,CVX,energy_transportation
+422,CW,manufacturing
+423,CWAN,technology
+424,CWEN,energy_transportation
+425,CWH,retail_wholesale
+426,CWT,energy_transportation
+427,CXE,"finance, financial markets"
+428,CXH,"finance, financial markets"
+429,CXM,technology
+430,CXT,manufacturing
+431,CXW,real_estate
+432,CYH,"real_estate, life_sciences"
+433,D,energy_transportation
+434,DAL,energy_transportation
+435,DAN,manufacturing
+436,DAR,manufacturing
+437,DASH,manufacturing
+438,DBD,retail_wholesale
+439,DBI,retail_wholesale
+440,DBRG,real_estate
+441,DCI,energy_transportation
+442,DCO,manufacturing
+443,DD,"life_sciences, manufacturing"
+444,DDD,technology
+445,DDS,real_estate
+446,DDT,real_estate
+447,DE,manufacturing
+448,DEA,real_estate
+449,DECK,manufacturing
+450,DEI,real_estate
+451,DELL,"manufacturing,technology"
+452,DFH,real_estate
+453,DFIN,retail_wholesale
+454,DFS,"finance, financial markets"
+455,DG,real_estate
+456,DGX,"life_sciences, technology"
+457,DHF,finance
+458,DHI,real_estate
+459,DHR,manufacturing
+460,DHX,technology
+461,DIN,retail_wholesale
+462,DINO,energy_transportation
+463,DIS,retail_wholesale
+464,DK,energy_transportation
+465,DKL,energy_transportation
+466,DKS,retail_wholesale
+467,DLB,economy_macro
+468,DLR,real_estate
+469,DLX,financial_markets
+470,DM,technology
+471,DMO,retail_wholesale
+472,DMS,technology
+473,DNA,life_sciences
+474,DNB,"finance, financial markets"
+475,DNMR,"life_sciences, manufacturing"
+476,DNOW,manufacturing
+477,DNP,"finance, financial markets"
+478,DO,energy_transportation
+479,DOC,real_estate
+480,DOCN,retail_wholesale
+481,DOCS,retail_wholesale
+482,DOUG,real_estate
+483,DOV,manufacturing
+484,DOW,"life_sciences, manufacturing"
+485,DPG,retail_wholesale
+486,DPZ,retail_wholesale
+487,DRH,real_estate
+488,DRI,retail_wholesale
+489,DRQ,manufacturing
+490,DSM,"finance, financial markets"
+491,DSU,finance
+492,DT,technology
+493,DTB,energy_transportation
+494,DTE,energy_transportation
+495,DTF,"finance, financial markets"
+496,DTG,energy_transportation
+497,DTM,energy_transportation
+498,DTW,energy_transportation
+499,DUK,energy_transportation
+500,DUKB,energy_transportation
+501,DV,technology
+502,DVA,"life_sciences, technology"
+503,DVN,energy_transportation
+504,DX,real_estate
+505,DXC,technology
+506,DY,real_estate
+507,EAF,manufacturing
+508,EAI,energy_transportation
+509,EARN,real_estate
+510,EAT,retail_wholesale
+511,EB,technology
+512,EBF,retail_wholesale
+513,EBS,life_sciences
+514,ECC           ,retail_wholesale
+515,ECCC,retail_wholesale
+516,ECCV,retail_wholesale
+517,ECCW,retail_wholesale
+518,ECCX,retail_wholesale
+519,ECL,manufacturing
+520,ECVT,"life_sciences, manufacturing"
+521,ED,energy_transportation
+522,EDD,finance
+523,EDF,"finance, financial markets"
+524,EDI,finance
+525,EDR,retail_wholesale
+526,EE,energy_transportation
+527,EEA,retail_wholesale
+528,EEX,technology
+529,EFC,real_estate
+530,EFR,retail_wholesale
+531,EFT,finance
+532,EFX,"finance, financial markets"
+533,EGF,retail_wholesale
+534,EGLE,energy_transportation
+535,EGP,real_estate
+536,EGY,energy_transportation
+537,EHAB,"real_estate, life_sciences"
+538,EHC,"real_estate, life_sciences"
+539,EHI,"finance, financial markets"
+540,EIG,financial_markets
+541,EIX,energy_transportation
+542,EL,manufacturing
+543,ELAN,life_sciences
+544,ELC,energy_transportation
+545,ELF,manufacturing
+546,ELME,real_estate
+547,ELS,real_estate
+548,ELV,"life_sciences, technology"
+549,EMD,"finance, financial markets"
+550,EME,real_estate
+551,EMF,"finance, financial markets"
+552,EMN,"life_sciences, manufacturing"
+553,EMO,"finance, financial markets"
+554,EMR,technology
+555,ENFN,technology
+556,ENJ,energy_transportation
+557,ENLC,energy_transportation
+558,ENO,energy_transportation
+559,ENOV,manufacturing
+560,ENR,manufacturing
+561,ENS,manufacturing
+562,ENV,technology
+563,ENVA,"finance, financial markets"
+564,ENZ,"life_sciences, technology"
+565,EOD,"finance, financial markets"
+566,EOG,energy_transportation
+567,EOI,"finance, financial markets"
+568,EOT,"finance, financial markets"
+569,EPAC,manufacturing
+570,EPAM,technology
+571,EPC,manufacturing
+572,EPD,energy_transportation
+573,EPR,real_estate
+574,EPRT,real_estate
+575,EQBK,"finance, financial markets"
+576,EQC,real_estate
+577,EQH,financial_markets
+578,EQR,real_estate
+579,EQS,"finance, financial markets"
+580,EQT,energy_transportation
+581,ES,energy_transportation
+582,ESAB,retail_wholesale
+583,ESE,technology
+584,ESI,"life_sciences, manufacturing"
+585,ESRT,real_estate
+586,ESS,real_estate
+587,ESTC,technology
+588,ESTE,energy_transportation
+589,ET,energy_transportation
+590,ETB,"finance, financial markets"
+591,ETD,"real_estate, retail_wholesale"
+592,ETG,"finance, financial markets"
+593,ETJ,finance
+594,ETO,"finance, financial markets"
+595,ETR,energy_transportation
+596,ETRN,energy_transportation
+597,ETV,"finance, financial markets"
+598,ETW,"finance, financial markets"
+599,ETY,finance
+600,EVA,life_sciences
+601,EVC,technology
+602,EVF,"finance, financial markets"
+603,EVG,"finance, financial markets"
+604,EVH,retail_wholesale
+605,EVN,"finance, financial markets"
+606,EVR,"finance, financial markets"
+607,EVRI,retail_wholesale
+608,EVT,finance
+609,EW,manufacturing
+610,EXG,finance
+611,EXP,real_estate
+612,EXPR,retail_wholesale
+613,EXR,real_estate
+614,F,manufacturing
+615,FAF,financial_markets
+616,FAM,"finance, financial markets"
+617,FBIN,real_estate
+618,FBK,"finance, financial markets"
+619,FBRT,real_estate
+620,FC,technology
+621,FCF,"finance, financial markets"
+622,FCN,technology
+623,FCPT,real_estate
+624,FCRX,"finance, financial markets"
+625,FCT,finance
+626,FCX,manufacturing
+627,FDX,energy_transportation
+628,FE,energy_transportation
+629,FET,manufacturing
+630,FF,"life_sciences, manufacturing"
+631,FFA,"finance, financial markets"
+632,FFC,retail_wholesale
+633,FFWM,"finance, financial markets"
+634,FG,financial_markets
+635,FGB,"finance, financial markets"
+636,FHI,"finance, financial markets"
+637,FHN,"finance, financial markets"
+638,FI,technology
+639,FICO,technology
+640,FIF,"finance, financial markets"
+641,FIGS,retail_wholesale
+642,FINV,"finance, financial markets"
+643,FIS,technology
+644,FIX,real_estate
+645,FL,retail_wholesale
+646,FLC,retail_wholesale
+647,FLO,manufacturing
+648,FLR,manufacturing
+649,FLS,real_estate
+650,FLT,technology
+651,FMC,"life_sciences, manufacturing"
+652,FMN,"finance, financial markets"
+653,FMY,"finance, financial markets"
+654,FNA,life_sciences
+655,FNB,"finance, financial markets"
+656,FND,retail_wholesale
+657,FNF,financial_markets
+658,FOF,"finance, financial markets"
+659,FOR,real_estate
+660,FOUR,technology
+661,FPH,real_estate
+662,FPI,real_estate
+663,FR,real_estate
+664,FRA,"finance, financial markets"
+665,FRGE,technology
+666,FRT,real_estate
+667,FSCO,retail_wholesale
+668,FSK,"finance, financial markets"
+669,FSLY,technology
+670,FSR,manufacturing
+671,FSS,manufacturing
+672,FT,retail_wholesale
+673,FTHY,"finance, financial markets"
+674,FTK,"life_sciences, manufacturing"
+675,FTS,energy_transportation
+676,FTV,manufacturing
+677,FUL,"real_estate, retail_wholesale"
+678,FUN,retail_wholesale
+679,GAB,"finance, financial markets"
+680,GAM,"finance, financial markets"
+681,GATO,manufacturing
+682,GATX,energy_transportation
+683,GBAB,"finance, financial markets"
+684,GBCI,"finance, financial markets"
+685,GBTG,technology
+686,GBX,energy_transportation
+687,GCI,economy_macro
+688,GCO,retail_wholesale
+689,GCV,"finance, financial markets"
+690,GD,energy_transportation
+691,GDDY,technology
+692,GDL,"finance, financial markets"
+693,GDO,finance
+694,GDOT,"finance, financial markets"
+695,GDV,"finance, financial markets"
+696,GE,technology
+697,GEL,energy_transportation
+698,GEO,real_estate
+699,GES,retail_wholesale
+700,GETY,manufacturing
+701,GF,"finance, financial markets"
+702,GFF,real_estate
+703,GGG,real_estate
+704,GGT,retail_wholesale
+705,GHI,"finance, financial markets"
+706,GHL,"finance, financial markets"
+707,GHM,manufacturing
+708,GHY,retail_wholesale
+709,GIC,manufacturing
+710,GIM,finance
+711,GIS,manufacturing
+712,GJH,"finance, financial markets"
+713,GJO,"finance, financial markets"
+714,GJS,"finance, financial markets"
+715,GJT,"finance, financial markets"
+716,GKOS,"life_sciences, technology"
+717,GL,financial_markets
+718,GLOB,technology
+719,GLP,energy_transportation
+720,GLT,manufacturing
+721,GLW,technology
+722,GM,manufacturing
+723,GME,"technology, manufacturing"
+724,GMED,"life_sciences, technology"
+725,GMRE,real_estate
+726,GNE,energy_transportation
+727,GNK,energy_transportation
+728,GNL,real_estate
+729,GNRC,manufacturing
+730,GNT,"finance, financial markets"
+731,GNTY,"finance, financial markets"
+732,GNW,financial_markets
+733,GOF,"finance, financial markets"
+734,GOLF,retail_wholesale
+735,GPC,retail_wholesale
+736,GPI,retail_wholesale
+737,GPJA,energy_transportation
+738,GPK,manufacturing
+739,GPMT,real_estate
+740,GPN,technology
+741,GPOR,energy_transportation
+742,GPS,retail_wholesale
+743,GRBK,real_estate
+744,GRC,real_estate
+745,GRNT,ipo
+746,GRX,"finance, financial markets"
+747,GS,"finance, financial markets"
+748,GSBD,"finance, financial markets"
+749,GTLS,manufacturing
+750,GTN,technology
+751,GTY,real_estate
+752,GUG,retail_wholesale
+753,GUT,retail_wholesale
+754,GVA,manufacturing
+755,GWH,manufacturing
+756,GWRE,technology
+757,GWW,retail_wholesale
+758,GXO,energy_transportation
+759,H,real_estate
+760,HAE,"life_sciences, technology"
+761,HAL,energy_transportation
+762,HASI,real_estate
+763,HAYW,"technology, manufacturing"
+764,HBI,retail_wholesale
+765,HCA,"real_estate, life_sciences"
+766,HCC,energy_transportation
+767,HCI,financial_markets
+768,HCXY,"finance, financial markets"
+769,HD,retail_wholesale
+770,HE,energy_transportation
+771,HEI,technology
+772,HEP,energy_transportation
+773,HEQ,"finance, financial markets"
+774,HES,energy_transportation
+775,HESM,energy_transportation
+776,HFRO,"finance, financial markets"
+777,HGTY,financial_markets
+778,HGV,real_estate
+779,HHH,real_estate
+780,HI,manufacturing
+781,HIE,retail_wholesale
+782,HIG,financial_markets
+783,HII,manufacturing
+784,HIMS,"life_sciences, technology"
+785,HIO,"finance, financial markets"
+786,HIPO,financial_markets
+787,HIW,real_estate
+788,HIX,"finance, financial markets"
+789,HL,manufacturing
+790,HLI,"finance, financial markets"
+791,HLIO,manufacturing
+792,HLLY,manufacturing
+793,HLT,real_estate
+794,HLX,energy_transportation
+795,HMN,financial_markets
+796,HNI,retail_wholesale
+797,HOG,manufacturing
+798,HOMB,"finance, financial markets"
+799,HOUS,real_estate
+800,HOV,real_estate
+801,HP,energy_transportation
+802,HPE,retail_wholesale
+803,HPF,finance
+804,HPI,retail_wholesale
+805,HPP,real_estate
+806,HPQ,"manufacturing,technology"
+807,HPS,"finance, financial markets"
+808,HQH,finance
+809,HQL,"finance, financial markets"
+810,HR,real_estate
+811,HRB,retail_wholesale
+812,HRL,retail_wholesale
+813,HRT,technology
+814,HSY,life_sciences
+815,HT,real_estate
+816,HTD,finance
+817,HTFB,"finance, financial markets"
+818,HTFC,"finance, financial markets"
+819,HTGC,"finance, financial markets"
+820,HTH,"finance, financial markets"
+821,HTY,retail_wholesale
+822,HUBB,manufacturing
+823,HUBS,technology
+824,HUM,"life_sciences, technology"
+825,HUN,"life_sciences, manufacturing"
+826,HUYA,technology
+827,HVT,retail_wholesale
+828,HWM,manufacturing
+829,HXL,"life_sciences, manufacturing"
+830,HY,real_estate
+831,HYB,"finance, financial markets"
+832,HYLN,real_estate
+833,HYT,finance
+834,HZO,retail_wholesale
+835,IAE,retail_wholesale
+836,IBM,"manufacturing,technology"
+837,IBP,real_estate
+838,ICE,"finance, financial markets"
+839,IDA,energy_transportation
+840,IDE,"finance, financial markets"
+841,IDT,technology
+842,IEX,real_estate
+843,IFF,"life_sciences, manufacturing"
+844,IFN,"finance, financial markets"
+845,IGA,"finance, financial markets"
+846,IGD,retail_wholesale
+847,IGI,"finance, financial markets"
+848,IGR,finance
+849,IGT,retail_wholesale
+850,IHD,"finance, financial markets"
+851,IHIT,"finance, financial markets"
+852,IIF,retail_wholesale
+853,IIIN,financial_markets
+854,IIM,"finance, financial markets"
+855,IIPR,real_estate
+856,INFA,technology
+857,INGR,manufacturing
+858,INN,real_estate
+859,INSI,"finance, financial markets"
+860,INSP,"life_sciences, technology"
+861,INSW,manufacturing
+862,INVH,real_estate
+863,IONQ,retail_wholesale
+864,IOT,retail_wholesale
+865,IP,manufacturing
+866,IPG,technology
+867,IPI,manufacturing
+868,IQI,finance
+869,IQV,life_sciences
+870,IR,manufacturing
+871,IRM,real_estate
+872,IRT,real_estate
+873,ISD,retail_wholesale
+874,IT,retail_wholesale
+875,ITGR,life_sciences
+876,ITT,real_estate
+877,ITW,manufacturing
+878,IVR,real_estate
+879,IVT,real_estate
+880,IVZ,"finance, financial markets"
+881,J,manufacturing
+882,JBGS,real_estate
+883,JBI,real_estate
+884,JBK,"finance, financial markets"
+885,JBL,technology
+886,JBT,manufacturing
+887,JCE,retail_wholesale
+888,JEF,"finance, financial markets"
+889,JELD,life_sciences
+890,JEQ,energy_transportation
+891,JFR,retail_wholesale
+892,JGH,"finance, financial markets"
+893,JHI,retail_wholesale
+894,JHS,finance
+895,JILL,retail_wholesale
+896,JLL,real_estate
+897,JLS,"finance, financial markets"
+898,JMM,retail_wholesale
+899,JNJ,life_sciences
+900,JNPR,technology
+901,JOBY,technology
+902,JOE,real_estate
+903,JOF,retail_wholesale
+904,JPC,"finance, financial markets"
+905,JPM,"finance, financial markets"
+906,JPS,"finance, financial markets"
+907,JPT,retail_wholesale
+908,JQC,finance
+909,JRI,finance
+910,JRS,"finance, financial markets"
+911,JWN,retail_wholesale
+912,JXN,financial_markets
+913,K,manufacturing
+914,KAI,manufacturing
+915,KAMN,manufacturing
+916,KAR,retail_wholesale
+917,KBH,real_estate
+918,KBR,manufacturing
+919,KD,technology
+920,KEX,energy_transportation
+921,KEY,"finance, financial markets"
+922,KEYS,manufacturing
+923,KF,"finance, financial markets"
+924,KFY,financial_markets
+925,KIM,real_estate
+926,KIND,technology
+927,KKR,"finance, financial markets"
+928,KLR,technology
+929,KMB,manufacturing
+930,KMI,energy_transportation
+931,KMPB,financial_markets
+932,KMPR,financial_markets
+933,KMT,manufacturing
+934,KMX,retail_wholesale
+935,KN,technology
+936,KNSL,financial_markets
+937,KNTK,energy_transportation
+938,KNX,energy_transportation
+939,KO,retail_wholesale
+940,KODK,manufacturing
+941,KOP,life_sciences
+942,KORE,technology
+943,KR,retail_wholesale
+944,KRC,real_estate
+945,KREF,real_estate
+946,KRG,real_estate
+947,KRO,"life_sciences, manufacturing"
+948,KRP,energy_transportation
+949,KSM,retail_wholesale
+950,KSS,real_estate
+951,KTB,retail_wholesale
+952,KTF,finance
+953,KTH,"finance, financial markets"
+954,KTN,"finance, financial markets"
+955,KW,real_estate
+956,KWR,"life_sciences, manufacturing"
+957,KYN,"finance, financial markets"
+958,L,financial_markets
+959,LAD,retail_wholesale
+960,LADR,real_estate
+961,LAW,technology
+962,LBRT,energy_transportation
+963,LC,"finance, financial markets"
+964,LCII,manufacturing
+965,LDI,"finance, financial markets"
+966,LDOS,technology
+967,LDP,finance
+968,LEA,manufacturing
+969,LEG,"real_estate, retail_wholesale"
+970,LEN,real_estate
+971,LEO,retail_wholesale
+972,LEVI,retail_wholesale
+973,LFT,real_estate
+974,LH,"life_sciences, technology"
+975,LHX,manufacturing
+976,LII,manufacturing
+977,LL,retail_wholesale
+978,LLAP,manufacturing
+979,LLY,life_sciences
+980,LMND,financial_markets
+981,LMT,technology
+982,LNC,financial_markets
+983,LNN,manufacturing
+984,LOB,"finance, financial markets"
+985,LOW,retail_wholesale
+986,LPG,energy_transportation
+987,LPX,life_sciences
+988,LTC,real_estate
+989,LTH,real_estate
+990,LTHM,"life_sciences, manufacturing"
+991,LUMN,technology
+992,LUV,energy_transportation
+993,LVS,real_estate
+994,LW,manufacturing
+995,LXP,real_estate
+996,LXU,"life_sciences, manufacturing"
+997,LYV,retail_wholesale
+998,LZB,"real_estate, retail_wholesale"
+999,M,real_estate
+1000,MA,technology
+1001,MAA,real_estate
+1002,MAC,real_estate
+1003,MAIN,"finance, financial markets"
+1004,MAN,technology
+1005,MAS,real_estate
+1006,MATV,manufacturing
+1007,MATX,energy_transportation
+1008,MAV,finance
+1009,MBC,life_sciences
+1010,MBI,financial_markets
+1011,MC,"finance, financial markets"
+1012,MCB,"finance, financial markets"
+1013,MCD,retail_wholesale
+1014,MCI,retail_wholesale
+1015,MCK,life_sciences
+1016,MCO,"finance, financial markets"
+1017,MCR,retail_wholesale
+1018,MCS,technology
+1019,MCY,financial_markets
+1020,MD,"real_estate, life_sciences"
+1021,MDC,real_estate
+1022,MDT,life_sciences
+1023,MDU,manufacturing
+1024,MEC,manufacturing
+1025,MED,retail_wholesale
+1026,MEG,technology
+1027,MEGI,"finance, financial markets"
+1028,MEI,technology
+1029,MET,financial_markets
+1030,MFA,real_estate
+1031,MFD,retail_wholesale
+1032,MFM,finance
+1033,MFV,retail_wholesale
+1034,MG,manufacturing
+1035,MGF,retail_wholesale
+1036,MGM,real_estate
+1037,MGR,"finance, financial markets"
+1038,MGRB,"finance, financial markets"
+1039,MGRD,"finance, financial markets"
+1040,MGY,energy_transportation
+1041,MHD,"finance, financial markets"
+1042,MHF,"finance, financial markets"
+1043,MHI,"finance, financial markets"
+1044,MHK,"real_estate, retail_wholesale"
+1045,MHN,"finance, financial markets"
+1046,MHO,real_estate
+1047,MIN,retail_wholesale
+1048,MIR,manufacturing
+1049,MITT,real_estate
+1050,MIY,"finance, financial markets"
+1051,MKC,manufacturing
+1052,MKFG,retail_wholesale
+1053,MKL,financial_markets
+1054,ML,retail_wholesale
+1055,MLI,manufacturing
+1056,MLM,manufacturing
+1057,MLNK,technology
+1058,MLP,real_estate
+1059,MLR,real_estate
+1060,MMC,financial_markets
+1061,MMD,"finance, financial markets"
+1062,MMI,real_estate
+1063,MMM,"life_sciences, technology"
+1064,MMP,energy_transportation
+1065,MMS,technology
+1066,MMT,retail_wholesale
+1067,MMU,"finance, financial markets"
+1068,MNP,retail_wholesale
+1069,MO,life_sciences
+1070,MOD,manufacturing
+1071,MODG,retail_wholesale
+1072,MODN,technology
+1073,MOH,"life_sciences, technology"
+1074,MOS,life_sciences
+1075,MOV,retail_wholesale
+1076,MPA,finance
+1077,MPC,energy_transportation
+1078,MPLX,energy_transportation
+1079,MPV,finance
+1080,MPW,real_estate
+1081,MPX,energy_transportation
+1082,MQT,"finance, financial markets"
+1083,MQY,"finance, financial markets"
+1084,MRC,manufacturing
+1085,MRDB,ipo
+1086,MRK,life_sciences
+1087,MRO,energy_transportation
+1088,MS,"finance, financial markets"
+1089,MSA,manufacturing
+1090,MSB,manufacturing
+1091,MSCI,technology
+1092,MSD,retail_wholesale
+1093,MSGE,retail_wholesale
+1094,MSGS,retail_wholesale
+1095,MSI,retail_wholesale
+1096,MSM,manufacturing
+1097,MTB,"finance, financial markets"
+1098,MTDR,energy_transportation
+1099,MTG,financial_markets
+1100,MTH,real_estate
+1101,MTN,retail_wholesale
+1102,MTR,energy_transportation
+1103,MTRN,manufacturing
+1104,MTW,real_estate
+1105,MTX,"life_sciences, manufacturing"
+1106,MTZ,real_estate
+1107,MUA,"finance, financial markets"
+1108,MUC,"finance, financial markets"
+1109,MUE,"finance, financial markets"
+1110,MUI,"finance, financial markets"
+1111,MUJ,"finance, financial markets"
+1112,MUR,energy_transportation
+1113,MUSA,retail_wholesale
+1114,MVF,"finance, financial markets"
+1115,MVO,energy_transportation
+1116,MVT,"finance, financial markets"
+1117,MWA,manufacturing
+1118,MXE,finance
+1119,MXF,retail_wholesale
+1120,MYD,"finance, financial markets"
+1121,MYE,manufacturing
+1122,MYI,"finance, financial markets"
+1123,MYN,finance
+1124,NABL,technology
+1125,NAC,"finance, financial markets"
+1126,NAD,"finance, financial markets"
+1127,NAN,"finance, financial markets"
+1128,NAPA,retail_wholesale
+1129,NAZ,"finance, financial markets"
+1130,NBB,finance
+1131,NBHC,"finance, financial markets"
+1132,NC,energy_transportation
+1133,NCA,"finance, financial markets"
+1134,NCLH,energy_transportation
+1135,NCR,retail_wholesale
+1136,NCV,finance
+1137,NCZ,finance
+1138,NDP,"finance, financial markets"
+1139,NEA,"finance, financial markets"
+1140,NEE,technology
+1141,NEM,manufacturing
+1142,NEP,energy_transportation
+1143,NET,technology
+1144,NEU,"life_sciences, manufacturing"
+1145,NEWR,technology
+1146,NFG,energy_transportation
+1147,NFJ,"finance, financial markets"
+1148,NGL,energy_transportation
+1149,NGS,energy_transportation
+1150,NGVC,retail_wholesale
+1151,NGVT,"life_sciences, manufacturing"
+1152,NHI,real_estate
+1153,NI,energy_transportation
+1154,NIC,"finance, financial markets"
+1155,NIE,"finance, financial markets"
+1156,NIM,retail_wholesale
+1157,NIMC,energy_transportation
+1158,NINE,energy_transportation
+1159,NIO,finance
+1160,NJR,energy_transportation
+1161,NKE,manufacturing
+1162,NKX,"finance, financial markets"
+1163,NL,"life_sciences, manufacturing"
+1164,NLS,retail_wholesale
+1165,NLY,real_estate
+1166,NMI,retail_wholesale
+1167,NMS,finance
+1168,NMT,"finance, financial markets"
+1169,NMZ,"finance, financial markets"
+1170,NNI,"finance, financial markets"
+1171,NNN,real_estate
+1172,NNY,"finance, financial markets"
+1173,NOC,manufacturing
+1174,NOG,energy_transportation
+1175,NOM,"finance, financial markets"
+1176,NOTE,technology
+1177,NOV,manufacturing
+1178,NOVA,energy_transportation
+1179,NOW,technology
+1180,NPK,manufacturing
+1181,NPO,manufacturing
+1182,NPV,"finance, financial markets"
+1183,NQP,retail_wholesale
+1184,NR,manufacturing
+1185,NRDY,technology
+1186,NREF,real_estate
+1187,NRG,energy_transportation
+1188,NRGV,manufacturing
+1189,NRK,retail_wholesale
+1190,NRP,energy_transportation
+1191,NRT,energy_transportation
+1192,NRUC,financial_markets
+1193,NS,energy_transportation
+1194,NSA,real_estate
+1195,NSC,energy_transportation
+1196,NSP,technology
+1197,NSS,energy_transportation
+1198,NTST,real_estate
+1199,NUE,financial_markets
+1200,NUS,life_sciences
+1201,NUV,retail_wholesale
+1202,NUVB,life_sciences
+1203,NUW,"finance, financial markets"
+1204,NVG,"finance, financial markets"
+1205,NVR,real_estate
+1206,NVRI,financial_markets
+1207,NVRO,"life_sciences, technology"
+1208,NVST,"life_sciences, technology"
+1209,NVTA,"life_sciences, technology"
+1210,NWN,energy_transportation
+1211,NX,manufacturing
+1212,NXC,"finance, financial markets"
+1213,NXJ,"finance, financial markets"
+1214,NXN,retail_wholesale
+1215,NXP,retail_wholesale
+1216,NXRT,real_estate
+1217,NYCB,finance
+1218,NYT,economy_macro
+1219,NZF,finance
+1220,O,real_estate
+1221,OBK,"finance, financial markets"
+1222,OC,manufacturing
+1223,OCN,"finance, financial markets"
+1224,ODC,manufacturing
+1225,OFC,real_estate
+1226,OGE,energy_transportation
+1227,OGN,life_sciences
+1228,OGS,energy_transportation
+1229,OHI,real_estate
+1230,OI,manufacturing
+1231,OIA,finance
+1232,OII,energy_transportation
+1233,OIS,manufacturing
+1234,OKE,energy_transportation
+1235,OLN,"life_sciences, manufacturing"
+1236,OLO,"finance, financial markets"
+1237,OLP,real_estate
+1238,OMC,technology
+1239,OMF,"finance, financial markets"
+1240,OMI,"life_sciences, technology"
+1241,ONL,real_estate
+1242,ONTF,technology
+1243,ONTO,manufacturing
+1244,OOMA,technology
+1245,OPAD,real_estate
+1246,OPP,"finance, financial markets"
+1247,OPY,"finance, financial markets"
+1248,ORA,energy_transportation
+1249,ORC,real_estate
+1250,ORCL,technology
+1251,ORI,financial_markets
+1252,ORN,manufacturing
+1253,OSG,energy_transportation
+1254,OSK,manufacturing
+1255,OUST,manufacturing
+1256,OUT,real_estate
+1257,OWL,"finance, financial markets"
+1258,OXM,retail_wholesale
+1259,OXY,energy_transportation
+1260,PACK,manufacturing
+1261,PAG,retail_wholesale
+1262,PAI,retail_wholesale
+1263,PAR,retail_wholesale
+1264,PARR,energy_transportation
+1265,PATH,technology
+1266,PAXS,"finance, financial markets"
+1267,PAY,technology
+1268,PAYC,technology
+1269,PB,"finance, financial markets"
+1270,PBF,energy_transportation
+1271,PBH,life_sciences
+1272,PBI,retail_wholesale
+1273,PBT,energy_transportation
+1274,PCF,retail_wholesale
+1275,PCG,energy_transportation
+1276,PCK,retail_wholesale
+1277,PCM,retail_wholesale
+1278,PCN,"finance, financial markets"
+1279,PCOR,technology
+1280,PCQ,"finance, financial markets"
+1281,PD,technology
+1282,PDI,retail_wholesale
+1283,PDM,real_estate
+1284,PDT,finance
+1285,PEAK,real_estate
+1286,PEB,real_estate
+1287,PEG,energy_transportation
+1288,PEN,"life_sciences, technology"
+1289,PEO,"finance, financial markets"
+1290,PFD,"finance, financial markets"
+1291,PFE,life_sciences
+1292,PFGC,retail_wholesale
+1293,PFH,financial_markets
+1294,PFL,finance
+1295,PFLT,"finance, financial markets"
+1296,PFN,"finance, financial markets"
+1297,PFO,finance
+1298,PFS,financial_markets
+1299,PFSI,"finance, financial markets"
+1300,PG,manufacturing
+1301,PGP,finance
+1302,PGR,financial_markets
+1303,PGRE,real_estate
+1304,PGTI,real_estate
+1305,PH,manufacturing
+1306,PHD,"finance, financial markets"
+1307,PHK,"finance, financial markets"
+1308,PHM,real_estate
+1309,PHR,technology
+1310,PHT,"finance, financial markets"
+1311,PHX,energy_transportation
+1312,PII,retail_wholesale
+1313,PIM,finance
+1314,PINE,real_estate
+1315,PINS,technology
+1316,PIPR,"finance, financial markets"
+1317,PJT,"finance, financial markets"
+1318,PK,real_estate
+1319,PKG,manufacturing
+1320,PL,technology
+1321,PLD,real_estate
+1322,PLNT,real_estate
+1323,PLOW,real_estate
+1324,PLTR,retail_wholesale
+1325,PLYM,real_estate
+1326,PM,life_sciences
+1327,PMF,"finance, financial markets"
+1328,PML,"finance, financial markets"
+1329,PMM,"finance, financial markets"
+1330,PMO,finance
+1331,PMT,real_estate
+1332,PMX,retail_wholesale
+1333,PNC,"finance, financial markets"
+1334,PNF,finance
+1335,PNI,retail_wholesale
+1336,PNM,energy_transportation
+1337,PNNT,"finance, financial markets"
+1338,PNW,energy_transportation
+1339,POR,energy_transportation
+1340,POST,manufacturing
+1341,PPG,manufacturing
+1342,PPL,energy_transportation
+1343,PPT,finance
+1344,PR,energy_transportation
+1345,PRA,financial_markets
+1346,PRG,financial_markets
+1347,PRGO,life_sciences
+1348,PRH,financial_markets
+1349,PRI,financial_markets
+1350,PRIM,real_estate
+1351,PRLB,manufacturing
+1352,PRO,technology
+1353,PRS,financial_markets
+1354,PRT,energy_transportation
+1355,PRU,financial_markets
+1356,PSA,real_estate
+1357,PSN,technology
+1358,PSTG,"technology, manufacturing"
+1359,PSTL,real_estate
+1360,PSX,energy_transportation
+1361,PTY,"finance, financial markets"
+1362,PUMP,energy_transportation
+1363,PVH,retail_wholesale
+1364,PVL,energy_transportation
+1365,PWR,real_estate
+1366,PWSC,technology
+1367,PX,"finance, financial markets"
+1368,PXD,energy_transportation
+1369,PYN,"finance, financial markets"
+1370,PYT,"finance, financial markets"
+1371,PZC,"finance, financial markets"
+1372,QS,manufacturing
+1373,QTWO,technology
+1374,QUAD,financial_markets
+1375,QVCC,retail_wholesale
+1376,QVCD,retail_wholesale
+1377,R,real_estate
+1378,RAD,retail_wholesale
+1379,RAMP,technology
+1380,RBC,manufacturing
+1381,RBCP,manufacturing
+1382,RBLX,technology
+1383,RC,real_estate
+1384,RCB,real_estate
+1385,RCC,real_estate
+1386,RCL,energy_transportation
+1387,RCS,"finance, financial markets"
+1388,RCUS,life_sciences
+1389,RDN,financial_markets
+1390,RDW,manufacturing
+1391,RES,energy_transportation
+1392,REVG,manufacturing
+1393,REX,"life_sciences, manufacturing"
+1394,REXR,real_estate
+1395,REZI,retail_wholesale
+1396,RF,"finance, financial markets"
+1397,RFI,"finance, financial markets"
+1398,RFL,real_estate
+1399,RGA,financial_markets
+1400,RGR,manufacturing
+1401,RGS,retail_wholesale
+1402,RH,retail_wholesale
+1403,RHI,technology
+1404,RHP,real_estate
+1405,RITM,real_estate
+1406,RJF,"finance, financial markets"
+1407,RKT,"finance, financial markets"
+1408,RL,retail_wholesale
+1409,RLI,financial_markets
+1410,RLJ,real_estate
+1411,RM,"finance, financial markets"
+1412,RMAX,real_estate
+1413,RMD,"life_sciences, technology"
+1414,RMT,"finance, financial markets"
+1415,RNG,technology
+1416,RNGR,energy_transportation
+1417,RNP,"finance, financial markets"
+1418,ROG,manufacturing
+1419,ROK,manufacturing
+1420,ROL,financial_markets
+1421,RPM,manufacturing
+1422,RPT,real_estate
+1423,RQI,retail_wholesale
+1424,RRC,energy_transportation
+1425,RRX,manufacturing
+1426,RS,manufacturing
+1427,RSG,"manufacturing, real_estate"
+1428,RSI,retail_wholesale
+1429,RTX,technology
+1430,RVLV,retail_wholesale
+1431,RVT,retail_wholesale
+1432,RVTY,life_sciences
+1433,RWT,real_estate
+1434,RYAM,manufacturing
+1435,RYAN,financial_markets
+1436,RYI,manufacturing
+1437,RYN,real_estate
+1438,RZB,financial_markets
+1439,RZC,financial_markets
+1440,S,technology
+1441,SAFE,real_estate
+1442,SAH,retail_wholesale
+1443,SAIC,technology
+1444,SAJ,"finance, financial markets"
+1445,SAM,retail_wholesale
+1446,SAR,"finance, financial markets"
+1447,SAT,"finance, financial markets"
+1448,SAVE,energy_transportation
+1449,SAY,"finance, financial markets"
+1450,SAZ,"finance, financial markets"
+1451,SBH,retail_wholesale
+1452,SBI,"finance, financial markets"
+1453,SBOW,energy_transportation
+1454,SBR,energy_transportation
+1455,SCCO,manufacturing
+1456,SCD,retail_wholesale
+1457,SCHW,"finance, financial markets"
+1458,SCI,retail_wholesale
+1459,SCL,manufacturing
+1460,SCM,"finance, financial markets"
+1461,SCS,retail_wholesale
+1462,SCU,"finance, financial markets"
+1463,SCX,manufacturing
+1464,SD,energy_transportation
+1465,SE,retail_wholesale
+1466,SEAS,life_sciences
+1467,SEE,"life_sciences, manufacturing"
+1468,SEM,"real_estate, life_sciences"
+1469,SEMR,technology
+1470,SF,"finance, financial markets"
+1471,SFB,"finance, financial markets"
+1472,SFBS,"finance, financial markets"
+1473,SG,retail_wholesale
+1474,SGU,retail_wholesale
+1475,SHAK,retail_wholesale
+1476,SHO,real_estate
+1477,SHW,retail_wholesale
+1478,SITC,real_estate
+1479,SITE,manufacturing
+1480,SIX,retail_wholesale
+1481,SJM,manufacturing
+1482,SJT,energy_transportation
+1483,SJW,energy_transportation
+1484,SKIL,technology
+1485,SKT,real_estate
+1486,SKX,manufacturing
+1487,SKY,real_estate
+1488,SLCA,manufacturing
+1489,SLG,real_estate
+1490,SLGN,manufacturing
+1491,SLVM,manufacturing
+1492,SM,energy_transportation
+1493,SMAR,technology
+1494,SMG,life_sciences
+1495,SMHI,energy_transportation
+1496,SMLP,energy_transportation
+1497,SMP,manufacturing
+1498,SMR,technology
+1499,SMRT,technology
+1500,SNA,manufacturing
+1501,SNAP,technology
+1502,SNDA,"real_estate, life_sciences"
+1503,SNDR,energy_transportation
+1504,SNOW,technology
+1505,SNV,"finance, financial markets"
+1506,SNX,technology
+1507,SO,energy_transportation
+1508,SOI,manufacturing
+1509,SOJC,energy_transportation
+1510,SOJD,energy_transportation
+1511,SOJE,manufacturing
+1512,SON,manufacturing
+1513,SOR,"finance, financial markets"
+1514,SPB,manufacturing
+1515,SPCE,energy_transportation
+1516,SPE,"finance, financial markets"
+1517,SPG,real_estate
+1518,SPGI,"finance, financial markets"
+1519,SPH,retail_wholesale
+1520,SPHR,retail_wholesale
+1521,SPLP,manufacturing
+1522,SPR,manufacturing
+1523,SPRU,manufacturing
+1524,SPXC,manufacturing
+1525,SPXX,retail_wholesale
+1526,SQ,technology
+1527,SQSP,technology
+1528,SR,energy_transportation
+1529,SRC,real_estate
+1530,SRE,energy_transportation
+1531,SREA,energy_transportation
+1532,SRG,real_estate
+1533,SRI,manufacturing
+1534,SRT,technology
+1535,SRV,finance
+1536,SSD,manufacturing
+1537,SST,financial_markets
+1538,SSTK,technology
+1539,STAG,real_estate
+1540,STC,financial_markets
+1541,STE,manufacturing
+1542,STEL,"finance, financial markets"
+1543,STEM,technology
+1544,STEW,"finance, financial markets"
+1545,STK,"finance, financial markets"
+1546,STR,energy_transportation
+1547,STT,"finance, financial markets"
+1548,STWD,real_estate
+1549,STZ,retail_wholesale
+1550,SUI,real_estate
+1551,SUM,manufacturing
+1552,SUN,energy_transportation
+1553,SUNL,financial_markets
+1554,SUP,manufacturing
+1555,SWI,technology
+1556,SWK,manufacturing
+1557,SWN,energy_transportation
+1558,SWX,energy_transportation
+1559,SWZ,finance
+1560,SXC,financial_markets
+1561,SXI,manufacturing
+1562,SXT,"life_sciences, manufacturing"
+1563,SYF,"finance, financial markets"
+1564,SYK,"life_sciences, technology"
+1565,SYY,retail_wholesale
+1566,T,technology
+1567,TALO,energy_transportation
+1568,TBB,technology
+1569,TBC,technology
+1570,TBI,technology
+1571,TCI,real_estate
+1572,TCS,"real_estate, retail_wholesale"
+1573,TDC,technology
+1574,TDF,"finance, financial markets"
+1575,TDG,manufacturing
+1576,TDOC,"life_sciences, technology"
+1577,TDS,technology
+1578,TDW,energy_transportation
+1579,TDY,manufacturing
+1580,TEI,finance
+1581,TEX,real_estate
+1582,TFC,"finance, financial markets"
+1583,TFX,"life_sciences, technology"
+1584,TG,manufacturing
+1585,TGI,technology
+1586,TGNA,technology
+1587,TGT,real_estate
+1588,THC,"real_estate, life_sciences"
+1589,THG,financial_markets
+1590,THO,real_estate
+1591,THQ,finance
+1592,THR,manufacturing
+1593,THS,manufacturing
+1594,THW,finance
+1595,TISI,retail_wholesale
+1596,TJX,retail_wholesale
+1597,TKR,manufacturing
+1598,TLYS,retail_wholesale
+1599,TME,technology
+1600,TMHC,real_estate
+1601,TMO,manufacturing
+1602,TMST,financial_markets
+1603,TNC,manufacturing
+1604,TNET,technology
+1605,TNL,real_estate
+1606,TOL,real_estate
+1607,TOST,technology
+1608,TPB,earnings
+1609,TPC,real_estate
+1610,TPH,real_estate
+1611,TPL,energy_transportation
+1612,TPR,retail_wholesale
+1613,TPVG,retail_wholesale
+1614,TPX,"real_estate, retail_wholesale"
+1615,TPZ,"finance, financial markets"
+1616,TR,life_sciences
+1617,TRC,real_estate
+1618,TRGP,energy_transportation
+1619,TRI,financial_markets
+1620,TRN,energy_transportation
+1621,TRNO,real_estate
+1622,TROX,"life_sciences, manufacturing"
+1623,TRTN,financial_markets
+1624,TRTX,real_estate
+1625,TRU,"finance, financial markets"
+1626,TRV,financial_markets
+1627,TSE,"life_sciences, manufacturing"
+1628,TSI,"finance, financial markets"
+1629,TSN,retail_wholesale
+1630,TSQ,technology
+1631,TTC,manufacturing
+1632,TTI,energy_transportation
+1633,TTP,retail_wholesale
+1634,TUP,manufacturing
+1635,TVC,energy_transportation
+1636,TVE,energy_transportation
+1637,TWI,financial_markets
+1638,TWLO,technology
+1639,TWN,retail_wholesale
+1640,TWO,real_estate
+1641,TXT,technology
+1642,TY,finance
+1643,TYG,"finance, financial markets"
+1644,TYL,technology
+1645,U,retail_wholesale
+1646,UA,retail_wholesale
+1647,UAA,retail_wholesale
+1648,UAN,life_sciences
+1649,UBER,technology
+1650,UDR,real_estate
+1651,UE,real_estate
+1652,UFI,earnings
+1653,UGI,energy_transportation
+1654,UGIC,energy_transportation
+1655,UHAL,real_estate
+1656,UHS,"real_estate, life_sciences"
+1657,UHT,real_estate
+1658,UI,retail_wholesale
+1659,UIS,technology
+1660,UMH,real_estate
+1661,UNF,retail_wholesale
+1662,UNFI,retail_wholesale
+1663,UNH,"life_sciences, technology"
+1664,UNM,financial_markets
+1665,UNMA,financial_markets
+1666,UNP,energy_transportation
+1667,UPS,energy_transportation
+1668,URI,financial_markets
+1669,USA,finance
+1670,USAC,energy_transportation
+1671,USB,"finance, financial markets"
+1672,USDP,energy_transportation
+1673,USFD,retail_wholesale
+1674,USM,technology
+1675,USNA,life_sciences
+1676,USPH,"life_sciences, technology"
+1677,UTF,finance
+1678,UTL,energy_transportation
+1679,UTZ,manufacturing
+1680,UVE,financial_markets
+1681,UVV,"manufacturing, life_sciences"
+1682,UWMC,"finance, financial markets"
+1683,UZD,technology
+1684,UZE,technology
+1685,UZF,technology
+1686,V,technology
+1687,VAC,real_estate
+1688,VAL,energy_transportation
+1689,VAPO,"life_sciences, technology"
+1690,VATE,manufacturing
+1691,VBF,retail_wholesale
+1692,VCV,retail_wholesale
+1693,VEEV,technology
+1694,VEL,"finance, financial markets"
+1695,VFC,retail_wholesale
+1696,VGI,"finance, financial markets"
+1697,VGM,retail_wholesale
+1698,VGR,life_sciences
+1699,VHC,economy_macro
+1700,VHI,"life_sciences, manufacturing"
+1701,VICI,real_estate
+1702,VKQ,retail_wholesale
+1703,VLD,retail_wholesale
+1704,VLO,energy_transportation
+1705,VLT,retail_wholesale
+1706,VMC,manufacturing
+1707,VMI,manufacturing
+1708,VMO,retail_wholesale
+1709,VMW,technology
+1710,VNO,real_estate
+1711,VNT,manufacturing
+1712,VOC,energy_transportation
+1713,VOYA,financial_markets
+1714,VPG,technology
+1715,VPV,retail_wholesale
+1716,VRE,real_estate
+1717,VRT,manufacturing
+1718,VSCO,retail_wholesale
+1719,VSH,technology
+1720,VSTO,manufacturing
+1721,VTLE,energy_transportation
+1722,VTN,finance
+1723,VTOL,energy_transportation
+1724,VTR,real_estate
+1725,VTS,energy_transportation
+1726,VVI,technology
+1727,VVR,retail_wholesale
+1728,VVV,"life_sciences, manufacturing"
+1729,VVX,financial_markets
+1730,VZIO,technology
+1731,W,retail_wholesale
+1732,WAB,energy_transportation
+1733,WAL,"finance, financial markets"
+1734,WAT,life_sciences
+1735,WBS,"finance, financial markets"
+1736,WCC,technology
+1737,WD,"finance, financial markets"
+1738,WDI,retail_wholesale
+1739,WE,real_estate
+1740,WEA,retail_wholesale
+1741,WEAV,technology
+1742,WEC,energy_transportation
+1743,WELL,real_estate
+1744,WES,energy_transportation
+1745,WEX,technology
+1746,WFC,"finance, financial markets"
+1747,WGO,real_estate
+1748,WH,real_estate
+1749,WHD,manufacturing
+1750,WHG,"finance, financial markets"
+1751,WHR,technology
+1752,WIA,retail_wholesale
+1753,WIW,finance
+1754,WK,technology
+1755,WKC,energy_transportation
+1756,WLK,"life_sciences, manufacturing"
+1757,WLKP,"life_sciences, manufacturing"
+1758,WLY,retail_wholesale
+1759,WLYB,retail_wholesale
+1760,WM,"manufacturing, real_estate"
+1761,WMB,energy_transportation
+1762,WMC,real_estate
+1763,WMK,retail_wholesale
+1764,WMS,manufacturing
+1765,WMT,real_estate
+1766,WNC,real_estate
+1767,WOLF,manufacturing
+1768,WOR,financial_markets
+1769,WOW,technology
+1770,WPC,real_estate
+1771,WRB,financial_markets
+1772,WRBY,manufacturing
+1773,WSM,"real_estate, retail_wholesale"
+1774,WSO,manufacturing
+1775,WSR,real_estate
+1776,WST,"life_sciences, technology"
+1777,WT,"finance, financial markets"
+1778,WTI,energy_transportation
+1779,WTM,financial_markets
+1780,WTRG,energy_transportation
+1781,WTS,manufacturing
+1782,WTTR,energy_transportation
+1783,WU,technology
+1784,WWE,technology
+1785,WWW,manufacturing
+1786,WY,real_estate
+1787,X,financial_markets
+1788,XFLT,"finance, financial markets"
+1789,XHR,real_estate
+1790,XOM,energy_transportation
+1791,XPER,technology
+1792,XPO,energy_transportation
+1793,XPOF,retail_wholesale
+1794,XPRO,energy_transportation
+1795,XYL,real_estate
+1796,YELP,retail_wholesale
+1797,YETI,retail_wholesale
+1798,YEXT,technology
+1799,YOU,technology
+1800,YUM,retail_wholesale
+1801,YUMC,retail_wholesale
+1802,ZBH,manufacturing
+1803,ZIP,financial_markets
+1804,ZTR,"finance, financial markets"
+1805,ZTS,life_sciences
+1806,ZUO,technology
+1807,ZVIA,retail_wholesale
+1808,ZWS,manufacturing
+1809,AACI,ipo
+1810,AADI,life_sciences
+1811,AAL,energy_transportation
+1812,AAME,financial_markets
+1813,AAOI,manufacturing
+1814,AAON,manufacturing
+1815,AAPL,"manufacturing,technology"
+1816,ABCB,"finance, financial markets"
+1817,ABEO,life_sciences
+1818,ABIO,life_sciences
+1819,ABL,"finance, financial markets"
+1820,ABLLW,"finance, financial markets"
+1821,ABNB,real_estate
+1822,ABOS,life_sciences
+1823,ABSI,life_sciences
+1824,ABVC,life_sciences
+1825,ACAB,ipo
+1826,ACABU,ipo
+1827,ACAC,ipo
+1828,ACACW,ipo
+1829,ACAD,life_sciences
+1830,ACAX,life_sciences
+1831,ACAXR,life_sciences
+1832,ACAXU,life_sciences
+1833,ACAXW,life_sciences
+1834,ACCD,technology
+1835,ACDC,energy_transportation
+1836,ACDCW,energy_transportation
+1837,ACER,life_sciences
+1838,ACET,life_sciences
+1839,ACHC,"life_sciences, technology"
+1840,ACHV,life_sciences
+1841,ACIC,financial_markets
+1842,ACIW,technology
+1843,ACLS,manufacturing
+1844,ACLX,life_sciences
+1845,ACMR,manufacturing
+1846,ACNB,"finance, financial markets"
+1847,ACNT,financial_markets
+1848,ACON,retail_wholesale
+1849,ACONW,retail_wholesale
+1850,ACOR,life_sciences
+1851,ACRS,life_sciences
+1852,ACRV,life_sciences
+1853,ACRX,life_sciences
+1854,ACT,financial_markets
+1855,ACTG,economy_macro
+1856,ACVA,technology
+1857,ACXP,life_sciences
+1858,ADBE,technology
+1859,ADD,real_estate
+1860,ADEA,manufacturing
+1861,ADER,ipo
+1862,ADERU,ipo
+1863,ADERW,ipo
+1864,ADES,"life_sciences, manufacturing"
+1865,ADI,manufacturing
+1866,ADIL,life_sciences
+1867,ADMA,life_sciences
+1868,ADN,energy_transportation
+1869,ADNWW,energy_transportation
+1870,ADOC,life_sciences
+1871,ADOCR,life_sciences
+1872,ADOCW,life_sciences
+1873,ADP,technology
+1874,ADPT,life_sciences
+1875,ADSK,technology
+1876,ADTH,technology
+1877,ADTHW,technology
+1878,ADTN,technology
+1879,ADTX,life_sciences
+1880,ADUS,"life_sciences, technology"
+1881,ADV,technology
+1882,ADVM,life_sciences
+1883,ADVWW,technology
+1884,AEAE,ipo
+1885,AEAEU,ipo
+1886,AEAEW,ipo
+1887,AEHR,technology
+1888,AEI,real_estate
+1889,AEIS,manufacturing
+1890,AEMD,"life_sciences, technology"
+1891,AENT,manufacturing
+1892,AENTW,manufacturing
+1893,AEP,energy_transportation
+1894,AEY,retail_wholesale
+1895,AEYE,technology
+1896,AFBI,"finance, financial markets"
+1897,AFCG,real_estate
+1898,AFIB,life_sciences
+1899,AFRM,technology
+1900,AGAE,retail_wholesale
+1901,AGEN,life_sciences
+1902,AGFY,manufacturing
+1903,AGIL,technology
+1904,AGILW,technology
+1905,AGIO,life_sciences
+1906,AGLE,life_sciences
+1907,AGNC,real_estate
+1908,AGNCL,real_estate
+1909,AGNCM,real_estate
+1910,AGNCN,real_estate
+1911,AGNCO,real_estate
+1912,AGNCP,real_estate
+1913,AGRX,life_sciences
+1914,AGYS,technology
+1915,AHCO,"life_sciences, technology"
+1916,AIB,ipo
+1917,AIBBU,ipo
+1918,AIMAW,ipo
+1919,AIMBU,ipo
+1920,AIMD,life_sciences
+1921,AIMDW,life_sciences
+1922,AIP,manufacturing
+1923,AIRG,retail_wholesale
+1924,AIRS,"life_sciences, technology"
+1925,AIRT,energy_transportation
+1926,AIRTP,energy_transportation
+1927,AKAM,technology
+1928,AKBA,life_sciences
+1929,AKLI,technology
+1930,AKRO,life_sciences
+1931,AKTS,technology
+1932,AKYA,"life_sciences, technology"
+1933,ALBT,life_sciences
+1934,ALCY,ipo
+1935,ALCYU,ipo
+1936,ALDX,life_sciences
+1937,ALEC,life_sciences
+1938,ALGM,manufacturing
+1939,ALGN,manufacturing
+1940,ALGS,life_sciences
+1941,ALGT,energy_transportation
+1942,ALHC,"life_sciences, technology"
+1943,ALIM,life_sciences
+1944,ALKT,technology
+1945,ALLK,life_sciences
+1946,ALLO,life_sciences
+1947,ALLR,life_sciences
+1948,ALNT,technology
+1949,ALNY,life_sciences
+1950,ALOR,ipo
+1951,ALORU,ipo
+1952,ALORW,ipo
+1953,ALOT,technology
+1954,ALPN,life_sciences
+1955,ALPP,technology
+1956,ALRM,technology
+1957,ALRN,life_sciences
+1958,ALRS,"finance, financial markets"
+1959,ALSA,ipo
+1960,ALSAW,ipo
+1961,ALT,life_sciences
+1962,ALTI,"finance, financial markets"
+1963,ALTO,"life_sciences, manufacturing"
+1964,ALTR,technology
+1965,ALTU,ipo
+1966,ALTUU,ipo
+1967,ALTUW,ipo
+1968,ALVR,life_sciences
+1969,ALXO,life_sciences
+1970,ALZN,life_sciences
+1971,AMAL,finance
+1972,AMAM,life_sciences
+1973,AMAO,economy_macro
+1974,AMAT,manufacturing
+1975,AMBA,manufacturing
+1976,AMCX,technology
+1977,AMD,manufacturing
+1978,AMED,"life_sciences, technology"
+1979,AMEH,technology
+1980,AMGN,life_sciences
+1981,AMKR,manufacturing
+1982,AMLX,life_sciences
+1983,AMNB,"finance, financial markets"
+1984,AMPG,technology
+1985,AMPGW,technology
+1986,AMPH,life_sciences
+1987,AMPL,technology
+1988,AMRK,retail_wholesale
+1989,AMSC,manufacturing
+1990,AMSF,financial_markets
+1991,AMST,technology
+1992,AMSWA,technology
+1993,AMTI,life_sciences
+1994,AMTX,"life_sciences, manufacturing"
+1995,AMWD,life_sciences
+1996,AMZN,retail_wholesale
+1997,ANAB,life_sciences
+1998,ANDE,"manufacturing, life_sciences"
+1999,ANEB,life_sciences
+2000,ANGI,technology
+2001,ANGO,"life_sciences, technology"
+2002,ANIK,"life_sciences, technology"
+2003,ANIP,life_sciences
+2004,ANIX,life_sciences
+2005,ANNX,life_sciences
+2006,ANSS,technology
+2007,ANTX,life_sciences
+2008,ANZU,ipo
+2009,ANZUW,ipo
+2010,AOGO,technology
+2011,AOGOU,technology
+2012,AOGOW,technology
+2013,AOUT,manufacturing
+2014,APA,energy_transportation
+2015,APAC,ipo
+2016,APACU,ipo
+2017,APACW,ipo
+2018,APCX,"finance, financial markets"
+2019,APCXW,"finance, financial markets"
+2020,APDN,life_sciences
+2021,APEI,retail_wholesale
+2022,APGE,life_sciences
+2023,APLD,"finance, financial markets"
+2024,APLM,ipo
+2025,APLMW,ipo
+2026,APLS,life_sciences
+2027,APLT,life_sciences
+2028,APOG,manufacturing
+2029,APP,technology
+2030,APPF,technology
+2031,APPN,technology
+2032,APPS,economy_macro
+2033,APRE,life_sciences
+2034,APVO,life_sciences
+2035,APYX,"life_sciences, technology"
+2036,AQMS,manufacturing
+2037,AQST,life_sciences
+2038,AQU,ipo
+2039,AQUNR,ipo
+2040,AQUNU,ipo
+2041,ARAV,life_sciences
+2042,ARAY,"life_sciences, technology"
+2043,ARCB,energy_transportation
+2044,ARCC,"finance, financial markets"
+2045,ARDX,life_sciences
+2046,AREB,manufacturing
+2047,AREBW,manufacturing
+2048,AREC,energy_transportation
+2049,ARHS,retail_wholesale
+2050,ARIZ,ipo
+2051,ARIZR,ipo
+2052,ARIZU,ipo
+2053,ARIZW,ipo
+2054,ARKO,energy_transportation
+2055,ARKOW,energy_transportation
+2056,ARKR,retail_wholesale
+2057,ARLP,energy_transportation
+2058,AROW,"finance, financial markets"
+2059,ARQT,life_sciences
+2060,ARRW,ipo
+2061,ARRWU,ipo
+2062,ARRWW,ipo
+2063,ARRY,manufacturing
+2064,ARTE,ipo
+2065,ARTEU,ipo
+2066,ARTEW,ipo
+2067,ARTL,life_sciences
+2068,ARTLW,life_sciences
+2069,ARTNA,energy_transportation
+2070,ARTW,manufacturing
+2071,ARVN,life_sciences
+2072,ARWR,life_sciences
+2073,ASLE,technology
+2074,ASMB,life_sciences
+2075,ASNS,technology
+2076,ASO,retail_wholesale
+2077,ASPA,"finance, financial markets"
+2078,ASPAW,"finance, financial markets"
+2079,ASPI,"life_sciences, manufacturing"
+2080,ASRT,life_sciences
+2081,ASRV,"finance, financial markets"
+2082,ASST,technology
+2083,ASTC,technology
+2084,ASTE,real_estate
+2085,ASTI,manufacturing
+2086,ASTR,energy_transportation
+2087,ASTS,technology
+2088,ASTSW,technology
+2089,ASUR,technology
+2090,ASYS,manufacturing
+2091,ATAK,ipo
+2092,ATAKR,ipo
+2093,ATAKW,ipo
+2094,ATEC,"life_sciences, technology"
+2095,ATEX,technology
+2096,ATHA,life_sciences
+2097,ATHX,life_sciences
+2098,ATLC,"finance, financial markets"
+2099,ATLCL,"finance, financial markets"
+2100,ATLCP,"finance, financial markets"
+2101,ATLO,"finance, financial markets"
+2102,ATLX,manufacturing
+2103,ATMC,ipo
+2104,ATMCU,ipo
+2105,ATMV,ipo
+2106,ATMVU,ipo
+2107,ATNF,life_sciences
+2108,ATNFW,life_sciences
+2109,ATNI,technology
+2110,ATOM,manufacturing
+2111,ATOS,life_sciences
+2112,ATRA,life_sciences
+2113,ATRC,"life_sciences, technology"
+2114,ATRI,"life_sciences, technology"
+2115,ATRO,manufacturing
+2116,ATSG,energy_transportation
+2117,ATVI,technology
+2118,ATXI,life_sciences
+2119,ATXS,life_sciences
+2120,AUBN,"finance, financial markets"
+2121,AUGX,technology
+2122,AUID,technology
+2123,AUR,technology
+2124,AURA,life_sciences
+2125,AUROW,technology
+2126,AUUD,technology
+2127,AUUDW,technology
+2128,AUVI,real_estate
+2129,AUVIP,real_estate
+2130,AVAH,"real_estate, life_sciences"
+2131,AVAV,technology
+2132,AVDX,technology
+2133,AVGO,manufacturing
+2134,AVGR,"life_sciences, technology"
+2135,AVHI,ipo
+2136,AVHIU,ipo
+2137,AVID,technology
+2138,AVIR,life_sciences
+2139,AVNW,retail_wholesale
+2140,AVO,"manufacturing, life_sciences"
+2141,AVPT,technology
+2142,AVPTW,technology
+2143,AVRO,life_sciences
+2144,AVT,"technology, manufacturing"
+2145,AVTA,"finance, financial markets"
+2146,AVTE,life_sciences
+2147,AVTX,life_sciences
+2148,AVXL,life_sciences
+2149,AWH,"life_sciences, technology"
+2150,AWRE,technology
+2151,AXDX,life_sciences
+2152,AXGN,life_sciences
+2153,AXLA,life_sciences
+2154,AXNX,"life_sciences, technology"
+2155,AXON,manufacturing
+2156,AXSM,life_sciences
+2157,AXTI,manufacturing
+2158,AYTU,life_sciences
+2159,AZPN,technology
+2160,AZTA,manufacturing
+2161,BACK,"life_sciences, technology"
+2162,BAER,ipo
+2163,BAERW,ipo
+2164,BAFN,financial_markets
+2165,BAND,technology
+2166,BANF,"finance, financial markets"
+2167,BANFP,"finance, financial markets"
+2168,BANR,"finance, financial markets"
+2169,BANX,retail_wholesale
+2170,BASE,technology
+2171,BATRA,technology
+2172,BATRK,technology
+2173,BBCP,real_estate
+2174,BBGI,technology
+2175,BBIO,life_sciences
+2176,BBLG,manufacturing
+2177,BBLGW,manufacturing
+2178,BBSI,technology
+2179,BCAB,life_sciences
+2180,BCAL,"finance, financial markets"
+2181,BCBP,financial_markets
+2182,BCDA,life_sciences
+2183,BCDAW,life_sciences
+2184,BCEL,life_sciences
+2185,BCLI,life_sciences
+2186,BCML,"finance, financial markets"
+2187,BCOV,technology
+2188,BCOW,finance
+2189,BCPC,"life_sciences, manufacturing"
+2190,BCRX,life_sciences
+2191,BDSX,manufacturing
+2192,BDTX,life_sciences
+2193,BEAM,life_sciences
+2194,BEAT,retail_wholesale
+2195,BECN,retail_wholesale
+2196,BEEM,manufacturing
+2197,BEEMW,manufacturing
+2198,BENF,ipo
+2199,BENFW,ipo
+2200,BFC,"finance, financial markets"
+2201,BFIN,"finance, financial markets"
+2202,BFRG,retail_wholesale
+2203,BFRGW,retail_wholesale
+2204,BFRI,life_sciences
+2205,BFRIW,life_sciences
+2206,BFST,"finance, financial markets"
+2207,BGC,"finance, financial markets"
+2208,BGFV,retail_wholesale
+2209,BGXX,life_sciences
+2210,BHAC,ipo
+2211,BHACU,ipo
+2212,BHACW,ipo
+2213,BHF,financial_markets
+2214,BHFAL,financial_markets
+2215,BHFAM,financial_markets
+2216,BHFAN,financial_markets
+2217,BHFAO,financial_markets
+2218,BHFAP,financial_markets
+2219,BHRB,"finance, financial markets"
+2220,BIAF,life_sciences
+2221,BIAFW,life_sciences
+2222,BIGC,technology
+2223,BIIB,life_sciences
+2224,BIOC,"life_sciences, technology"
+2225,BIOL,"life_sciences, technology"
+2226,BIOR,life_sciences
+2227,BIOS,ipo
+2228,BIOSU,ipo
+2229,BIRD,retail_wholesale
+2230,BIVI,life_sciences
+2231,BJDX,"life_sciences, technology"
+2232,BJRI,retail_wholesale
+2233,BKCC,"finance, financial markets"
+2234,BKNG,energy_transportation
+2235,BKR,manufacturing
+2236,BKSC,"finance, financial markets"
+2237,BKYI,technology
+2238,BL,technology
+2239,BLAC,ipo
+2240,BLACR,ipo
+2241,BLACU,ipo
+2242,BLACW,ipo
+2243,BLBD,real_estate
+2244,BLBX,technology
+2245,BLDE,technology
+2246,BLDEW,energy_transportation
+2247,BLEU,ipo
+2248,BLEUR,ipo
+2249,BLFS,"life_sciences, technology"
+2250,BLFY,finance
+2251,BLIN,technology
+2252,BLKB,technology
+2253,BLMN,retail_wholesale
+2254,BLNK,manufacturing
+2255,BLPH,life_sciences
+2256,BLTE,life_sciences
+2257,BLUE,life_sciences
+2258,BLZE,technology
+2259,BMBL,technology
+2260,BMEA,life_sciences
+2261,BMRA,life_sciences
+2262,BMRC,"finance, financial markets"
+2263,BMRN,life_sciences
+2264,BNGO,life_sciences
+2265,BNIX,ipo
+2266,BNMV,energy_transportation
+2267,BNOX,life_sciences
+2268,BNTC,life_sciences
+2269,BOCN,ipo
+2270,BOF,manufacturing
+2271,BOKF,"finance, financial markets"
+2272,BOLT,life_sciences
+2273,BOOM,manufacturing
+2274,BOTJ,"finance, financial markets"
+2275,BPMC,life_sciences
+2276,BPOP,"finance, financial markets"
+2277,BPOPM,"finance, financial markets"
+2278,BPRN,"finance, financial markets"
+2279,BPTH,life_sciences
+2280,BREZ,ipo
+2281,BREZR,ipo
+2282,BREZW,ipo
+2283,BRFH,manufacturing
+2284,BRID,life_sciences
+2285,BRKH,ipo
+2286,BRKHU,ipo
+2287,BRKHW,ipo
+2288,BRKL,financial_markets
+2289,BRKR,life_sciences
+2290,BRLT,retail_wholesale
+2291,BRTX,life_sciences
+2292,BRY,energy_transportation
+2293,BRZE,technology
+2294,BSBK,finance
+2295,BSET,"real_estate, retail_wholesale"
+2296,BSGM,life_sciences
+2297,BSQR,technology
+2298,BSRR,"finance, financial markets"
+2299,BSVN,"finance, financial markets"
+2300,BSY,retail_wholesale
+2301,BTAI,life_sciences
+2302,BTBD,retail_wholesale
+2303,BTBT,"finance, financial markets"
+2304,BTCS,"finance, financial markets"
+2305,BTCY,"life_sciences, technology"
+2306,BTM,"finance, financial markets"
+2307,BTMD,life_sciences
+2308,BTMWW,"finance, financial markets"
+2309,BTOG,"finance, financial markets"
+2310,BTTX,life_sciences
+2311,BUSE,"finance, financial markets"
+2312,BVFL,financial_markets
+2313,BVS,life_sciences
+2314,BWAQ,ipo
+2315,BWAQU,ipo
+2316,BWAQW,ipo
+2317,BWB,"finance, financial markets"
+2318,BWBBP,"finance, financial markets"
+2319,BWEN,manufacturing
+2320,BWFG,"finance, financial markets"
+2321,BWMN,manufacturing
+2322,BWV,life_sciences
+2323,BXRX,life_sciences
+2324,BYFC,financial_markets
+2325,BYND,manufacturing
+2326,BYRN,manufacturing
+2327,BYSI,life_sciences
+2328,BYTS,ipo
+2329,BZFD,technology
+2330,BZFDW,technology
+2331,CABA,life_sciences
+2332,CAC,"finance, financial markets"
+2333,CACC,"finance, financial markets"
+2334,CADL,life_sciences
+2335,CAKE,retail_wholesale
+2336,CALB,"finance, financial markets"
+2337,CALC,life_sciences
+2338,CALM,"manufacturing, life_sciences"
+2339,CAMP,retail_wholesale
+2340,CAPR,life_sciences
+2341,CAR,real_estate
+2342,CARA,life_sciences
+2343,CARE,"finance, financial markets"
+2344,CARG,technology
+2345,CARM,life_sciences
+2346,CARV,financial_markets
+2347,CASA,retail_wholesale
+2348,CASH,"finance, financial markets"
+2349,CASI,life_sciences
+2350,CASS,technology
+2351,CASY,financial_markets
+2352,CATC,"finance, financial markets"
+2353,CATY,"finance, financial markets"
+2354,CBAN,"finance, financial markets"
+2355,CBAY,life_sciences
+2356,CBFV,"finance, financial markets"
+2357,CBIO,life_sciences
+2358,CBNK,"finance, financial markets"
+2359,CBRG,ipo
+2360,CBRL,retail_wholesale
+2361,CBSH,"finance, financial markets"
+2362,CBUS,life_sciences
+2363,CCAP,"finance, financial markets"
+2364,CCB,"finance, financial markets"
+2365,CCBG,"finance, financial markets"
+2366,CCCC,life_sciences
+2367,CCCS,technology
+2368,CCD,retail_wholesale
+2369,CCLD,technology
+2370,CCLDO,technology
+2371,CCLDP,technology
+2372,CCLP,energy_transportation
+2373,CCNE,"finance, financial markets"
+2374,CCNEP,"finance, financial markets"
+2375,CCOI,technology
+2376,CCRN,technology
+2377,CCSI,retail_wholesale
+2378,CCTS,ipo
+2379,CCTSU,ipo
+2380,CCTSW,ipo
+2381,CDAQ,ipo
+2382,CDAQW,ipo
+2383,CDIO,life_sciences
+2384,CDIOW,life_sciences
+2385,CDLX,technology
+2386,CDMO,life_sciences
+2387,CDNA,"life_sciences, technology"
+2388,CDNS,technology
+2389,CDTX,life_sciences
+2390,CDW,retail_wholesale
+2391,CDXC,life_sciences
+2392,CDXS,"life_sciences, manufacturing"
+2393,CDZI,energy_transportation
+2394,CDZIP,energy_transportation
+2395,CEAD,manufacturing
+2396,CEADW,manufacturing
+2397,CECO,energy_transportation
+2398,CEG,energy_transportation
+2399,CELC,"life_sciences, technology"
+2400,CELH,retail_wholesale
+2401,CELL,life_sciences
+2402,CELU,life_sciences
+2403,CELUW,life_sciences
+2404,CELZ,life_sciences
+2405,CENT,retail_wholesale
+2406,CENTA,retail_wholesale
+2407,CENX,manufacturing
+2408,CERE,life_sciences
+2409,CERS,technology
+2410,CERT,retail_wholesale
+2411,CETX,technology
+2412,CETXP,technology
+2413,CETY,manufacturing
+2414,CEVA,technology
+2415,CFB,"finance, financial markets"
+2416,CFBK,"finance, financial markets"
+2417,CFFE,technology
+2418,CFFEU,technology
+2419,CFFEW,technology
+2420,CFFI,"finance, financial markets"
+2421,CFFN,financial_markets
+2422,CFFS,ipo
+2423,CFFSU,ipo
+2424,CFFSW,ipo
+2425,CFIV,ipo
+2426,CFIVU,ipo
+2427,CFIVW,ipo
+2428,CFLT,technology
+2429,CFRX,life_sciences
+2430,CFSB,"finance, financial markets"
+2431,CG,"finance, financial markets"
+2432,CGABL,"finance, financial markets"
+2433,CGBD,"finance, financial markets"
+2434,CGEM,life_sciences
+2435,CGNX,manufacturing
+2436,CGO,"finance, financial markets"
+2437,CGRN,manufacturing
+2438,CGTX,life_sciences
+2439,CHCI,real_estate
+2440,CHCO,"finance, financial markets"
+2441,CHDN,retail_wholesale
+2442,CHEF,retail_wholesale
+2443,CHI,"finance, financial markets"
+2444,CHK,energy_transportation
+2445,CHKEL,energy_transportation
+2446,CHKEW,energy_transportation
+2447,CHKEZ,energy_transportation
+2448,CHMG,"finance, financial markets"
+2449,CHRD,energy_transportation
+2450,CHRS,life_sciences
+2451,CHRW,energy_transportation
+2452,CHSCL,"manufacturing, life_sciences"
+2453,CHSCM,"manufacturing, life_sciences"
+2454,CHSCN,"manufacturing, life_sciences"
+2455,CHSCO,"manufacturing, life_sciences"
+2456,CHSCP,"manufacturing, life_sciences"
+2457,CHTR,technology
+2458,CHUY,retail_wholesale
+2459,CHW,"finance, financial markets"
+2460,CHX,manufacturing
+2461,CHY,"finance, financial markets"
+2462,CIFR,"finance, financial markets"
+2463,CIFRW,"finance, financial markets"
+2464,CINF,financial_markets
+2465,CING,life_sciences
+2466,CINGW,life_sciences
+2467,CISO,technology
+2468,CITE,ipo
+2469,CITEW,ipo
+2470,CIVB,"finance, financial markets"
+2471,CIZN,"finance, financial markets"
+2472,CKPT,life_sciences
+2473,CLAR,retail_wholesale
+2474,CLAY,ipo
+2475,CLAYU,ipo
+2476,CLBK,financial_markets
+2477,CLDX,life_sciences
+2478,CLFD,technology
+2479,CLIN,energy_transportation
+2480,CLINR,energy_transportation
+2481,CLINU,energy_transportation
+2482,CLIR,manufacturing
+2483,CLMB,retail_wholesale
+2484,CLMT,energy_transportation
+2485,CLNE,energy_transportation
+2486,CLNN,life_sciences
+2487,CLNNW,life_sciences
+2488,CLOE,ipo
+2489,CLOER,ipo
+2490,CLOV,"life_sciences, technology"
+2491,CLPT,"life_sciences, technology"
+2492,CLRB,life_sciences
+2493,CLRO,retail_wholesale
+2494,CLSD,life_sciences
+2495,CLSK,"finance, financial markets"
+2496,CMAX,technology
+2497,CMCA,ipo
+2498,CMCAU,ipo
+2499,CMCAW,ipo
+2500,CMCO,real_estate
+2501,CMCSA,technology
+2502,CMCT,real_estate
+2503,CME,"finance, financial markets"
+2504,CMLS,technology
+2505,CMPO,"finance, financial markets"
+2506,CMPOW,"finance, financial markets"
+2507,CMPX,life_sciences
+2508,CMRA,life_sciences
+2509,CMRX,life_sciences
+2510,CMTL,retail_wholesale
+2511,CNDT,technology
+2512,CNFR,financial_markets
+2513,CNFRL,financial_markets
+2514,CNGL,ipo
+2515,CNGLU,ipo
+2516,CNGLW,ipo
+2517,CNOB,"finance, financial markets"
+2518,CNOBP,"finance, financial markets"
+2519,CNSL,technology
+2520,CNSP,life_sciences
+2521,CNTX,life_sciences
+2522,CNTY,real_estate
+2523,CNVS,technology
+2524,CNXA,retail_wholesale
+2525,CNXC,technology
+2526,CNXN,retail_wholesale
+2527,COCO,retail_wholesale
+2528,COCP,life_sciences
+2529,CODA,manufacturing
+2530,CODX,"life_sciences, technology"
+2531,COEP,life_sciences
+2532,COEPW,life_sciences
+2533,COFS,"finance, financial markets"
+2534,COGT,life_sciences
+2535,COHU,technology
+2536,COIN,"finance, financial markets"
+2537,COKE,retail_wholesale
+2538,COLB,financial_markets
+2539,COLL,life_sciences
+2540,COLM,retail_wholesale
+2541,COMM,retail_wholesale
+2542,COMS,technology
+2543,COMSP,technology
+2544,COMSW,technology
+2545,CONN,technology
+2546,CONX,ipo
+2547,CONXU,ipo
+2548,CONXW,ipo
+2549,COOL,ipo
+2550,COOLW,ipo
+2551,COOP,"finance, financial markets"
+2552,CORT,life_sciences
+2553,COSM,life_sciences
+2554,COST,real_estate
+2555,COYA,life_sciences
+2556,CPHC,retail_wholesale
+2557,CPIX,life_sciences
+2558,CPRT,retail_wholesale
+2559,CPRX,life_sciences
+2560,CPSH,real_estate
+2561,CPSI,technology
+2562,CPSS,"finance, financial markets"
+2563,CPTN,manufacturing
+2564,CPTNW,manufacturing
+2565,CPZ,retail_wholesale
+2566,CRAI,retail_wholesale
+2567,CRBP,life_sciences
+2568,CRBU,life_sciences
+2569,CRCT,retail_wholesale
+2570,CRDF,life_sciences
+2571,CRDO,manufacturing
+2572,CREX,technology
+2573,CREXW,technology
+2574,CRGE,technology
+2575,CRIS,life_sciences
+2576,CRKN,manufacturing
+2577,CRMD,life_sciences
+2578,CRMT,retail_wholesale
+2579,CRNC,technology
+2580,CRNX,life_sciences
+2581,CROX,manufacturing
+2582,CRSR,"manufacturing,technology"
+2583,CRUS,manufacturing
+2584,CRVL,financial_markets
+2585,CRVO,life_sciences
+2586,CRVS,life_sciences
+2587,CRWD,technology
+2588,CRWS,earnings
+2589,CSBR,life_sciences
+2590,CSCO,technology
+2591,CSGP,real_estate
+2592,CSGS,technology
+2593,CSLM,ipo
+2594,CSLMU,ipo
+2595,CSLMW,ipo
+2596,CSLR,manufacturing
+2597,CSLRW,ipo
+2598,CSPI,technology
+2599,CSQ,finance
+2600,CSSE,technology
+2601,CSSEL,technology
+2602,CSSEN,technology
+2603,CSSEP,technology
+2604,CSTL,"life_sciences, technology"
+2605,CSTR,"finance, financial markets"
+2606,CSWC,"finance, financial markets"
+2607,CSWCZ,finance
+2608,CSWI,"real_estate, retail_wholesale"
+2609,CSX,energy_transportation
+2610,CTAS,technology
+2611,CTBI,"finance, financial markets"
+2612,CTCX,"life_sciences, technology"
+2613,CTCXW,"life_sciences, technology"
+2614,CTG,technology
+2615,CTHR,retail_wholesale
+2616,CTIB,manufacturing
+2617,CTKB,life_sciences
+2618,CTLP,technology
+2619,CTMX,life_sciences
+2620,CTRN,retail_wholesale
+2621,CTSH,technology
+2622,CTSO,"life_sciences, technology"
+2623,CTXR,life_sciences
+2624,CUBA,"finance, financial markets"
+2625,CUE,life_sciences
+2626,CUEN,technology
+2627,CULL,financial_markets
+2628,CURI,technology
+2629,CURIW,technology
+2630,CUTR,life_sciences
+2631,CVBF,"finance, financial markets"
+2632,CVCO,real_estate
+2633,CVCY,"finance, financial markets"
+2634,CVGI,manufacturing
+2635,CVGW,life_sciences
+2636,CVKD,life_sciences
+2637,CVLG,energy_transportation
+2638,CVLT,technology
+2639,CVLY,financial_markets
+2640,CVRX,life_sciences
+2641,CVV,manufacturing
+2642,CWBC,"finance, financial markets"
+2643,CWBR,life_sciences
+2644,CWD,real_estate
+2645,CWST,"manufacturing, real_estate"
+2646,CXAI,technology
+2647,CXAIW,technology
+2648,CXDO,technology
+2649,CYAN,life_sciences
+2650,CYCC,life_sciences
+2651,CYCCP,life_sciences
+2652,CYCN,life_sciences
+2653,CYN,technology
+2654,CYRX,life_sciences
+2655,CYT,life_sciences
+2656,CYTH,life_sciences
+2657,CYTHW,life_sciences
+2658,CYTK,life_sciences
+2659,CZFS,"finance, financial markets"
+2660,CZNC,"finance, financial markets"
+2661,CZR,real_estate
+2662,CZWI,financial_markets
+2663,DAIO,manufacturing
+2664,DAKT,manufacturing
+2665,DALN,economy_macro
+2666,DARE,life_sciences
+2667,DATS,technology
+2668,DATSW,technology
+2669,DAVE,retail_wholesale
+2670,DAVEW,retail_wholesale
+2671,DAWN,life_sciences
+2672,DBGI,retail_wholesale
+2673,DBGIW,retail_wholesale
+2674,DBTX,life_sciences
+2675,DBX,technology
+2676,DCGO,life_sciences
+2677,DCOM,"finance, financial markets"
+2678,DCOMP,"finance, financial markets"
+2679,DCPH,life_sciences
+2680,DCTH,"life_sciences, technology"
+2681,DDOG,technology
+2682,DECA,ipo
+2683,DECAU,ipo
+2684,DECAW,ipo
+2685,DENN,retail_wholesale
+2686,DERM,life_sciences
+2687,DFLI,"technology, manufacturing"
+2688,DFLIW,"technology, manufacturing"
+2689,DGICA,financial_markets
+2690,DGICB,financial_markets
+2691,DGII,technology
+2692,DGLY,retail_wholesale
+2693,DH,technology
+2694,DHAC,"life_sciences, technology"
+2695,DHACU,"life_sciences, technology"
+2696,DHACW,"life_sciences, technology"
+2697,DHC,real_estate
+2698,DHCA,ipo
+2699,DHCAU,ipo
+2700,DHCAW,ipo
+2701,DHCNI,real_estate
+2702,DHCNL,real_estate
+2703,DHIL,"finance, financial markets"
+2704,DIBS,retail_wholesale
+2705,DIOD,manufacturing
+2706,DISAU,ipo
+2707,DISAW,ipo
+2708,DISH,technology
+2709,DJCO,economy_macro
+2710,DKNG,retail_wholesale
+2711,DLHC,technology
+2712,DLPN,retail_wholesale
+2713,DLTH,retail_wholesale
+2714,DLTR,real_estate
+2715,DMAC,"life_sciences, technology"
+2716,DMAQ,technology
+2717,DMLP,energy_transportation
+2718,DMRC,technology
+2719,DMTK,"life_sciences, technology"
+2720,DNLI,life_sciences
+2721,DNUT,retail_wholesale
+2722,DOCU,technology
+2723,DOMH,life_sciences
+2724,DOMO,technology
+2725,DORM,manufacturing
+2726,DPCS,ipo
+2727,DRCT,technology
+2728,DRCTW,technology
+2729,DRMA,life_sciences
+2730,DRMAW,life_sciences
+2731,DRRX,life_sciences
+2732,DRVN,retail_wholesale
+2733,DSGN,life_sciences
+2734,DSGR,manufacturing
+2735,DSKE,energy_transportation
+2736,DSP,technology
+2737,DTI,manufacturing
+2738,DTIL,life_sciences
+2739,DTOC,"life_sciences, technology"
+2740,DTOCU,"life_sciences, technology"
+2741,DTOCW,"life_sciences, technology"
+2742,DTST,technology
+2743,DTSTW,technology
+2744,DUNE,"finance, financial markets"
+2745,DUNEU,"finance, financial markets"
+2746,DUNEW,"finance, financial markets"
+2747,DUOL,technology
+2748,DUOT,technology
+2749,DVAX,life_sciences
+2750,DWAC,technology
+2751,DWACU,technology
+2752,DWACW,technology
+2753,DWSN,energy_transportation
+2754,DXCM,"life_sciences, technology"
+2755,DXLG,retail_wholesale
+2756,DXPE,manufacturing
+2757,DXR,"life_sciences, technology"
+2758,DXYN,"real_estate, retail_wholesale"
+2759,DYAI,life_sciences
+2760,DYN,life_sciences
+2761,DYNT,"life_sciences, technology"
+2762,DZSI,technology
+2763,EA,technology
+2764,EAC,ipo
+2765,EAR,"life_sciences, technology"
+2766,EAST,retail_wholesale
+2767,EBAY,retail_wholesale
+2768,EBC,financial_markets
+2769,EBET,retail_wholesale
+2770,EBIX,technology
+2771,EBMT,"finance, financial markets"
+2772,EBTC,"finance, financial markets"
+2773,ECBK,finance
+2774,ECOR,life_sciences
+2775,ECPG,finance
+2776,EDBL,"manufacturing, life_sciences"
+2777,EDBLW,"manufacturing, life_sciences"
+2778,EDIT,life_sciences
+2779,EDSA,life_sciences
+2780,EDUC,retail_wholesale
+2781,EEFT,"finance, financial markets"
+2782,EFHT,manufacturing
+2783,EFHTR,ipo
+2784,EFHTW,manufacturing
+2785,EFOI,real_estate
+2786,EFSC,"finance, financial markets"
+2787,EFSCP,"finance, financial markets"
+2788,EFTR,life_sciences
+2789,EFTRW,life_sciences
+2790,EGAN,technology
+2791,EGBN,"finance, financial markets"
+2792,EGHT,technology
+2793,EGIO,technology
+2794,EGRX,life_sciences
+2795,EHTH,financial_markets
+2796,EIGR,life_sciences
+2797,EKSO,"life_sciences, technology"
+2798,ELDN,life_sciences
+2799,ELEV,life_sciences
+2800,ELOX,life_sciences
+2801,ELSE,manufacturing
+2802,ELTX,life_sciences
+2803,ELUT,"life_sciences, technology"
+2804,ELVN,life_sciences
+2805,ELYM,life_sciences
+2806,ELYS,technology
+2807,EMBC,"life_sciences, technology"
+2808,EMCG,ipo
+2809,EMCGR,ipo
+2810,EMCGU,ipo
+2811,EMKR,manufacturing
+2812,EML,manufacturing
+2813,EMLD,ipo
+2814,EMLDW,ipo
+2815,ENER,ipo
+2816,ENERR,ipo
+2817,ENERU,ipo
+2818,ENG,manufacturing
+2819,ENPH,manufacturing
+2820,ENSC,life_sciences
+2821,ENSG,"real_estate, life_sciences"
+2822,ENTA,life_sciences
+2823,ENTG,manufacturing
+2824,ENVB,life_sciences
+2825,ENVX,manufacturing
+2826,EOLS,life_sciences
+2827,EOSE,manufacturing
+2828,EOSEW,manufacturing
+2829,EPSN,energy_transportation
+2830,EQ,life_sciences
+2831,EQIX,real_estate
+2832,EQRX,life_sciences
+2833,EQRXW,life_sciences
+2834,ERAS,life_sciences
+2835,ERIE,financial_markets
+2836,ERII,manufacturing
+2837,ERNA,life_sciences
+2838,ESAC,ipo
+2839,ESACU,ipo
+2840,ESCA,retail_wholesale
+2841,ESHA,ipo
+2842,ESHAR,ipo
+2843,ESOA,real_estate
+2844,ESPR,life_sciences
+2845,ESQ,finance
+2846,ESSA,finance
+2847,ETAO,ipo
+2848,ETNB,life_sciences
+2849,ETON,life_sciences
+2850,ETSY,technology
+2851,EVBG,technology
+2852,EVCM,technology
+2853,EVER,technology
+2854,EVGO,retail_wholesale
+2855,EVGOW,retail_wholesale
+2856,EVLO,life_sciences
+2857,EVLV,technology
+2858,EVLVW,technology
+2859,EVOK,life_sciences
+2860,EVRG,energy_transportation
+2861,EVTV,manufacturing
+2862,EWBC,"finance, financial markets"
+2863,EWCZ,manufacturing
+2864,EWTX,life_sciences
+2865,EXAS,"life_sciences, technology"
+2866,EXC,energy_transportation
+2867,EXEL,life_sciences
+2868,EXFY,technology
+2869,EXLS,technology
+2870,EXPD,energy_transportation
+2871,EXPE,energy_transportation
+2872,EXPI,real_estate
+2873,EXPO,technology
+2874,EXTR,technology
+2875,EYE,manufacturing
+2876,EYEN,life_sciences
+2877,EYPT,life_sciences
+2878,EZFL,technology
+2879,EZPW,retail_wholesale
+2880,FA,technology
+2881,FANG,energy_transportation
+2882,FARM,manufacturing
+2883,FARO,manufacturing
+2884,FAST,retail_wholesale
+2885,FAT,retail_wholesale
+2886,FATBB,retail_wholesale
+2887,FATBP,retail_wholesale
+2888,FATBW,retail_wholesale
+2889,FATE,life_sciences
+2890,FAZE,manufacturing
+2891,FAZEW,manufacturing
+2892,FBIO,life_sciences
+2893,FBIOP,life_sciences
+2894,FBIZ,"finance, financial markets"
+2895,FBMS,"finance, financial markets"
+2896,FBNC,"finance, financial markets"
+2897,FBRX,life_sciences
+2898,FCAP,financial_markets
+2899,FCBC,"finance, financial markets"
+2900,FCCO,"finance, financial markets"
+2901,FCEL,manufacturing
+2902,FCFS,retail_wholesale
+2903,FCNCA,"finance, financial markets"
+2904,FCNCO,"finance, financial markets"
+2905,FCNCP,"finance, financial markets"
+2906,FCUV,manufacturing
+2907,FDBC,"finance, financial markets"
+2908,FDMT,life_sciences
+2909,FDUS,"finance, financial markets"
+2910,FEAM,"life_sciences, manufacturing"
+2911,FEIM,technology
+2912,FELE,manufacturing
+2913,FEMY,"life_sciences, technology"
+2914,FENC,"life_sciences, technology"
+2915,FEXD,ipo
+2916,FEXDR,ipo
+2917,FEXDU,ipo
+2918,FEXDW,ipo
+2919,FFBC,"finance, financial markets"
+2920,FFIC,"finance, financial markets"
+2921,FFIE,manufacturing
+2922,FFIEW,manufacturing
+2923,FFIN,"finance, financial markets"
+2924,FFIV,technology
+2925,FFNW,finance
+2926,FGBI,financial_markets
+2927,FGBIP,financial_markets
+2928,FGEN,life_sciences
+2929,FGF,financial_markets
+2930,FGFPP,financial_markets
+2931,FGI,manufacturing
+2932,FGIWW,manufacturing
+2933,FHB,"finance, financial markets"
+2934,FHLTW,"life_sciences, technology"
+2935,FHTX,life_sciences
+2936,FIAC,ipo
+2937,FIACU,ipo
+2938,FIACW,ipo
+2939,FIBK,"finance, financial markets"
+2940,FICVW,ipo
+2941,FINW,finance
+2942,FIP,technology
+2943,FISI,"finance, financial markets"
+2944,FITB,"finance, financial markets"
+2945,FITBI,"finance, financial markets"
+2946,FITBO,"finance, financial markets"
+2947,FITBP,"finance, financial markets"
+2948,FIVE,real_estate
+2949,FIVN,technology
+2950,FIXX,life_sciences
+2951,FIZZ,retail_wholesale
+2952,FKWL,technology
+2953,FLFV,ipo
+2954,FLFVU,ipo
+2955,FLGT,"life_sciences, technology"
+2956,FLIC,"finance, financial markets"
+2957,FLL,real_estate
+2958,FLNC,manufacturing
+2959,FLNT,technology
+2960,FLUX,manufacturing
+2961,FLWS,retail_wholesale
+2962,FLXS,"real_estate, retail_wholesale"
+2963,FLYW,technology
+2964,FMAO,financial_markets
+2965,FMBH,"finance, financial markets"
+2966,FMNB,"finance, financial markets"
+2967,FNCB,"finance, financial markets"
+2968,FNCH,life_sciences
+2969,FNGR,technology
+2970,FNKO,retail_wholesale
+2971,FNLC,"finance, financial markets"
+2972,FNWB,finance
+2973,FNWD,financial_markets
+2974,FOLD,life_sciences
+2975,FONR,life_sciences
+2976,FORA,technology
+2977,FORL,ipo
+2978,FORLU,ipo
+2979,FORLW,ipo
+2980,FORM,manufacturing
+2981,FORR,financial_markets
+2982,FOSL,retail_wholesale
+2983,FOSLL,retail_wholesale
+2984,FOX,technology
+2985,FOXA,technology
+2986,FOXF,manufacturing
+2987,FPAY,financial_markets
+2988,FRAF,"finance, financial markets"
+2989,FRBA,"finance, financial markets"
+2990,FRBN,ipo
+2991,FRBNU,ipo
+2992,FREE,life_sciences
+2993,FREEW,life_sciences
+2994,FREQ,life_sciences
+2995,FRGI,retail_wholesale
+2996,FRGT,technology
+2997,FRLA,"finance, financial markets"
+2998,FRLAW,"finance, financial markets"
+2999,FRME,"finance, financial markets"
+3000,FRMEP,"finance, financial markets"
+3001,FROG,technology
+3002,FRPH,real_estate
+3003,FRPT,manufacturing
+3004,FRSH,technology
+3005,FRST,"finance, financial markets"
+3006,FRTX,life_sciences
+3007,FRZA,energy_transportation
+3008,FSBC,finance
+3009,FSBW,finance
+3010,FSEA,financial_markets
+3011,FSFG,"finance, financial markets"
+3012,FSLR,manufacturing
+3013,FSRX,ipo
+3014,FSRXU,ipo
+3015,FSTR,manufacturing
+3016,FTCI,manufacturing
+3017,FTDR,financial_markets
+3018,FTEK,energy_transportation
+3019,FTHM,real_estate
+3020,FTII,ipo
+3021,FTIIU,ipo
+3022,FTIIW,ipo
+3023,FTNT,technology
+3024,FTRE,"life_sciences, technology"
+3025,FULC,life_sciences
+3026,FULT,"finance, financial markets"
+3027,FULTP,"finance, financial markets"
+3028,FUNC,"finance, financial markets"
+3029,FUND,"finance, financial markets"
+3030,FUSB,"finance, financial markets"
+3031,FUV,manufacturing
+3032,FVCB,"finance, financial markets"
+3033,FWBI,life_sciences
+3034,FWONA,technology
+3035,FWONK,technology
+3036,FWRD,energy_transportation
+3037,FWRG,retail_wholesale
+3038,FXNC,"finance, financial markets"
+3039,FYBR,technology
+3040,GABC,"finance, financial markets"
+3041,GAIA,technology
+3042,GAIN,"finance, financial markets"
+3043,GAINL,"finance, financial markets"
+3044,GAINN,"finance, financial markets"
+3045,GAINZ,"finance, financial markets"
+3046,GALT,life_sciences
+3047,GAMC,ipo
+3048,GAMCW,ipo
+3049,GANX,life_sciences
+3050,GBBK,ipo
+3051,GBBKR,ipo
+3052,GBDC,"finance, financial markets"
+3053,GBIO,life_sciences
+3054,GBNY,"finance, financial markets"
+3055,GCBC,finance
+3056,GCMG,"finance, financial markets"
+3057,GCMGW,"finance, financial markets"
+3058,GDEN,retail_wholesale
+3059,GDNR,ipo
+3060,GDNRU,ipo
+3061,GDNRW,ipo
+3062,GDRX,retail_wholesale
+3063,GDST,ipo
+3064,GDSTR,ipo
+3065,GDSTU,ipo
+3066,GDYN,technology
+3067,GECC,"finance, financial markets"
+3068,GECCM,"finance, financial markets"
+3069,GECCO,finance
+3070,GECCZ,finance
+3071,GEG,technology
+3072,GEGGL,"finance, financial markets"
+3073,GEHC,technology
+3074,GEN,technology
+3075,GENK,retail_wholesale
+3076,GEOS,manufacturing
+3077,GERN,life_sciences
+3078,GEVO,"life_sciences, manufacturing"
+3079,GFGD,ipo
+3080,GFGDR,ipo
+3081,GFGDU,ipo
+3082,GFGDW,ipo
+3083,GFS,manufacturing
+3084,GH,"life_sciences, technology"
+3085,GHIX,ipo
+3086,GHIXU,ipo
+3087,GHIXW,ipo
+3088,GHSI,life_sciences
+3089,GIFI,manufacturing
+3090,GIII,retail_wholesale
+3091,GILD,life_sciences
+3092,GIPR,real_estate
+3093,GIPRW,real_estate
+3094,GLAD,"finance, financial markets"
+3095,GLBZ,"finance, financial markets"
+3096,GLDD,manufacturing
+3097,GLLI,technology
+3098,GLLIU,technology
+3099,GLLIW,technology
+3100,GLPI,real_estate
+3101,GLSI,life_sciences
+3102,GLST,technology
+3103,GLSTU,technology
+3104,GLSTW,technology
+3105,GLUE,life_sciences
+3106,GLYC,life_sciences
+3107,GMFI,ipo
+3108,GMFIW,ipo
+3109,GMGI,technology
+3110,GNLN,manufacturing
+3111,GNLX,life_sciences
+3112,GNPX,life_sciences
+3113,GNSS,technology
+3114,GNTX,manufacturing
+3115,GO,retail_wholesale
+3116,GOCO,financial_markets
+3117,GODN,ipo
+3118,GODNR,ipo
+3119,GOEV,manufacturing
+3120,GOGO,technology
+3121,GOOD,real_estate
+3122,GOODN,real_estate
+3123,GOODO,real_estate
+3124,GOOG,technology
+3125,GOOGL,technology
+3126,GOSS,life_sciences
+3127,GOVX,life_sciences
+3128,GOVXW,life_sciences
+3129,GPAC,ipo
+3130,GPACW,ipo
+3131,GPP,"life_sciences, manufacturing"
+3132,GPRE,"life_sciences, manufacturing"
+3133,GPRO,manufacturing
+3134,GREE,"finance, financial markets"
+3135,GREEL,"finance, financial markets"
+3136,GRI,life_sciences
+3137,GROM,technology
+3138,GROMW,technology
+3139,GROW,"finance, financial markets"
+3140,GRPH,life_sciences
+3141,GRPN,technology
+3142,GRTS,life_sciences
+3143,GRTX,life_sciences
+3144,GRWG,retail_wholesale
+3145,GSBC,"finance, financial markets"
+3146,GSD,technology
+3147,GSDWW,technology
+3148,GSHD,financial_markets
+3149,GSIT,manufacturing
+3150,GT,retail_wholesale
+3151,GTAC,ipo
+3152,GTACU,ipo
+3153,GTBP,life_sciences
+3154,GTHX,life_sciences
+3155,GTIM,retail_wholesale
+3156,GTLB,technology
+3157,GVP,technology
+3158,GWAV,manufacturing
+3159,GWRS,energy_transportation
+3160,GYRO,real_estate
+3161,HA,energy_transportation
+3162,HAFC,"finance, financial markets"
+3163,HAIN,manufacturing
+3164,HALL,financial_markets
+3165,HALO,life_sciences
+3166,HARP,life_sciences
+3167,HAS,retail_wholesale
+3168,HAYN,financial_markets
+3169,HBAN,"finance, financial markets"
+3170,HBANL,"finance, financial markets"
+3171,HBANM,"finance, financial markets"
+3172,HBANP,"finance, financial markets"
+3173,HBCP,finance
+3174,HBIO,life_sciences
+3175,HBNC,"finance, financial markets"
+3176,HBT,"finance, financial markets"
+3177,HCAT,technology
+3178,HCCI,economy_macro
+3179,HCDI,real_estate
+3180,HCDIP,real_estate
+3181,HCDIW,real_estate
+3182,HCDIZ,real_estate
+3183,HCKT,retail_wholesale
+3184,HCMAU,ipo
+3185,HCMAW,ipo
+3186,HCP,technology
+3187,HCSG,"real_estate, life_sciences"
+3188,HCTI,retail_wholesale
+3189,HCVI,ipo
+3190,HCVIU,ipo
+3191,HCVIW,ipo
+3192,HCWB,life_sciences
+3193,HDSN,manufacturing
+3194,HEAR,technology
+3195,HEPA,life_sciences
+3196,HFBL,financial_markets
+3197,HFFG,retail_wholesale
+3198,HFWA,finance
+3199,HGBL,"finance, financial markets"
+3200,HHS,technology
+3201,HIBB,retail_wholesale
+3202,HIFS,"finance, financial markets"
+3203,HILS,life_sciences
+3204,HLIT,retail_wholesale
+3205,HLMN,manufacturing
+3206,HLNE,"finance, financial markets"
+3207,HLTH,technology
+3208,HLVX,life_sciences
+3209,HMNF,financial_markets
+3210,HMST,"finance, financial markets"
+3211,HNNA,"finance, financial markets"
+3212,HNNAZ,"finance, financial markets"
+3213,HNRG,energy_transportation
+3214,HNST,retail_wholesale
+3215,HNVR,finance
+3216,HOFT,"real_estate, retail_wholesale"
+3217,HOFV,technology
+3218,HOFVW,technology
+3219,HOLO,technology
+3220,HOLOW,technology
+3221,HOLX,"life_sciences, technology"
+3222,HON,technology
+3223,HONE,"finance, financial markets"
+3224,HOOD,technology
+3225,HOOK,life_sciences
+3226,HOPE,"finance, financial markets"
+3227,HOTH,life_sciences
+3228,HOUR,retail_wholesale
+3229,HOVNP,real_estate
+3230,HOWL,life_sciences
+3231,HPCO,life_sciences
+3232,HPK,energy_transportation
+3233,HPKEW,energy_transportation
+3234,HPLT,ipo
+3235,HPLTU,ipo
+3236,HPLTW,ipo
+3237,HQI,technology
+3238,HQY,technology
+3239,HRMY,life_sciences
+3240,HROW,life_sciences
+3241,HROWL,life_sciences
+3242,HROWM,life_sciences
+3243,HRTX,life_sciences
+3244,HRZN,"finance, financial markets"
+3245,HSCS,"life_sciences, technology"
+3246,HSCSW,"life_sciences, technology"
+3247,HSDT,life_sciences
+3248,HSIC,"life_sciences, technology"
+3249,HSII,financial_markets
+3250,HSON,technology
+3251,HSPO,ipo
+3252,HSPOR,ipo
+3253,HSPOU,ipo
+3254,HSPOW,ipo
+3255,HST,real_estate
+3256,HSTM,technology
+3257,HSTO,life_sciences
+3258,HTBI,financial_markets
+3259,HTBK,"finance, financial markets"
+3260,HTIA,real_estate
+3261,HTIBP,real_estate
+3262,HTLD,energy_transportation
+3263,HTLF,"finance, financial markets"
+3264,HTLFP,"finance, financial markets"
+3265,HTZ,real_estate
+3266,HTZWW,real_estate
+3267,HUBG,energy_transportation
+3268,HUDA,ipo
+3269,HUDAR,ipo
+3270,HUDAU,ipo
+3271,HUMA,life_sciences
+3272,HUMAW,life_sciences
+3273,HURC,manufacturing
+3274,HURN,technology
+3275,HWBK,"finance, financial markets"
+3276,HWC,"finance, financial markets"
+3277,HWCPZ,"finance, financial markets"
+3278,HWEL,ipo
+3279,HWELU,ipo
+3280,HWKN,manufacturing
+3281,HYFM,manufacturing
+3282,HYMC,manufacturing
+3283,HYMCL,manufacturing
+3284,HYMCW,manufacturing
+3285,HYPR,"life_sciences, technology"
+3286,HYZN,real_estate
+3287,HYZNW,real_estate
+3288,IAC,technology
+3289,IART,"life_sciences, technology"
+3290,IAS,technology
+3291,IBCP,"finance, financial markets"
+3292,IBKR,"finance, financial markets"
+3293,IBOC,"finance, financial markets"
+3294,IBRX,life_sciences
+3295,IBTX,"finance, financial markets"
+3296,ICAD,"life_sciences, technology"
+3297,ICCC,life_sciences
+3298,ICCH,financial_markets
+3299,ICCT,technology
+3300,ICFI,technology
+3301,ICHR,manufacturing
+3302,ICMB,"finance, financial markets"
+3303,ICPT,life_sciences
+3304,ICU,life_sciences
+3305,ICUCW,life_sciences
+3306,ICUI,"life_sciences, technology"
+3307,ICVX,life_sciences
+3308,IDAI,technology
+3309,IDCC,technology
+3310,IDEX,manufacturing
+3311,IDN,technology
+3312,IDXX,life_sciences
+3313,IDYA,life_sciences
+3314,IEP,manufacturing
+3315,IESC,real_estate
+3316,IGMS,life_sciences
+3317,IGTA,ipo
+3318,IGTAU,ipo
+3319,IGTAW,ipo
+3320,IHRT,technology
+3321,III,technology
+3322,IIIV,technology
+3323,IKNA,life_sciences
+3324,IKT,life_sciences
+3325,ILMN,"life_sciences, technology"
+3326,ILPT,real_estate
+3327,IMACW,"life_sciences, technology"
+3328,IMAQ,technology
+3329,IMAQW,technology
+3330,IMGN,life_sciences
+3331,IMKTA,retail_wholesale
+3332,IMMR,technology
+3333,IMMX,life_sciences
+3334,IMNM,life_sciences
+3335,IMNN,life_sciences
+3336,IMPL,life_sciences
+3337,IMRX,life_sciences
+3338,IMUX,life_sciences
+3339,IMVT,life_sciences
+3340,IMXI,technology
+3341,INAB,life_sciences
+3342,INAQ,ipo
+3343,INAQU,ipo
+3344,INAQW,ipo
+3345,INBK,"finance, financial markets"
+3346,INBKZ,"finance, financial markets"
+3347,INBS,"life_sciences, technology"
+3348,INBX,life_sciences
+3349,INCY,life_sciences
+3350,INDB,"finance, financial markets"
+3351,INDI,manufacturing
+3352,INDIW,manufacturing
+3353,INDP,life_sciences
+3354,INFI,life_sciences
+3355,INFN,technology
+3356,INGN,manufacturing
+3357,INKT,life_sciences
+3358,INMB,life_sciences
+3359,INNV,"life_sciences, technology"
+3360,INO,"life_sciences, technology"
+3361,INOD,technology
+3362,INPX,technology
+3363,INSE,technology
+3364,INSG,technology
+3365,INSM,life_sciences
+3366,INTA,technology
+3367,INTC,manufacturing
+3368,INTE,ipo
+3369,INTEU,ipo
+3370,INTEW,ipo
+3371,INTG,real_estate
+3372,INTS,life_sciences
+3373,INTU,technology
+3374,INTZ,technology
+3375,INVA,life_sciences
+3376,INVE,technology
+3377,INVO,"life_sciences, technology"
+3378,INZY,life_sciences
+3379,IOAC,ipo
+3380,IOACU,ipo
+3381,IOACW,ipo
+3382,IONM,"life_sciences, technology"
+3383,IONS,life_sciences
+3384,IOSP,"life_sciences, manufacturing"
+3385,IOVA,life_sciences
+3386,IPAR,manufacturing
+3387,IPDN,technology
+3388,IPGP,manufacturing
+3389,IPSC,life_sciences
+3390,IPW,retail_wholesale
+3391,IPWR,manufacturing
+3392,IPX,financial_markets
+3393,IPXX,ipo
+3394,IPXXU,ipo
+3395,IRAA,ipo
+3396,IRAAW,ipo
+3397,IRBT,technology
+3398,IRDM,technology
+3399,IRIX,life_sciences
+3400,IRMD,"life_sciences, technology"
+3401,IRON,life_sciences
+3402,IROQ,financial_markets
+3403,IRTC,"life_sciences, technology"
+3404,IRWD,life_sciences
+3405,ISPC,manufacturing
+3406,ISPO,ipo
+3407,ISPOW,ipo
+3408,ISPR,life_sciences
+3409,ISRG,"life_sciences, technology"
+3410,ISRL,ipo
+3411,ISRLW,ipo
+3412,ISSC,technology
+3413,ISTR,"finance, financial markets"
+3414,ISUN,manufacturing
+3415,ITAQ,"life_sciences, manufacturing"
+3416,ITAQU,"life_sciences, manufacturing"
+3417,ITAQW,"life_sciences, manufacturing"
+3418,ITCI,life_sciences
+3419,ITI,technology
+3420,ITIC,financial_markets
+3421,ITOS,life_sciences
+3422,ITRI,technology
+3423,IVAC,manufacturing
+3424,IVCP,ipo
+3425,IVDA,technology
+3426,IVDAW,technology
+3427,IVP,financial_markets
+3428,IVVD,life_sciences
+3429,IZEA,technology
+3430,JACK,retail_wholesale
+3431,JAGX,life_sciences
+3432,JAKK,retail_wholesale
+3433,JAMF,technology
+3434,JAN,"real_estate, retail_wholesale"
+3435,JANX,life_sciences
+3436,JAQC,ipo
+3437,JAQCU,ipo
+3438,JBHT,energy_transportation
+3439,JBLU,energy_transportation
+3440,JBSS,life_sciences
+3441,JCTCF,retail_wholesale
+3442,JEWL,retail_wholesale
+3443,JGGC,ipo
+3444,JGGCR,ipo
+3445,JGGCU,ipo
+3446,JGGCW,ipo
+3447,JJSF,life_sciences
+3448,JKHY,technology
+3449,JMSB,"finance, financial markets"
+3450,JOAN,retail_wholesale
+3451,JOUT,retail_wholesale
+3452,JRSH,retail_wholesale
+3453,JSM,"finance, financial markets"
+3454,JSPR,life_sciences
+3455,JSPRW,life_sciences
+3456,JUPW,life_sciences
+3457,JUPWW,life_sciences
+3458,JVA,manufacturing
+3459,JYNT,economy_macro
+3460,KA,life_sciences
+3461,KALA,life_sciences
+3462,KALU,manufacturing
+3463,KAVL,life_sciences
+3464,KBNT,technology
+3465,KDP,retail_wholesale
+3466,KE,technology
+3467,KELYA,technology
+3468,KELYB,technology
+3469,KEQU,"life_sciences, technology"
+3470,KERN,technology
+3471,KERNW,technology
+3472,KFFB,financial_markets
+3473,KFRC,technology
+3474,KHC,manufacturing
+3475,KIDS,"life_sciences, technology"
+3476,KINS,financial_markets
+3477,KIRK,retail_wholesale
+3478,KITT,manufacturing
+3479,KLAC,"technology, manufacturing"
+3480,KLTR,technology
+3481,KLXE,energy_transportation
+3482,KNSA,life_sciences
+3483,KNTE,life_sciences
+3484,KOD,life_sciences
+3485,KOPN,manufacturing
+3486,KOSS,technology
+3487,KPLT,financial_markets
+3488,KPLTW,financial_markets
+3489,KPRX,life_sciences
+3490,KPTI,life_sciences
+3491,KRBP,life_sciences
+3492,KRMD,"life_sciences, technology"
+3493,KRNL,ipo
+3494,KRNLU,ipo
+3495,KRNLW,ipo
+3496,KRNY,financial_markets
+3497,KRON,life_sciences
+3498,KROS,life_sciences
+3499,KRT,manufacturing
+3500,KRTX,life_sciences
+3501,KRUS,retail_wholesale
+3502,KRYS,life_sciences
+3503,KSCP,technology
+3504,KTCC,technology
+3505,KTOS,manufacturing
+3506,KTRA,life_sciences
+3507,KTTA,life_sciences
+3508,KTTAW,life_sciences
+3509,KURA,life_sciences
+3510,KVHI,retail_wholesale
+3511,KVSA,life_sciences
+3512,KYCH,ipo
+3513,KYCHW,ipo
+3514,KYMR,life_sciences
+3515,KZR,life_sciences
+3516,LAB,life_sciences
+3517,LABP,life_sciences
+3518,LAKE,manufacturing
+3519,LAMR,real_estate
+3520,LANC,manufacturing
+3521,LAND,real_estate
+3522,LANDM,real_estate
+3523,LANDO,real_estate
+3524,LANDP,real_estate
+3525,LARK,"finance, financial markets"
+3526,LASE,manufacturing
+3527,LASR,manufacturing
+3528,LAZR,technology
+3529,LAZY,retail_wholesale
+3530,LBAI,"finance, financial markets"
+3531,LBBB,ipo
+3532,LBBBU,ipo
+3533,LBBBW,ipo
+3534,LBC,"finance, financial markets"
+3535,LBPH,life_sciences
+3536,LBRDA,technology
+3537,LBRDK,technology
+3538,LBRDP,technology
+3539,LCA,ipo
+3540,LCAHU,ipo
+3541,LCAHW,ipo
+3542,LCID,manufacturing
+3543,LCNB,"finance, financial markets"
+3544,LCUT,manufacturing
+3545,LDWY,technology
+3546,LE,retail_wholesale
+3547,LECO,manufacturing
+3548,LEE,economy_macro
+3549,LEGH,real_estate
+3550,LEGN,life_sciences
+3551,LESL,financial_markets
+3552,LFAC,ipo
+3553,LFACU,ipo
+3554,LFACW,ipo
+3555,LFCR,life_sciences
+3556,LFLY,technology
+3557,LFLYW,technology
+3558,LFMD,"life_sciences, technology"
+3559,LFMDP,"life_sciences, technology"
+3560,LFST,"life_sciences, technology"
+3561,LFUS,technology
+3562,LFVN,life_sciences
+3563,LGIH,real_estate
+3564,LGMK,manufacturing
+3565,LGND,life_sciences
+3566,LGSTU,ipo
+3567,LGSTW,ipo
+3568,LGVN,life_sciences
+3569,LIAN,life_sciences
+3570,LIBY,ipo
+3571,LIBYW,ipo
+3572,LIDR,manufacturing
+3573,LIDRW,manufacturing
+3574,LIFE,life_sciences
+3575,LIFW,technology
+3576,LIFWW,technology
+3577,LIFWZ,technology
+3578,LILA,technology
+3579,LILAK,technology
+3580,LIND,energy_transportation
+3581,LINK,manufacturing
+3582,LIPO,life_sciences
+3583,LITE,technology
+3584,LIVE,retail_wholesale
+3585,LIXT,life_sciences
+3586,LIXTW,life_sciences
+3587,LKFN,"finance, financial markets"
+3588,LKQ,manufacturing
+3589,LLYVA,technology
+3590,LLYVK,technology
+3591,LMAT,"life_sciences, technology"
+3592,LMB,real_estate
+3593,LMFA,"finance, financial markets"
+3594,LMNR,"manufacturing, life_sciences"
+3595,LNSR,"life_sciences, technology"
+3596,LNT,energy_transportation
+3597,LNTH,life_sciences
+3598,LNW,technology
+3599,LNZA,"life_sciences, manufacturing"
+3600,LNZAW,"life_sciences, manufacturing"
+3601,LOAN,real_estate
+3602,LOCO,retail_wholesale
+3603,LOGI,technology
+3604,LOVE,retail_wholesale
+3605,LPCN,life_sciences
+3606,LPLA,"finance, financial markets"
+3607,LPRO,"finance, financial markets"
+3608,LPSN,technology
+3609,LPTH,manufacturing
+3610,LPTX,life_sciences
+3611,LQDA,life_sciences
+3612,LQDT,technology
+3613,LRCX,manufacturing
+3614,LRFC,finance
+3615,LRMR,life_sciences
+3616,LSBK,financial_markets
+3617,LSCC,manufacturing
+3618,LSEA,real_estate
+3619,LSEAW,real_estate
+3620,LSTA,"life_sciences, technology"
+3621,LSTR,energy_transportation
+3622,LSXMA,technology
+3623,LSXMB,technology
+3624,LSXMK,technology
+3625,LTBR,technology
+3626,LTRN,life_sciences
+3627,LTRPA,technology
+3628,LTRPB,technology
+3629,LTRX,technology
+3630,LTRY,technology
+3631,LTRYW,technology
+3632,LUCD,life_sciences
+3633,LUCY,manufacturing
+3634,LUCYW,manufacturing
+3635,LUMO,life_sciences
+3636,LUNA,life_sciences
+3637,LUNG,manufacturing
+3638,LUNR,manufacturing
+3639,LUNRW,manufacturing
+3640,LUXH,real_estate
+3641,LVLU,retail_wholesale
+3642,LVO,retail_wholesale
+3643,LVOX,technology
+3644,LWAY,manufacturing
+3645,LWLG,manufacturing
+3646,LXRX,life_sciences
+3647,LYEL,life_sciences
+3648,LYFT,technology
+3649,LYRA,"life_sciences, technology"
+3650,LYTS,real_estate
+3651,LZ,technology
+3652,MACA,ipo
+3653,MACAU,ipo
+3654,MACK,life_sciences
+3655,MAMA,life_sciences
+3656,MANH,technology
+3657,MAPS,technology
+3658,MAPSW,retail_wholesale
+3659,MAQC,ipo
+3660,MAQCU,ipo
+3661,MAQCW,ipo
+3662,MAR,real_estate
+3663,MARA,technology
+3664,MARK,technology
+3665,MARPS,energy_transportation
+3666,MARX,ipo
+3667,MARXR,ipo
+3668,MARXU,ipo
+3669,MASI,"life_sciences, technology"
+3670,MASS,"life_sciences, technology"
+3671,MAT,retail_wholesale
+3672,MATW,manufacturing
+3673,MAYS,real_estate
+3674,MBCN,"finance, financial markets"
+3675,MBIN,"finance, financial markets"
+3676,MBINM,"finance, financial markets"
+3677,MBINN,"finance, financial markets"
+3678,MBINO,"finance, financial markets"
+3679,MBINP,"finance, financial markets"
+3680,MBIO,life_sciences
+3681,MBNKP,finance
+3682,MBRX,life_sciences
+3683,MBTC,ipo
+3684,MBTCU,ipo
+3685,MBUU,energy_transportation
+3686,MBWM,"finance, financial markets"
+3687,MCAA,ipo
+3688,MCAAW,ipo
+3689,MCAC,ipo
+3690,MCACR,ipo
+3691,MCACU,ipo
+3692,MCACW,ipo
+3693,MCAF,ipo
+3694,MCAFR,ipo
+3695,MCAG,ipo
+3696,MCAGR,ipo
+3697,MCAGU,ipo
+3698,MCBC,"finance, financial markets"
+3699,MCBS,"finance, financial markets"
+3700,MCFT,energy_transportation
+3701,MCHP,manufacturing
+3702,MCHX,technology
+3703,MCOM,technology
+3704,MCOMW,technology
+3705,MCRB,life_sciences
+3706,MCRI,real_estate
+3707,MCVT,finance
+3708,MDB,technology
+3709,MDGL,life_sciences
+3710,MDIA,technology
+3711,MDLZ,manufacturing
+3712,MDRR,real_estate
+3713,MDRRP,real_estate
+3714,MDRX,technology
+3715,MDVL,retail_wholesale
+3716,MDWT,financial_markets
+3717,MDXG,life_sciences
+3718,ME,manufacturing
+3719,MEDP,life_sciences
+3720,MEDS,life_sciences
+3721,MEIP,life_sciences
+3722,MESA,energy_transportation
+3723,META,technology
+3724,METC,energy_transportation
+3725,METCB,energy_transportation
+3726,METCL,energy_transportation
+3727,MFIC,"finance, financial markets"
+3728,MFIN,"finance, financial markets"
+3729,MGAM,retail_wholesale
+3730,MGEE,energy_transportation
+3731,MGNI,technology
+3732,MGNX,life_sciences
+3733,MGOL,technology
+3734,MGPI,retail_wholesale
+3735,MGRC,financial_markets
+3736,MGRM,"life_sciences, technology"
+3737,MGRX,technology
+3738,MGTA,life_sciences
+3739,MGTX,life_sciences
+3740,MGYR,financial_markets
+3741,MICS,technology
+3742,MIDD,manufacturing
+3743,MIND,manufacturing
+3744,MINDP,manufacturing
+3745,MINM,technology
+3746,MIRM,life_sciences
+3747,MIRO,life_sciences
+3748,MITA,ipo
+3749,MITAU,ipo
+3750,MITK,technology
+3751,MKSI,manufacturing
+3752,MKTW,technology
+3753,MKTX,"finance, financial markets"
+3754,MKUL,"manufacturing, real_estate"
+3755,MLAB,manufacturing
+3756,MLGO,technology
+3757,MLKN,retail_wholesale
+3758,MLTX,life_sciences
+3759,MLYS,life_sciences
+3760,MMAT,manufacturing
+3761,MMLP,energy_transportation
+3762,MMSI,"life_sciences, technology"
+3763,MNKD,life_sciences
+3764,MNOV,life_sciences
+3765,MNPR,life_sciences
+3766,MNRO,retail_wholesale
+3767,MNSB,"finance, financial markets"
+3768,MNSBP,"finance, financial markets"
+3769,MNST,retail_wholesale
+3770,MNTK,energy_transportation
+3771,MNTS,manufacturing
+3772,MNTSW,manufacturing
+3773,MNTX,manufacturing
+3774,MOBQ,technology
+3775,MOBQW,technology
+3776,MOBV,ipo
+3777,MOBVU,ipo
+3778,MODD,manufacturing
+3779,MOFG,"finance, financial markets"
+3780,MOND,energy_transportation
+3781,MORF,life_sciences
+3782,MORN,"finance, financial markets"
+3783,MOVE,life_sciences
+3784,MPAA,manufacturing
+3785,MPB,"finance, financial markets"
+3786,MPRA,ipo
+3787,MPRAW,ipo
+3788,MPWR,manufacturing
+3789,MQ,technology
+3790,MRAI,life_sciences
+3791,MRAM,manufacturing
+3792,MRBK,"finance, financial markets"
+3793,MRCC,"finance, financial markets"
+3794,MRIN,technology
+3795,MRKR,life_sciences
+3796,MRNA,life_sciences
+3797,MRNS,life_sciences
+3798,MRSN,life_sciences
+3799,MRTN,energy_transportation
+3800,MRTX,life_sciences
+3801,MRVI,life_sciences
+3802,MRVL,manufacturing
+3803,MSBI,"finance, financial markets"
+3804,MSBIP,"finance, financial markets"
+3805,MSEX,energy_transportation
+3806,MSFT,technology
+3807,MSGM,technology
+3808,MSSA,ipo
+3809,MSSAU,ipo
+3810,MSTR,technology
+3811,MTCH,technology
+3812,MTEM,life_sciences
+3813,MTEX,life_sciences
+3814,MTRX,real_estate
+3815,MTRYU,ipo
+3816,MTRYW,ipo
+3817,MTSI,manufacturing
+3818,MTTR,technology
+3819,MU,manufacturing
+3820,MULN,manufacturing
+3821,MURF,life_sciences
+3822,MURFW,life_sciences
+3823,MVBF,"finance, financial markets"
+3824,MVIS,manufacturing
+3825,MVLA,technology
+3826,MVST,manufacturing
+3827,MVSTW,manufacturing
+3828,MXCT,life_sciences
+3829,MXL,manufacturing
+3830,MYFW,"finance, financial markets"
+3831,MYGN,life_sciences
+3832,MYMD,life_sciences
+3833,MYPS,technology
+3834,MYPSW,technology
+3835,MYRG,real_estate
+3836,NAII,life_sciences
+3837,NAOV,manufacturing
+3838,NARI,"life_sciences, technology"
+3839,NATH,retail_wholesale
+3840,NATI,technology
+3841,NATR,life_sciences
+3842,NAUT,life_sciences
+3843,NAVI,"finance, financial markets"
+3844,NB,manufacturing
+3845,NBIX,life_sciences
+3846,NBN,"finance, financial markets"
+3847,NBSE,life_sciences
+3848,NBST,ipo
+3849,NBSTU,ipo
+3850,NBTB,"finance, financial markets"
+3851,NCAC,ipo
+3852,NCACU,ipo
+3853,NCMI,technology
+3854,NCNO,technology
+3855,NCPL,"finance, financial markets"
+3856,NCPLW,"finance, financial markets"
+3857,NCSM,energy_transportation
+3858,NDAQ,"finance, financial markets"
+3859,NDLS,retail_wholesale
+3860,NDRA,life_sciences
+3861,NDSN,manufacturing
+3862,NECB,financial_markets
+3863,NEO,manufacturing
+3864,NEOG,life_sciences
+3865,NEOV,manufacturing
+3866,NEOVW,manufacturing
+3867,NEPH,"life_sciences, technology"
+3868,NERV,life_sciences
+3869,NEWT,"finance, financial markets"
+3870,NEWTI,"finance, financial markets"
+3871,NEWTL,"finance, financial markets"
+3872,NEWTZ,"finance, financial markets"
+3873,NEXI,life_sciences
+3874,NEXT,energy_transportation
+3875,NFBK,financial_markets
+3876,NFE,energy_transportation
+3877,NFLX,technology
+3878,NFTG,technology
+3879,NGM,life_sciences
+3880,NHTC,retail_wholesale
+3881,NIOBW,manufacturing
+3882,NIR,technology
+3883,NKLA,manufacturing
+3884,NKSH,"finance, financial markets"
+3885,NKTR,life_sciences
+3886,NKTX,life_sciences
+3887,NMFC,"finance, financial markets"
+3888,NMIH,financial_markets
+3889,NMRK,real_estate
+3890,NMTC,"life_sciences, technology"
+3891,NN,manufacturing
+3892,NNAVW,manufacturing
+3893,NNBR,manufacturing
+3894,NODK,financial_markets
+3895,NOGN,technology
+3896,NOGNW,technology
+3897,NOTV,life_sciences
+3898,NOVT,manufacturing
+3899,NPCE,"life_sciences, technology"
+3900,NRAC,ipo
+3901,NRACU,ipo
+3902,NRACW,ipo
+3903,NRBO,life_sciences
+3904,NRC,life_sciences
+3905,NRDS,technology
+3906,NRIM,financial_markets
+3907,NRIX,life_sciences
+3908,NRXP,life_sciences
+3909,NRXPW,life_sciences
+3910,NSIT,retail_wholesale
+3911,NSSC,technology
+3912,NSTG,life_sciences
+3913,NSTS,financial_markets
+3914,NSYS,manufacturing
+3915,NTAP,"technology, manufacturing"
+3916,NTCT,technology
+3917,NTGR,technology
+3918,NTIC,manufacturing
+3919,NTLA,life_sciences
+3920,NTNX,technology
+3921,NTRA,"life_sciences, technology"
+3922,NTRB,manufacturing
+3923,NTRBW,manufacturing
+3924,NTRS,"finance, financial markets"
+3925,NTRSO,"finance, financial markets"
+3926,NTWK,technology
+3927,NUBI,ipo
+3928,NUBIW,ipo
+3929,NURO,"life_sciences, technology"
+3930,NUTX,retail_wholesale
+3931,NUVL,life_sciences
+3932,NUWE,life_sciences
+3933,NUZE,retail_wholesale
+3934,NVAC,"life_sciences, technology"
+3935,NVACR,"life_sciences, technology"
+3936,NVACW,"life_sciences, technology"
+3937,NVAX,life_sciences
+3938,NVCT,life_sciences
+3939,NVDA,manufacturing
+3940,NVEC,manufacturing
+3941,NVEE,retail_wholesale
+3942,NVFY,"real_estate, retail_wholesale"
+3943,NVIV,"life_sciences, technology"
+3944,NVNO,"life_sciences, technology"
+3945,NVOS,manufacturing
+3946,NVTS,manufacturing
+3947,NWBI,"finance, financial markets"
+3948,NWE,energy_transportation
+3949,NWFL,"finance, financial markets"
+3950,NWL,manufacturing
+3951,NWLI,financial_markets
+3952,NWPX,financial_markets
+3953,NWS,economy_macro
+3954,NWSA,economy_macro
+3955,NXGL,"life_sciences, technology"
+3956,NXGN,technology
+3957,NXL,"life_sciences, technology"
+3958,NXLIW,"life_sciences, technology"
+3959,NXPL,technology
+3960,NXPLW,technology
+3961,NXST,technology
+3962,NXT,manufacturing
+3963,NXTC,life_sciences
+3964,NXTP,"finance, financial markets"
+3965,NXU,retail_wholesale
+3966,NYMT,real_estate
+3967,NYMTL,real_estate
+3968,NYMTM,real_estate
+3969,NYMTN,real_estate
+3970,NYMTZ,real_estate
+3971,OABI,life_sciences
+3972,OB,manufacturing
+3973,OBIO,life_sciences
+3974,OBLG,technology
+3975,OBT,"finance, financial markets"
+3976,OCAX,ipo
+3977,OCAXU,ipo
+3978,OCAXW,ipo
+3979,OCC,technology
+3980,OCCI,retail_wholesale
+3981,OCCIN,retail_wholesale
+3982,OCCIO,retail_wholesale
+3983,OCEA,life_sciences
+3984,OCEAW,life_sciences
+3985,OCFC,financial_markets
+3986,OCFCP,financial_markets
+3987,OCGN,life_sciences
+3988,OCSL,"finance, financial markets"
+3989,OCUL,life_sciences
+3990,OCUP,life_sciences
+3991,OCX,life_sciences
+3992,ODFL,energy_transportation
+3993,ODP,financial_markets
+3994,OESX,real_estate
+3995,OFLX,manufacturing
+3996,OFS,"finance, financial markets"
+3997,OHAA,ipo
+3998,OHAAW,ipo
+3999,OKTA,technology
+4000,OLB,technology
+4001,OLED,technology
+4002,OLIT,ipo
+4003,OLITW,ipo
+4004,OLLI,real_estate
+4005,OLMA,life_sciences
+4006,OLPX,manufacturing
+4007,OM,life_sciences
+4008,OMCL,"manufacturing,technology"
+4009,OMER,life_sciences
+4010,OMEX,energy_transportation
+4011,OMGA,life_sciences
+4012,OMIC,"life_sciences, technology"
+4013,OMQS,technology
+4014,ON,manufacturing
+4015,ONB,"finance, financial markets"
+4016,ONBPO,"finance, financial markets"
+4017,ONBPP,"finance, financial markets"
+4018,ONCT,life_sciences
+4019,ONDS,technology
+4020,ONEW,retail_wholesale
+4021,ONFO,technology
+4022,ONFOW,technology
+4023,ONTX,life_sciences
+4024,ONVO,life_sciences
+4025,ONYX,ipo
+4026,OPAL,energy_transportation
+4027,OPBK,"finance, financial markets"
+4028,OPCH,"life_sciences, technology"
+4029,OPEN,real_estate
+4030,OPGN,"life_sciences, technology"
+4031,OPHC,"finance, financial markets"
+4032,OPI,real_estate
+4033,OPINL,real_estate
+4034,OPK,life_sciences
+4035,OPOF,"finance, financial markets"
+4036,OPRT,"finance, financial markets"
+4037,OPRX,technology
+4038,OPTN,life_sciences
+4039,OPXS,"technology, manufacturing"
+4040,ORGN,"life_sciences, manufacturing"
+4041,ORGNW,"life_sciences, manufacturing"
+4042,ORGO,life_sciences
+4043,ORGS,life_sciences
+4044,ORIC,life_sciences
+4045,ORLY,retail_wholesale
+4046,ORRF,"finance, financial markets"
+4047,OSA,"life_sciences, technology"
+4048,OSAAW,"life_sciences, technology"
+4049,OSBC,"finance, financial markets"
+4050,OSIS,manufacturing
+4051,OSPN,technology
+4052,OSS,"manufacturing,technology"
+4053,OSTK,retail_wholesale
+4054,OSUR,"life_sciences, technology"
+4055,OTEC,ipo
+4056,OTECU,ipo
+4057,OTLK,life_sciences
+4058,OTRK,"life_sciences, technology"
+4059,OTRKP,"life_sciences, technology"
+4060,OTTR,energy_transportation
+4061,OVBC,"finance, financial markets"
+4062,OVID,life_sciences
+4063,OVLY,"finance, financial markets"
+4064,OXLC,"finance, financial markets"
+4065,OXLCL,finance
+4066,OXLCM,"finance, financial markets"
+4067,OXLCN,"finance, financial markets"
+4068,OXLCO,"finance, financial markets"
+4069,OXLCP,"finance, financial markets"
+4070,OXLCZ,finance
+4071,OXSQ,ipo
+4072,OXSQL,retail_wholesale
+4073,OXSQZ,ipo
+4074,OZK,"finance, financial markets"
+4075,OZKAP,"finance, financial markets"
+4076,PAA,energy_transportation
+4077,PACB,life_sciences
+4078,PACW,"finance, financial markets"
+4079,PACWP,"finance, financial markets"
+4080,PAGP,energy_transportation
+4081,PAHC,life_sciences
+4082,PALI,life_sciences
+4083,PALT,technology
+4084,PANL,energy_transportation
+4085,PANW,technology
+4086,PARA,technology
+4087,PARAA,technology
+4088,PARAP,technology
+4089,PASG,life_sciences
+4090,PATI,energy_transportation
+4091,PATK,manufacturing
+4092,PAVM,"life_sciences, technology"
+4093,PAVMZ,"life_sciences, technology"
+4094,PAYO,technology
+4095,PAYOW,technology
+4096,PAYS,technology
+4097,PAYX,financial_markets
+4098,PBAX,technology
+4099,PBAXU,technology
+4100,PBAXW,technology
+4101,PBBK,finance
+4102,PBFS,finance
+4103,PBHC,"finance, financial markets"
+4104,PBLA,life_sciences
+4105,PBPB,retail_wholesale
+4106,PBYI,life_sciences
+4107,PCAR,manufacturing
+4108,PCB,"finance, financial markets"
+4109,PCCT,ipo
+4110,PCCTU,ipo
+4111,PCH,real_estate
+4112,PCRX,life_sciences
+4113,PCSA,life_sciences
+4114,PCT,"manufacturing, real_estate"
+4115,PCTI,retail_wholesale
+4116,PCTTU,"manufacturing, real_estate"
+4117,PCTTW,"manufacturing, real_estate"
+4118,PCTY,technology
+4119,PCVX,life_sciences
+4120,PCYG,technology
+4121,PCYO,energy_transportation
+4122,PDCO,"life_sciences, technology"
+4123,PDEX,"life_sciences, technology"
+4124,PDFS,technology
+4125,PDSB,life_sciences
+4126,PEBK,"finance, financial markets"
+4127,PEBO,"finance, financial markets"
+4128,PECO,real_estate
+4129,PEGA,technology
+4130,PEGR,ipo
+4131,PEGY,technology
+4132,PENN,real_estate
+4133,PEP,retail_wholesale
+4134,PEPG,life_sciences
+4135,PEPL,ipo
+4136,PEPLU,ipo
+4137,PESI,"manufacturing, real_estate"
+4138,PET,technology
+4139,PETQ,life_sciences
+4140,PETS,retail_wholesale
+4141,PETV,"life_sciences, technology"
+4142,PETVW,"life_sciences, technology"
+4143,PETWW,technology
+4144,PEV,manufacturing
+4145,PFBC,"finance, financial markets"
+4146,PFC,"finance, financial markets"
+4147,PFG,financial_markets
+4148,PFIE,manufacturing
+4149,PFIN,manufacturing
+4150,PFIS,"finance, financial markets"
+4151,PFMT,retail_wholesale
+4152,PFSW,technology
+4153,PFTA,ipo
+4154,PFTAW,ipo
+4155,PFX,"finance, financial markets"
+4156,PFXNZ,"finance, financial markets"
+4157,PGC,finance
+4158,PGEN,life_sciences
+4159,PGNY,"life_sciences, technology"
+4160,PHAT,life_sciences
+4161,PHIO,life_sciences
+4162,PI,manufacturing
+4163,PIII,"life_sciences, technology"
+4164,PIIIW,"life_sciences, technology"
+4165,PIK,retail_wholesale
+4166,PINC,retail_wholesale
+4167,PIXY,financial_markets
+4168,PKBK,"finance, financial markets"
+4169,PKOH,retail_wholesale
+4170,PLAB,manufacturing
+4171,PLAY,technology
+4172,PLBC,finance
+4173,PLBY,retail_wholesale
+4174,PLCE,retail_wholesale
+4175,PLL,"energy_transportation, manufacturing"
+4176,PLMI,ipo
+4177,PLMIU,ipo
+4178,PLMIW,ipo
+4179,PLMR,financial_markets
+4180,PLPC,real_estate
+4181,PLRX,life_sciences
+4182,PLSE,"life_sciences, technology"
+4183,PLTN,ipo
+4184,PLTNR,ipo
+4185,PLTNW,ipo
+4186,PLUG,manufacturing
+4187,PLUS,retail_wholesale
+4188,PLXS,technology
+4189,PMCB,life_sciences
+4190,PMD,"life_sciences, technology"
+4191,PMGM,ipo
+4192,PMGMU,life_sciences
+4193,PMGMW,ipo
+4194,PMTS,finance
+4195,PMVP,life_sciences
+4196,PNBK,"finance, financial markets"
+4197,PNFP,"finance, financial markets"
+4198,PNFPP,"finance, financial markets"
+4199,PNRG,energy_transportation
+4200,PNT,life_sciences
+4201,PNTG,"life_sciences, technology"
+4202,POAI,"life_sciences, technology"
+4203,POCI,life_sciences
+4204,PODD,"life_sciences, technology"
+4205,POLA,manufacturing
+4206,POOL,manufacturing
+4207,POWI,manufacturing
+4208,POWL,technology
+4209,POWW,manufacturing
+4210,POWWP,manufacturing
+4211,PPBI,"finance, financial markets"
+4212,PPC,retail_wholesale
+4213,PPIH,energy_transportation
+4214,PPSI,technology
+4215,PPYA,ipo
+4216,PPYAU,ipo
+4217,PPYAW,ipo
+4218,PRAA,"finance, financial markets"
+4219,PRAX,life_sciences
+4220,PRCH,technology
+4221,PRCT,"life_sciences, technology"
+4222,PRFT,technology
+4223,PRGS,technology
+4224,PRLD,life_sciences
+4225,PRLH,ipo
+4226,PRLHW,ipo
+4227,PRME,life_sciences
+4228,PROK,life_sciences
+4229,PROV,financial_markets
+4230,PRPH,life_sciences
+4231,PRPL,"real_estate, retail_wholesale"
+4232,PRPO,life_sciences
+4233,PRSO,manufacturing
+4234,PRSR,ipo
+4235,PRSRU,ipo
+4236,PRSRW,ipo
+4237,PRST,technology
+4238,PRSTW,technology
+4239,PRTA,life_sciences
+4240,PRTC,life_sciences
+4241,PRTH,technology
+4242,PRTK,life_sciences
+4243,PRTS,retail_wholesale
+4244,PRVA,retail_wholesale
+4245,PSEC,"finance, financial markets"
+4246,PSMT,real_estate
+4247,PSNL,"life_sciences, technology"
+4248,PSTV,"life_sciences, technology"
+4249,PSTX,life_sciences
+4250,PTC,technology
+4251,PTCT,life_sciences
+4252,PTEN,energy_transportation
+4253,PTGX,life_sciences
+4254,PTHR,ipo
+4255,PTHRU,ipo
+4256,PTHRW,ipo
+4257,PTIX,life_sciences
+4258,PTIXW,life_sciences
+4259,PTLO,retail_wholesale
+4260,PTMN,"finance, financial markets"
+4261,PTON,retail_wholesale
+4262,PTPI,life_sciences
+4263,PTRS,"finance, financial markets"
+4264,PTSI,energy_transportation
+4265,PTVE,manufacturing
+4266,PTWO,ipo
+4267,PTWOW,ipo
+4268,PUBM,technology
+4269,PUCK,ipo
+4270,PUCKU,ipo
+4271,PUCKW,ipo
+4272,PULM,life_sciences
+4273,PVBC,finance
+4274,PWFL,technology
+4275,PWOD,"finance, financial markets"
+4276,PWP,"finance, financial markets"
+4277,PWUP,ipo
+4278,PWUPU,ipo
+4279,PWUPW,ipo
+4280,PXLW,manufacturing
+4281,PXMD,life_sciences
+4282,PYCR,technology
+4283,PYPL,technology
+4284,PYXS,life_sciences
+4285,PZZA,retail_wholesale
+4286,QCOM,retail_wholesale
+4287,QCRH,"finance, financial markets"
+4288,QDEL,"life_sciences, technology"
+4289,QDRO,ipo
+4290,QDROW,ipo
+4291,QLGN,life_sciences
+4292,QLYS,technology
+4293,QMCO,"technology, manufacturing"
+4294,QNCX,life_sciences
+4295,QNST,technology
+4296,QOMO,ipo
+4297,QQQX,finance
+4298,QRHC,"manufacturing, real_estate"
+4299,QRTEA,retail_wholesale
+4300,QRTEB,retail_wholesale
+4301,QRTEP,retail_wholesale
+4302,QRVO,manufacturing
+4303,QSI,life_sciences
+4304,QSIAW,life_sciences
+4305,QTRX,life_sciences
+4306,QUBT,"manufacturing,technology"
+4307,QUIK,manufacturing
+4308,RADI,technology
+4309,RAIL,energy_transportation
+4310,RAIN,life_sciences
+4311,RAND,"finance, financial markets"
+4312,RANI,life_sciences
+4313,RAPT,life_sciences
+4314,RARE,life_sciences
+4315,RAVE,retail_wholesale
+4316,RBB,"finance, financial markets"
+4317,RBBN,technology
+4318,RBCAA,"finance, financial markets"
+4319,RBKB,"finance, financial markets"
+4320,RCAC,ipo
+4321,RCACU,ipo
+4322,RCACW,ipo
+4323,RCAT,retail_wholesale
+4324,RCEL,"life_sciences, technology"
+4325,RCKT,life_sciences
+4326,RCKY,manufacturing
+4327,RCLF,"life_sciences, technology"
+4328,RCLFU,"life_sciences, technology"
+4329,RCLFW,"life_sciences, technology"
+4330,RCM,retail_wholesale
+4331,RCMT,technology
+4332,RCRT,technology
+4333,RCRTW,technology
+4334,RDFN,real_estate
+4335,RDI,technology
+4336,RDIB,technology
+4337,RDNT,"life_sciences, technology"
+4338,RDUS,manufacturing
+4339,RDVT,technology
+4340,REAL,retail_wholesale
+4341,REBN,retail_wholesale
+4342,REFI,real_estate
+4343,REFR,manufacturing
+4344,REG,real_estate
+4345,REGN,life_sciences
+4346,REKR,technology
+4347,RELI,financial_markets
+4348,RELL,"technology, manufacturing"
+4349,RELY,technology
+4350,RENB,life_sciences
+4351,RENE,ipo
+4352,RENEU,ipo
+4353,RENEW,ipo
+4354,RENT,retail_wholesale
+4355,REPL,life_sciences
+4356,RETA,life_sciences
+4357,REVB,life_sciences
+4358,REVBW,life_sciences
+4359,REYN,manufacturing
+4360,RFIL,technology
+4361,RGCO,energy_transportation
+4362,RGEN,life_sciences
+4363,RGF,manufacturing
+4364,RGLD,manufacturing
+4365,RGLS,life_sciences
+4366,RGNX,life_sciences
+4367,RGP,technology
+4368,RGTI,retail_wholesale
+4369,RGTIW,retail_wholesale
+4370,RIBT,manufacturing
+4371,RICK,retail_wholesale
+4372,RIGL,life_sciences
+4373,RILY,"finance, financial markets"
+4374,RILYG,"finance, financial markets"
+4375,RILYK,"finance, financial markets"
+4376,RILYL,"finance, financial markets"
+4377,RILYM,"finance, financial markets"
+4378,RILYN,"finance, financial markets"
+4379,RILYO,"finance, financial markets"
+4380,RILYP,"finance, financial markets"
+4381,RILYT,"finance, financial markets"
+4382,RILYZ,"finance, financial markets"
+4383,RIOT,"finance, financial markets"
+4384,RIVN,manufacturing
+4385,RKDA,life_sciences
+4386,RKLB,technology
+4387,RLAY,life_sciences
+4388,RLMD,life_sciences
+4389,RLYB,life_sciences
+4390,RMBI,"finance, financial markets"
+4391,RMBL,technology
+4392,RMBS,manufacturing
+4393,RMCF,life_sciences
+4394,RMGC,ipo
+4395,RMNI,technology
+4396,RMR,technology
+4397,RMTI,life_sciences
+4398,RNA,life_sciences
+4399,RNAZ,life_sciences
+4400,RNST,"finance, financial markets"
+4401,RNXT,life_sciences
+4402,ROAD,manufacturing
+4403,ROCK,financial_markets
+4404,ROCL,ipo
+4405,ROCLW,ipo
+4406,ROIC,real_estate
+4407,ROKU,technology
+4408,ROOT,financial_markets
+4409,ROP,manufacturing
+4410,ROSE,ipo
+4411,ROSEU,ipo
+4412,ROSEW,ipo
+4413,ROST,retail_wholesale
+4414,ROVR,retail_wholesale
+4415,RPAY,technology
+4416,RPD,technology
+4417,RPHM,life_sciences
+4418,RPID,"life_sciences, technology"
+4419,RPRX,life_sciences
+4420,RRBI,real_estate
+4421,RRGB,retail_wholesale
+4422,RRR,real_estate
+4423,RSLS,"life_sciences, technology"
+4424,RSSS,technology
+4425,RSVR,technology
+4426,RSVRW,technology
+4427,RTL,real_estate
+4428,RTLPO,real_estate
+4429,RTLPP,real_estate
+4430,RUM,technology
+4431,RUMBW,technology
+4432,RUN,manufacturing
+4433,RUSHA,retail_wholesale
+4434,RUSHB,retail_wholesale
+4435,RVLP,life_sciences
+4436,RVMD,life_sciences
+4437,RVNC,life_sciences
+4438,RVPH,life_sciences
+4439,RVPHW,life_sciences
+4440,RVSB,"finance, financial markets"
+4441,RVYL,technology
+4442,RWOD,ipo
+4443,RWODR,ipo
+4444,RWODU,ipo
+4445,RXRX,life_sciences
+4446,RXST,life_sciences
+4447,RXT,technology
+4448,RYTM,life_sciences
+4449,RZLT,life_sciences
+4450,SABR,technology
+4451,SABS,life_sciences
+4452,SABSW,life_sciences
+4453,SAFT,financial_markets
+4454,SAGA,ipo
+4455,SAGAR,ipo
+4456,SAGE,life_sciences
+4457,SAIA,energy_transportation
+4458,SALM,technology
+4459,SAMA,ipo
+4460,SAMAW,ipo
+4461,SAMG,"finance, financial markets"
+4462,SANA,life_sciences
+4463,SANM,technology
+4464,SANW,"manufacturing, life_sciences"
+4465,SASI,manufacturing
+4466,SASR,"finance, financial markets"
+4467,SATS,technology
+4468,SAVA,life_sciences
+4469,SBAC,real_estate
+4470,SBCF,"finance, financial markets"
+4471,SBFG,"finance, financial markets"
+4472,SBGI,technology
+4473,SBRA,real_estate
+4474,SBSI,"finance, financial markets"
+4475,SBT,financial_markets
+4476,SBUX,retail_wholesale
+4477,SCHL,retail_wholesale
+4478,SCKT,"manufacturing,technology"
+4479,SCLX,life_sciences
+4480,SCLXW,life_sciences
+4481,SCOR,technology
+4482,SCPH,life_sciences
+4483,SCPL,technology
+4484,SCRM,ipo
+4485,SCRMU,ipo
+4486,SCSC,retail_wholesale
+4487,SCTL,life_sciences
+4488,SCVL,retail_wholesale
+4489,SCWO,"manufacturing, real_estate"
+4490,SCWX,technology
+4491,SCYX,life_sciences
+4492,SDC,"life_sciences, technology"
+4493,SDGR,life_sciences
+4494,SDIG,"finance, financial markets"
+4495,SDOT,retail_wholesale
+4496,SEAT,manufacturing
+4497,SEATW,manufacturing
+4498,SEEL,life_sciences
+4499,SEER,life_sciences
+4500,SEIC,"finance, financial markets"
+4501,SELB,life_sciences
+4502,SELF,real_estate
+4503,SENEA,manufacturing
+4504,SENEB,manufacturing
+4505,SEPA,ipo
+4506,SEPAU,ipo
+4507,SEPAW,ipo
+4508,SERA,manufacturing
+4509,SEVN,real_estate
+4510,SFBC,financial_markets
+4511,SFE,"finance, financial markets"
+4512,SFIX,retail_wholesale
+4513,SFM,retail_wholesale
+4514,SFNC,"finance, financial markets"
+4515,SFR,real_estate
+4516,SFST,"finance, financial markets"
+4517,SFT,financial_markets
+4518,SGA,technology
+4519,SGBX,manufacturing
+4520,SGC,retail_wholesale
+4521,SGEN,life_sciences
+4522,SGH,manufacturing
+4523,SGHT,"life_sciences, technology"
+4524,SGII,ipo
+4525,SGIIU,ipo
+4526,SGIIW,ipo
+4527,SGLY,energy_transportation
+4528,SGMA,technology
+4529,SGMO,life_sciences
+4530,SGRP,technology
+4531,SGRY,"real_estate, life_sciences"
+4532,SHBI,"finance, financial markets"
+4533,SHC,"life_sciences, technology"
+4534,SHCR,technology
+4535,SHCRW,technology
+4536,SHEN,technology
+4537,SHFS,"finance, financial markets"
+4538,SHFSW,"finance, financial markets"
+4539,SHLS,manufacturing
+4540,SHOO,manufacturing
+4541,SHPH,life_sciences
+4542,SHPW,manufacturing
+4543,SHPWW,manufacturing
+4544,SHYF,manufacturing
+4545,SIBN,"life_sciences, technology"
+4546,SIDU,technology
+4547,SIEB,"finance, financial markets"
+4548,SIEN,manufacturing
+4549,SIGA,life_sciences
+4550,SIGI,financial_markets
+4551,SIGIP,financial_markets
+4552,SILK,"life_sciences, technology"
+4553,SILO,retail_wholesale
+4554,SINT,"life_sciences, technology"
+4555,SIRI,technology
+4556,SITM,manufacturing
+4557,SKGR,ipo
+4558,SKGRU,ipo
+4559,SKIN,manufacturing
+4560,SKWD,financial_markets
+4561,SKYT,manufacturing
+4562,SKYW,energy_transportation
+4563,SKYX,real_estate
+4564,SLAB,manufacturing
+4565,SLAC,"finance, financial markets"
+4566,SLACU,"finance, financial markets"
+4567,SLACW,"finance, financial markets"
+4568,SLAM,ipo
+4569,SLAMW,ipo
+4570,SLDB,life_sciences
+4571,SLDP,technology
+4572,SLDPW,technology
+4573,SLGC,life_sciences
+4574,SLGCW,life_sciences
+4575,SLGG,retail_wholesale
+4576,SLM,"finance, financial markets"
+4577,SLMBP,"finance, financial markets"
+4578,SLNG,energy_transportation
+4579,SLNH,technology
+4580,SLNHP,technology
+4581,SLNO,life_sciences
+4582,SLP,technology
+4583,SLRC,"finance, financial markets"
+4584,SLRN,life_sciences
+4585,SLRX,life_sciences
+4586,SLS,life_sciences
+4587,SLVR,ipo
+4588,SLVRU,ipo
+4589,SLVRW,ipo
+4590,SMAP,ipo
+4591,SMAPU,ipo
+4592,SMAPW,ipo
+4593,SMBC,finance
+4594,SMBK,"finance, financial markets"
+4595,SMCI,"manufacturing,technology"
+4596,SMFL,life_sciences
+4597,SMID,real_estate
+4598,SMLR,life_sciences
+4599,SMMF,"finance, financial markets"
+4600,SMMT,life_sciences
+4601,SMPL,manufacturing
+4602,SMSI,technology
+4603,SMTC,manufacturing
+4604,SMTI,"life_sciences, technology"
+4605,SNAL,technology
+4606,SNAX,manufacturing
+4607,SNAXW,manufacturing
+4608,SNBR,"real_estate, retail_wholesale"
+4609,SNCE,technology
+4610,SNCR,technology
+4611,SNCRL,technology
+4612,SNCY,energy_transportation
+4613,SND,manufacturing
+4614,SNDX,life_sciences
+4615,SNES,life_sciences
+4616,SNEX,"finance, financial markets"
+4617,SNFCA,"finance, financial markets"
+4618,SNGX,life_sciences
+4619,SNOA,life_sciences
+4620,SNPO,"technology, manufacturing"
+4621,SNPS,technology
+4622,SNPX,life_sciences
+4623,SNSE,life_sciences
+4624,SNTI,life_sciences
+4625,SOBR,economy_macro
+4626,SOFI,financial_markets
+4627,SOFO,technology
+4628,SOHO,real_estate
+4629,SOHOB,real_estate
+4630,SOHON,real_estate
+4631,SOHOO,real_estate
+4632,SOND,real_estate
+4633,SONDW,real_estate
+4634,SONM,technology
+4635,SONN,life_sciences
+4636,SONO,technology
+4637,SOPA,technology
+4638,SOTK,manufacturing
+4639,SOUN,technology
+4640,SOUNW,technology
+4641,SOVO,manufacturing
+4642,SP,real_estate
+4643,SPFI,"finance, financial markets"
+4644,SPLK,technology
+4645,SPOK,technology
+4646,SPRB,life_sciences
+4647,SPRO,life_sciences
+4648,SPRY,life_sciences
+4649,SPSC,technology
+4650,SPT,technology
+4651,SPTN,retail_wholesale
+4652,SPWH,retail_wholesale
+4653,SPWR,manufacturing
+4654,SQFT,real_estate
+4655,SQFTP,real_estate
+4656,SQFTW,real_estate
+4657,SQL,"life_sciences, technology"
+4658,SQLLW,"life_sciences, technology"
+4659,SRCE,"finance, financial markets"
+4660,SRCL,"manufacturing, real_estate"
+4661,SRDX,"life_sciences, technology"
+4662,SRPT,life_sciences
+4663,SRRK,life_sciences
+4664,SRTS,"life_sciences, technology"
+4665,SRZN,life_sciences
+4666,SRZNW,life_sciences
+4667,SSB,"finance, financial markets"
+4668,SSBI,"finance, financial markets"
+4669,SSBK,finance
+4670,SSIC,life_sciences
+4671,SSKN,"life_sciences, technology"
+4672,SSNC,technology
+4673,SSNT,technology
+4674,SSP,technology
+4675,SSSS,"finance, financial markets"
+4676,SSSSL,"finance, financial markets"
+4677,SSTI,technology
+4678,SSYS,technology
+4679,STAA,manufacturing
+4680,STAF,technology
+4681,STBA,"finance, financial markets"
+4682,STCN,technology
+4683,STEP,"finance, financial markets"
+4684,STER,technology
+4685,STHO,real_estate
+4686,STIM,"life_sciences, technology"
+4687,STIX,technology
+4688,STIXW,technology
+4689,STKS,retail_wholesale
+4690,STLD,financial_markets
+4691,STOK,life_sciences
+4692,STRC,retail_wholesale
+4693,STRCW,retail_wholesale
+4694,STRL,manufacturing
+4695,STRM,technology
+4696,STRO,life_sciences
+4697,STRR,life_sciences
+4698,STRRP,life_sciences
+4699,STRS,real_estate
+4700,STRT,manufacturing
+4701,STSS,"life_sciences, technology"
+4702,STTK,life_sciences
+4703,SUNW,manufacturing
+4704,SUPN,life_sciences
+4705,SURF,life_sciences
+4706,SURG,technology
+4707,SURGW,technology
+4708,SVC,real_estate
+4709,SVIIW,ipo
+4710,SVRA,life_sciences
+4711,SVVC,"finance, financial markets"
+4712,SWAG,technology
+4713,SWAV,"life_sciences, technology"
+4714,SWBI,manufacturing
+4715,SWIM,manufacturing
+4716,SWKH,financial_markets
+4717,SWKS,manufacturing
+4718,SWSS,ipo
+4719,SWSSW,ipo
+4720,SWTX,life_sciences
+4721,SXTP,life_sciences
+4722,SXTPW,life_sciences
+4723,SYBT,"finance, financial markets"
+4724,SYBX,life_sciences
+4725,SYM,manufacturing
+4726,SYNA,manufacturing
+4727,SYNH,life_sciences
+4728,SYPR,manufacturing
+4729,SYRS,life_sciences
+4730,SZZL,ipo
+4731,SZZLU,ipo
+4732,SZZLW,ipo
+4733,TACT,technology
+4734,TAIT,"technology, manufacturing"
+4735,TALK,"life_sciences, technology"
+4736,TALKW,"life_sciences, technology"
+4737,TALS,life_sciences
+4738,TARA,life_sciences
+4739,TARS,life_sciences
+4740,TASK,retail_wholesale
+4741,TAST,retail_wholesale
+4742,TAYD,manufacturing
+4743,TBBK,"finance, financial markets"
+4744,TBCP,ipo
+4745,TBCPW,ipo
+4746,TBIO,"life_sciences, technology"
+4747,TBLD,"finance, financial markets"
+4748,TBLT,manufacturing
+4749,TBLTW,manufacturing
+4750,TBMC,ipo
+4751,TBMCR,ipo
+4752,TBNK,financial_markets
+4753,TCBC,"finance, financial markets"
+4754,TCBI,"finance, financial markets"
+4755,TCBIO,"finance, financial markets"
+4756,TCBK,"finance, financial markets"
+4757,TCBS,finance
+4758,TCBX,finance
+4759,TCMD,"life_sciences, technology"
+4760,TCON,life_sciences
+4761,TCPC,"finance, financial markets"
+4762,TCRT,life_sciences
+4763,TCRX,life_sciences
+4764,TDUP,retail_wholesale
+4765,TECH,life_sciences
+4766,TECTP,finance
+4767,TELA,"life_sciences, technology"
+4768,TENB,technology
+4769,TENK,ipo
+4770,TENX,life_sciences
+4771,TER,technology
+4772,TERN,life_sciences
+4773,TFFP,life_sciences
+4774,TFIN,"finance, financial markets"
+4775,TFINP,"finance, financial markets"
+4776,TFSL,financial_markets
+4777,TGAN,manufacturing
+4778,TGL,retail_wholesale
+4779,TGTX,life_sciences
+4780,TGVC,ipo
+4781,TGVCW,ipo
+4782,TH,real_estate
+4783,THCP,technology
+4784,THFF,"finance, financial markets"
+4785,THMO,"life_sciences, technology"
+4786,THRD,life_sciences
+4787,THRM,manufacturing
+4788,THRN,life_sciences
+4789,THRX,life_sciences
+4790,THRY,manufacturing
+4791,THWWW,energy_transportation
+4792,TIL,life_sciences
+4793,TILE,"real_estate, retail_wholesale"
+4794,TIO,technology
+4795,TIPT,financial_markets
+4796,TITN,retail_wholesale
+4797,TIVC,life_sciences
+4798,TKNO,life_sciences
+4799,TLF,retail_wholesale
+4800,TLGY,ipo
+4801,TLGYU,ipo
+4802,TLGYW,ipo
+4803,TLIS,life_sciences
+4804,TLS,technology
+4805,TLSI,"life_sciences, technology"
+4806,TLSIW,"life_sciences, technology"
+4807,TMCI,life_sciences
+4808,TMDX,life_sciences
+4809,TMPO,manufacturing
+4810,TMPOW,manufacturing
+4811,TMTC,ipo
+4812,TMTCU,ipo
+4813,TMUS,technology
+4814,TNDM,"life_sciences, technology"
+4815,TNGX,life_sciences
+4816,TNON,"life_sciences, technology"
+4817,TNONW,"life_sciences, technology"
+4818,TNXP,life_sciences
+4819,TNYA,life_sciences
+4820,TOI,"life_sciences, technology"
+4821,TOIIW,"life_sciences, technology"
+4822,TOMZ,financial_markets
+4823,TOWN,"finance, financial markets"
+4824,TPCS,manufacturing
+4825,TPG,"finance, financial markets"
+4826,TPIC,manufacturing
+4827,TPST,life_sciences
+4828,TRDA,life_sciences
+4829,TREE,"finance, financial markets"
+4830,TRHC,technology
+4831,TRIN,"finance, financial markets"
+4832,TRINL,"finance, financial markets"
+4833,TRIP,technology
+4834,TRKA,technology
+4835,TRKAW,technology
+4836,TRMB,manufacturing
+4837,TRMK,"finance, financial markets"
+4838,TRNR,technology
+4839,TRNS,technology
+4840,TRON,ipo
+4841,TRONU,ipo
+4842,TRONW,ipo
+4843,TROW,"finance, financial markets"
+4844,TRS,manufacturing
+4845,TRST,"finance, financial markets"
+4846,TRUE,technology
+4847,TRUP,"life_sciences, technology"
+4848,TRVI,life_sciences
+4849,TRVN,life_sciences
+4850,TSBK,finance
+4851,TSCO,retail_wholesale
+4852,TSHA,life_sciences
+4853,TSLA,manufacturing
+4854,TSP,real_estate
+4855,TSRI,technology
+4856,TSVT,life_sciences
+4857,TTD,technology
+4858,TTEC,retail_wholesale
+4859,TTEK,manufacturing
+4860,TTGT,technology
+4861,TTMI,technology
+4862,TTNP,life_sciences
+4863,TTOO,"life_sciences, technology"
+4864,TTSH,ipo
+4865,TTWO,technology
+4866,TURN,"finance, financial markets"
+4867,TUSK,energy_transportation
+4868,TVTX,life_sciences
+4869,TW,"finance, financial markets"
+4870,TWIN,manufacturing
+4871,TWKS,technology
+4872,TWLV,ipo
+4873,TWLVU,ipo
+4874,TWNK,manufacturing
+4875,TWOU,technology
+4876,TWST,life_sciences
+4877,TXG,life_sciences
+4878,TXMD,life_sciences
+4879,TXN,manufacturing
+4880,TXRH,retail_wholesale
+4881,TYGO,manufacturing
+4882,TYGOW,manufacturing
+4883,TYRA,life_sciences
+4884,TZOO,technology
+4885,UAL,energy_transportation
+4886,UBCP,"finance, financial markets"
+4887,UBFO,"finance, financial markets"
+4888,UBSI,"finance, financial markets"
+4889,UBX,life_sciences
+4890,UCBI,"finance, financial markets"
+4891,UCBIO,"finance, financial markets"
+4892,UCTT,manufacturing
+4893,UEIC,technology
+4894,UFCS,financial_markets
+4895,UFPI,life_sciences
+4896,UFPT,"life_sciences, technology"
+4897,UG,manufacturing
+4898,UGRO,manufacturing
+4899,UHG,real_estate
+4900,UHGWW,real_estate
+4901,UK,technology
+4902,UKOMW,technology
+4903,ULBI,manufacturing
+4904,ULCC,energy_transportation
+4905,ULH,energy_transportation
+4906,ULTA,retail_wholesale
+4907,UMBF,"finance, financial markets"
+4908,UNB,"finance, financial markets"
+4909,UNCY,life_sciences
+4910,UNIT,real_estate
+4911,UNTY,"finance, financial markets"
+4912,UONE,technology
+4913,UONEK,technology
+4914,UPBD,financial_markets
+4915,UPLD,technology
+4916,UPST,"finance, financial markets"
+4917,UPTD,life_sciences
+4918,UPTDU,life_sciences
+4919,UPTDW,life_sciences
+4920,UPWK,technology
+4921,UPXI,life_sciences
+4922,URBN,retail_wholesale
+4923,USAP,financial_markets
+4924,USAU,manufacturing
+4925,USCB,"finance, financial markets"
+4926,USCT,ipo
+4927,USCTU,ipo
+4928,USCTW,ipo
+4929,USEG,energy_transportation
+4930,USGO,manufacturing
+4931,USGOW,manufacturing
+4932,USIO,"finance, financial markets"
+4933,USLM,"energy_transportation, manufacturing"
+4934,UTAA,ipo
+4935,UTAAU,ipo
+4936,UTHR,life_sciences
+4937,UTMD,"life_sciences, technology"
+4938,UTRS,technology
+4939,UVSP,"finance, financial markets"
+4940,VABK,"finance, financial markets"
+4941,VALU,"finance, financial markets"
+4942,VANI,life_sciences
+4943,VAQC,ipo
+4944,VAXX,life_sciences
+4945,VBFC,"finance, financial markets"
+4946,VBIV,life_sciences
+4947,VBTX,"finance, financial markets"
+4948,VC,manufacturing
+4949,VCEL,life_sciences
+4950,VCNX,life_sciences
+4951,VCSA,technology
+4952,VCTR,"finance, financial markets"
+4953,VCXA,"finance, financial markets"
+4954,VCXAU,"finance, financial markets"
+4955,VCXAW,"finance, financial markets"
+4956,VCYT,"life_sciences, technology"
+4957,VECO,manufacturing
+4958,VEEE,energy_transportation
+4959,VERA,life_sciences
+4960,VERB,retail_wholesale
+4961,VERBW,technology
+4962,VERI,technology
+4963,VERO,"life_sciences, technology"
+4964,VERU,life_sciences
+4965,VERV,life_sciences
+4966,VERX,technology
+4967,VERY,financial_markets
+4968,VGAS,"life_sciences, manufacturing"
+4969,VGASW,"life_sciences, manufacturing"
+4970,VHNA,ipo
+4971,VHNAU,ipo
+4972,VHNAW,ipo
+4973,VIA,energy_transportation
+4974,VIASP,energy_transportation
+4975,VIAV,retail_wholesale
+4976,VICR,manufacturing
+4977,VIEW,"technology, manufacturing"
+4978,VIEWW,"technology, manufacturing"
+4979,VIGL,life_sciences
+4980,VII,ipo
+4981,VIIAU,ipo
+4982,VIIAW,ipo
+4983,VINC,life_sciences
+4984,VINO,real_estate
+4985,VIR,life_sciences
+4986,VIRC,manufacturing
+4987,VIRI,life_sciences
+4988,VIRT,"finance, financial markets"
+4989,VIRX,life_sciences
+4990,VISL,technology
+4991,VITL,manufacturing
+4992,VIVK,energy_transportation
+4993,VKTX,life_sciences
+4994,VLCN,manufacturing
+4995,VLGEA,retail_wholesale
+4996,VLY,"finance, financial markets"
+4997,VLYPO,"finance, financial markets"
+4998,VLYPP,"finance, financial markets"
+4999,VMCA,ipo
+5000,VMCAU,ipo
+5001,VMCAW,ipo
+5002,VMEO,technology
+5003,VNDA,life_sciences
+5004,VNOM,energy_transportation
+5005,VOR,life_sciences
+5006,VOXX,"technology, manufacturing"
+5007,VRA,retail_wholesale
+5008,VRAR,retail_wholesale
+5009,VRCA,life_sciences
+5010,VRDN,"life_sciences, technology"
+5011,VREX,manufacturing
+5012,VRM,retail_wholesale
+5013,VRME,technology
+5014,VRMEW,technology
+5015,VRNS,technology
+5016,VRNT,technology
+5017,VRPX,life_sciences
+5018,VRRM,energy_transportation
+5019,VRSK,technology
+5020,VRSN,technology
+5021,VRTS,"finance, financial markets"
+5022,VRTX,life_sciences
+5023,VSAC,ipo
+5024,VSACU,ipo
+5025,VSACW,ipo
+5026,VSAT,retail_wholesale
+5027,VSEC,manufacturing
+5028,VSTM,life_sciences
+5029,VTGN,life_sciences
+5030,VTNR,energy_transportation
+5031,VTRS,life_sciences
+5032,VTSI,manufacturing
+5033,VTVT,life_sciences
+5034,VTYX,life_sciences
+5035,VUZI,retail_wholesale
+5036,VVOS,"life_sciences, technology"
+5037,VWE,retail_wholesale
+5038,VWEWW,retail_wholesale
+5039,VXRT,life_sciences
+5040,VYGR,life_sciences
+5041,VYNE,life_sciences
+5042,WABC,"finance, financial markets"
+5043,WAFD,"finance, financial markets"
+5044,WAFDP,"finance, financial markets"
+5045,WALD,manufacturing
+5046,WALDW,manufacturing
+5047,WASH,"finance, financial markets"
+5048,WATT,retail_wholesale
+5049,WAVD,technology
+5050,WAVS,technology
+5051,WAVSU,technology
+5052,WBA,retail_wholesale
+5053,WBD,technology
+5054,WDAY,technology
+5055,WDC,"technology, manufacturing"
+5056,WDFC,"life_sciences, manufacturing"
+5057,WEN,retail_wholesale
+5058,WERN,energy_transportation
+5059,WEST,retail_wholesale
+5060,WESTW,retail_wholesale
+5061,WEYS,retail_wholesale
+5062,WFCF,technology
+5063,WFRD,manufacturing
+5064,WGS,retail_wholesale
+5065,WGSWW,retail_wholesale
+5066,WHF,finance
+5067,WHLM,technology
+5068,WHLR,real_estate
+5069,WHLRD,real_estate
+5070,WHLRL,real_estate
+5071,WHLRP,real_estate
+5072,WINA,retail_wholesale
+5073,WING,retail_wholesale
+5074,WINT,life_sciences
+5075,WINV,ipo
+5076,WINVR,ipo
+5077,WINVW,ipo
+5078,WIRE,manufacturing
+5079,WISA,manufacturing
+5080,WISH,manufacturing
+5081,WKHS,manufacturing
+5082,WLDN,manufacturing
+5083,WLFC,manufacturing
+5084,WMG,retail_wholesale
+5085,WMPN,financial_markets
+5086,WNEB,financial_markets
+5087,WOOF,retail_wholesale
+5088,WORX,retail_wholesale
+5089,WRAP,manufacturing
+5090,WRLD,"finance, financial markets"
+5091,WSBC,"finance, financial markets"
+5092,WSBCP,"finance, financial markets"
+5093,WSBF,financial_markets
+5094,WSFS,"finance, financial markets"
+5095,WTBA,"finance, financial markets"
+5096,WTER,retail_wholesale
+5097,WTFC,"finance, financial markets"
+5098,WTFCM,"finance, financial markets"
+5099,WTFCP,"finance, financial markets"
+5100,WTMA,manufacturing
+5101,WTMAR,manufacturing
+5102,WTMAU,manufacturing
+5103,WULF,"finance, financial markets"
+5104,WVVI,retail_wholesale
+5105,WVVIP,retail_wholesale
+5106,WW,retail_wholesale
+5107,WWAC,ipo
+5108,WWACU,ipo
+5109,WWACW,ipo
+5110,WWD,manufacturing
+5111,WYNN,real_estate
+5112,XAIR,"life_sciences, technology"
+5113,XBIO,life_sciences
+5114,XBIOW,life_sciences
+5115,XBIT,life_sciences
+5116,XCUR,life_sciences
+5117,XEL,energy_transportation
+5118,XELA,retail_wholesale
+5119,XELAP,retail_wholesale
+5120,XELB,economy_macro
+5121,XERS,life_sciences
+5122,XFIN,ipo
+5123,XFINU,ipo
+5124,XFINW,ipo
+5125,XFOR,life_sciences
+5126,XGN,"life_sciences, technology"
+5127,XLO,life_sciences
+5128,XMTR,manufacturing
+5129,XNCR,life_sciences
+5130,XOMA,life_sciences
+5131,XOMAO,life_sciences
+5132,XOMAP,life_sciences
+5133,XOS,real_estate
+5134,XOSWW,real_estate
+5135,XPDB,ipo
+5136,XPDBW,ipo
+5137,XPEL,manufacturing
+5138,XPON,"technology, manufacturing"
+5139,XRAY,"life_sciences, technology"
+5140,XRX,technology
+5141,XWEL,retail_wholesale
+5142,XXII,life_sciences
+5143,YMAB,life_sciences
+5144,YORW,energy_transportation
+5145,YOSH,retail_wholesale
+5146,YOTA,"manufacturing, life_sciences"
+5147,YOTAR,"manufacturing, life_sciences"
+5148,YOTAW,"manufacturing, life_sciences"
+5149,Z,technology
+5150,ZBRA,manufacturing
+5151,ZD,technology
+5152,ZEUS,manufacturing
+5153,ZFOX,technology
+5154,ZFOXW,technology
+5155,ZG,technology
+5156,ZI,technology
+5157,ZIMV,life_sciences
+5158,ZION,"finance, financial markets"
+5159,ZIONL,"finance, financial markets"
+5160,ZIONO,"finance, financial markets"
+5161,ZIONP,"finance, financial markets"
+5162,ZIVO,life_sciences
+5163,ZIVOW,life_sciences
+5164,ZLS,ipo
+5165,ZLSWW,ipo
+5166,ZM,technology
+5167,ZNTL,life_sciences
+5168,ZS,technology
+5169,ZUMZ,retail_wholesale
+5170,ZVRA,life_sciences
+5171,ZVSA,life_sciences
+5172,ZYME,life_sciences
+5173,ZYNE,life_sciences
+5174,ZYXI,life_sciences
