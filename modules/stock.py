@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 import yfinance as yf
@@ -8,6 +9,7 @@ class Stock:
     def __init__(self, ticker):
         self.ticker = ticker
         self.data = pd.DataFrame()
+        self.tensor = np.array([])
 
         # Deep Learning Attributes
         self.technical_indicators = pd.DataFrame()
