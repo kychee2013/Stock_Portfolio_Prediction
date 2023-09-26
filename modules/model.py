@@ -84,11 +84,11 @@ def evaluate_model(
     predictions = model.predict(X) # --> has shape (n,1)
 
     # To use scaler.inverse_transform(), need to add one empty column in front to make the shape as (n,2)
-    pred = scaler.inverse_transform(np.hstack((np.zeros((predictions.shape[0],1)), predictions)))[:, 1]
-    real = scaler.inverse_transform(np.hstack((np.zeros((predictions.shape[0],1)), y.reshape(-1,1))))[:, 1]
+    pred = scaler.inverse_transform(np.hstack((predictions, np.zeros((predictions.shape[0],1)))))[:, 0]
+    real = scaler.inverse_transform(np.hstack((y.reshape(-1,1), np.zeros((predictions.shape[0],1)))))[:, 0]
 
     # Calculate the root mean square error (rmse)
     rmse = np.sqrt(np.mean((pred - real)**2))
     print (f'✅ Model evaluated, RMSE: {round(rmse, 2)}')
 
-    return rmse
+    return pred, rmse
