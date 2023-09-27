@@ -17,10 +17,11 @@ class Stock:
         self.price = 0.0
         self.labels = pd.Series() # Increased or decreased, compare to the stock price from 10 days ago
         self.prediction = 0.0
+        self.model = {}
 
 
     def get_historical_data(self, period):
-        self.data = yf.download(self.ticker, period=period)
+        self.data = yf.download(self.ticker, period=period, progress=False)
 
     def get_technical_indicators(self):
         self.data['SMA_20'] = talib.SMA(self.data['Close'], timeperiod=20)

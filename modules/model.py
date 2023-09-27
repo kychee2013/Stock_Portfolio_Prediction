@@ -91,4 +91,4 @@ def evaluate_model(
     rmse = np.sqrt(np.mean((pred - real)**2))
     print (f'✅ Model evaluated, RMSE: {round(rmse, 2)}')
 
-    return pred, rmse
+    return rmse
