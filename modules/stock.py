@@ -18,6 +18,7 @@ class Stock:
         self.labels = pd.Series() # Increased or decreased, compare to the stock price from 10 days ago
         self.prediction = 0.0
         self.model = {}
+        self.pred = pd.DataFrame()
 
 
     def get_historical_data(self, period):

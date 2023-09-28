@@ -13,8 +13,8 @@ def initialize_model(input_shape: tuple):
     model = Sequential()
     model.add(layers.LSTM(units=100, return_sequences=True, activation='tanh', input_shape=input_shape))
     model.add(layers.LSTM(units=50, return_sequences=False))
-    model.add(layers.Dense(25, activation='linear'))
-    model.add(layers.Dense(1, activation='linear'))
+    model.add(layers.Dense(50, activation='linear'))
+    model.add(layers.Dense(21, activation='linear'))
 
     print("✅ Model initialized")
 
@@ -81,11 +81,12 @@ def evaluate_model(
         print(f"\n❌ No model to evaluate")
         return None
 
-    predictions = model.predict(X) # --> has shape (n,1)
+    predictions = model.predict(X) # --> has shape (n,21)
 
-    # To use scaler.inverse_transform(), need to add one empty column in front to make the shape as (n,2)
-    pred = scaler.inverse_transform(np.hstack((predictions, np.zeros((predictions.shape[0],1)))))[:, 0]
-    real = scaler.inverse_transform(np.hstack((y.reshape(-1,1), np.zeros((predictions.shape[0],1)))))[:, 0]
+    # To use manually inverse transform the prediction result to price
+    inverse_scale = np.vectorize(lambda x: x*scaler.data_range_[3] + scaler.data_min_[3])
+    pred = inverse_scale(predictions)
+    real = inverse_scale(y)
 
     # Calculate the root mean square error (rmse)
     rmse = np.sqrt(np.mean((pred - real)**2))
