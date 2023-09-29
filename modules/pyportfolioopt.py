@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import matpotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from pypfopt.efficient_frontier import EfficientFrontier
 from pypfopt import risk_models
 from pypfopt import expected_returns
@@ -42,7 +42,7 @@ def weights_return_rate(df, freq, return_rate):
 def plot_weights(weights):
     fig, ax = plt.subplots()
     plotting.plot_weights(weights, ax=ax)
-  
+
     # Output
     ax.set_title("Portfolio Weightage")
     plt.tight_layout()
@@ -57,12 +57,12 @@ def plot_efficient_frontier(df, freq):
     fig, ax = plt.subplots()
     ef_max_sharpe = ef.deepcopy()
     plotting.plot_efficient_frontier(ef, ax=ax, show_assets=False)
-    
+
     # Find the tangency portfolio
     ef_max_sharpe.max_sharpe()
     ret_tangent, std_tangent, _ = ef_max_sharpe.portfolio_performance()
     ax.scatter(std_tangent, ret_tangent, marker="*", s=100, c="r", label="Max Sharpe")
-    
+
     # Generate random portfolios
     n_samples = 10000
     w = np.random.dirichlet(np.ones(ef.n_assets), n_samples)
@@ -70,7 +70,7 @@ def plot_efficient_frontier(df, freq):
     stds = np.sqrt(np.diag(w @ ef.cov_matrix @ w.T))
     sharpes = rets / stds
     ax.scatter(stds, rets, marker=".", c=sharpes, cmap="viridis_r")
-    
+
     # Output
     ax.set_title("Efficient Frontier with random portfolios")
     ax.legend()
