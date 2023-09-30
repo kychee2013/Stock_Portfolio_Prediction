@@ -22,7 +22,7 @@ def covariance(df, freq):
 def weights_max_sharpe(df, freq):
     returns = expected_return(df,freq)
     cov = covariance(df, freq)
-    ef = EfficientFrontier(returns, cov, weight_bounds=(-1, 1))
+    ef = EfficientFrontier(returns, cov)
     ef.max_sharpe()
     cleaned_weights = ef.clean_weights()
     ef.portfolio_performance(verbose=True)
@@ -32,7 +32,7 @@ def weights_max_sharpe(df, freq):
 def weights_return_rate(df, freq, return_rate):
     returns = expected_return(df,freq)
     cov = covariance(df, freq)
-    ef = EfficientFrontier(returns, cov, weight_bounds=(-1, 1))
+    ef = EfficientFrontier(returns, cov)
     ef.efficient_return(return_rate/100, market_neutral=False)
     cleaned_weights = ef.clean_weights()
     ef.portfolio_performance(verbose=True)
@@ -53,7 +53,7 @@ def plot_weights(weights):
 def plot_efficient_frontier(df, freq):
     returns = expected_return(df,freq)
     cov = covariance(df, freq)
-    ef = EfficientFrontier(returns, cov, weight_bounds=(-1, 1))
+    ef = EfficientFrontier(returns, cov)
     fig, ax = plt.subplots()
     ef_max_sharpe = ef.deepcopy()
     plotting.plot_efficient_frontier(ef, ax=ax, show_assets=False)
