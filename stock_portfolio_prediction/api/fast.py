@@ -1,7 +1,7 @@
 import pandas as pd
 # $WIPE_BEGIN
 
-from taxifare.ml_logic.registry import load_model
+from stock_portfolio_prediction.ml_logic.registry import load_model
 from taxifare.ml_logic.preprocessor import preprocess_features
 # $WIPE_END
 
