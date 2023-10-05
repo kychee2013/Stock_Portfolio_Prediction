@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from modules.stock import Stock
 
-from registry import load_model
+from modules.registry import load_model
 from sklearn.preprocessing import MinMaxScaler
 
 from fastapi import FastAPI
