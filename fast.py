@@ -20,6 +20,7 @@ app.add_middleware(
 )
 
 # http://127.0.0.1:8000/predict?ticker=AAPL,GOOG,ALX,AMT,AVB,DLR,EGP,EXR,MAA,SUI
+# http://127.0.0.1:8000/predict?ticker=AAPL,GOOG
 @app.get("/predict")
 def predict(ticker):
     tickers = locals()['ticker']
