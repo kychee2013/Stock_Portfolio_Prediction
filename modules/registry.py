@@ -3,8 +3,6 @@ import os
 from tensorflow import keras
 from google.cloud import storage
 
-from params import *
-
 BUCKET_NAME = 'stock_portfolio_prediction'
 LOCAL_REGISTRY_PATH = '***'
 

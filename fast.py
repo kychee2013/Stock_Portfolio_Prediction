@@ -21,9 +21,10 @@ app.add_middleware(
 
 # http://127.0.0.1:8000/predict?ticker=AAPL,GOOG,ALX,AMT,AVB,DLR,EGP,EXR,MAA,SUI
 @app.get("/predict")
-def predict():
+def predict(ticker):
     tickers = locals()['ticker']
-    predicted_1mo = {}
+    predicted_1mo = dict()
+
     for ticker in tickers.split(','):
         stock = Stock(ticker)
 
@@ -49,7 +50,8 @@ def predict():
         pred = inverse_scale(pred)
         stock.pred = pred.flatten()
 
-        predicted_1mo[stock.ticker] = stock.pred
+        predicted_1mo[stock.ticker] = list(stock.pred)
+        print(type(stock.pred))
 
     return predicted_1mo
 
