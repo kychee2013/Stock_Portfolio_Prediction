@@ -90,6 +90,8 @@ def evaluate_model(
 
     # Calculate the root mean square error (rmse)
     rmse = np.sqrt(np.mean((pred - real)**2))
+    mae = np.sqrt(np.mean(abs(pred - real)))
     print (f'✅ Model evaluated, RMSE: {round(rmse, 2)}')
+    print (f'✅ Model evaluated, MAE: {round(mae, 2)}')
 
     return rmse

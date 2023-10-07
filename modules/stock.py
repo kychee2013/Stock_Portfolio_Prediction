@@ -36,10 +36,14 @@ class Stock:
         train_data_aux = self.data[['Close', "SMA_20", "SMA_50", "SMA_200", "upper_band", "middle_band", "lower_band",
                                 "RSI", "macd", "macd_signal", "macd_hist", "stochastic_k", "stochastic_d"]].dropna()
 
-        self.technical_indicators = train_data_aux.iloc[:-10, 1:]
+        # self.technical_indicators = train_data_aux.iloc[:-10, 1:]
+        self.technical_indicators = train_data_aux.iloc[:-21, 1:]
 
-        labels_aux = (train_data_aux['Close'].shift(-10) > train_data_aux['Close']).astype(int)
-        self.labels = labels_aux[:-10]
+        # labels_aux = (train_data_aux['Close'].shift(-10) > train_data_aux['Close']).astype(int)
+        labels_aux = (train_data_aux['Close'].shift(-21) > train_data_aux['Close']).astype(int)
+
+        # self.labels = labels_aux[:-10]
+        self.labels = labels_aux[:-21]
 
         self.today_technical_indicators = self.data[["SMA_20", "SMA_50", "SMA_200", "upper_band", "middle_band",
                                                    "lower_band", "RSI", "macd", "macd_signal", "macd_hist",

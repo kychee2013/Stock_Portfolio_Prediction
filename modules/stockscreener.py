@@ -64,7 +64,8 @@ class StockScreener:
         return model
 
     def train_models(self):
-        for stock in self.filtered_stocks:
+        # for stock in self.filtered_stocks:
+        for stock in self.stocks:
             train_data = stock.technical_indicators
             train_labels = stock.labels
 

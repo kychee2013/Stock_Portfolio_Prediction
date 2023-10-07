@@ -68,7 +68,8 @@ class StockScreener:
         return model
 
     def train_models(self):
-        for stock in self.filtered_stocks:
+        # for stock in self.filtered_stocks:
+        for stock in self.stocks:
             train_data = stock.technical_indicators
             train_labels = stock.labels
 
@@ -79,7 +80,7 @@ class StockScreener:
             model = self.create_model(train_data)
             history = model.fit(train_data, train_labels, epochs=10, verbose=0)
             self.models[stock.ticker] = (model, scaler)
-        return model, history
+        # return model, history
 
     def predict_stocks(self, new_stocks):
         predicted_stocks = []
