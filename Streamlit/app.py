@@ -76,26 +76,29 @@ if st.button('Generate'):
     with st.spinner('Building, please wait'):
         data = {
             'Company': user_tickers,
+            'Company Name': company_name,
+            'Sector':sector
         }
 
         df = pd.DataFrame(data).set_index('Company')
         
-        df["Technical Score"] = [random.randint(1, 11) for _ in range(df.shape[0])]
-        #read from csv
-        df = pd.concat([df, result_df.set_index("tickers").loc[user_tickers]], axis=1)
-        flag = df.T.sum().sort_values(ascending=False).index
+        df = pd.concat([df, techscore_df.set_index("Ticker")["Score"]], axis=1, join="outer")
+        df.rename(columns={"Score": "Technical Score"}, inplace=True)
+        df = pd.concat([df, result_df.set_index("tickers")], axis=1)
+        flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
         df = df.loc[flag]
-        # sort_inx = df.T.sum().sort_values(ascending=False).index
         df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
         show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
-        
+        show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
+        show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
         show_df["Rank"] = [_+1 for _ in range(df.shape[0])]
-        # Display the ranked stock table
-        # st._legacy_dataframe(show_df.set_index("Rank"))
-        st.dataframe(show_df.set_index("Rank").style.set_table_styles([{
-            'selector': 'td',
-            'props': [('max-width', '100px')]
-        }]))
+
+        filtered_df = show_df[show_df['Company'].isin(user_tickers)]
+
+        # Reset the index to update the ranking
+        filtered_df = filtered_df.reset_index(drop=True)
+        st.dataframe(filtered_df.set_index("Rank"))
+
        
 
         predicted_stocks=requests.get("http://34.125.120.216:8000/predict?ticker={}".format(",".join(user_tickers)))
