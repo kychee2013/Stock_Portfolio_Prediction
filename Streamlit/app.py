@@ -53,9 +53,13 @@ data = {
 with st.spinner("Loading, please wait..."):
     
     df = pd.DataFrame(data).set_index('Company')
-    # techscore_array = techscore_df["Score"].values
-    df = pd.concat([df,techscore_df.set_index("Ticker")["Score"]]).rename(columns={"Score":"Technical Score"})
+    df = df[~df.index.duplicated(keep='first')]
+    techscore_df = techscore_df[~techscore_df.index.duplicated(keep='first')]
+    # df = pd.concat([df,techscore_df.set_index("Ticker")["Score"]]).rename(columns={"Score":"Technical Score"})
     # df = pd.concat([df,techscore_df.set_index("Tickers")]).rename(columns={"Score":"Technical Score"})
+    df = pd.concat([df, techscore_df.set_index("Ticker")["Score"]], axis=1, join="outer")
+    df.rename(columns={"Score": "Technical Score"}, inplace=True)
+
 
     #read from csv
     df = pd.concat([df, result_df.set_index("tickers")], axis=1)
