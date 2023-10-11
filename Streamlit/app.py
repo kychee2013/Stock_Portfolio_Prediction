@@ -25,6 +25,7 @@ US-listed stocks are ranked according to the AI Score, which rates the probabili
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
 result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
 techscore_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/techscore.csv")
+allscores_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/scores.csv")
 # techscore_df = pd.read_csv("scores.csv")
 tickers = tick_data["Ticker"].tolist()
 company_name = tick_data["Company Name"].tolist()
@@ -82,7 +83,7 @@ if st.button('Generate'):
 
         df = pd.DataFrame(data).set_index('Company')
         
-        df = pd.concat([df, techscore_df.set_index("Ticker")["Score"]], axis=1, join="outer")
+        df = pd.concat([df, allscores_df.set_index("Ticker")["Score"]], axis=1, join="outer")
         df.rename(columns={"Score": "Technical Score"}, inplace=True)
         df = pd.concat([df, result_df.set_index("tickers")], axis=1)
         flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
