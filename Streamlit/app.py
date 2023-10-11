@@ -3,29 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pyportfolioopt import weights_max_sharpe, plot_efficient_frontier
 from fundamental_score import get_score
-#from ytd_performance import get_ytd_performance
-import yfinance as yf
+from ytd_performance import get_ytd_performance
 import random
 import requests
 import json
-
-def get_ytd_performance(stock_symbol):
-    # Define the start date for YTD calculation
-    start_date = datetime.datetime(datetime.datetime.now().year, 1, 1)  # YTD start date
-
-    try:
-        # Fetch historical stock data from Yahoo Finance
-        stock_data = yf.download(stock_symbol, start=start_date)
-
-        # Calculate YTD performance
-        ytd_start_price = stock_data['Adj Close'][0]
-        ytd_end_price = stock_data['Adj Close'][-1]
-        ytd_performance = (ytd_end_price - ytd_start_price) / ytd_start_price * 100
-
-        return ytd_performance
-
-    except Exception as e:
-        return np.NaN
 
 st.markdown("""# AI-Powered Stock Picking 
 Invest with the odds in your favor. 
