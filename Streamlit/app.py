@@ -5,10 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
-from data import *
-from stockscreener import *
-from stock import Stock
-from model import *
 from pyportfolioopt import weights_max_sharpe, plot_efficient_frontier
 from fundamental_score import get_score
 from ytd_performance import get_ytd_performance
