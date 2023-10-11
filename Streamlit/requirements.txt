@@ -9,4 +9,4 @@ pyportfolioopt==1.5.5
 requests==2.31.0
 streamlit==1.11.1
 streamlit-aggrid==0.3.4.post3
-yfinance #==0.2.30
+yfinance==0.2.31
