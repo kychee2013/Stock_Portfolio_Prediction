@@ -75,6 +75,7 @@ user_tickers = st.multiselect('Select all stock tickers to be included in portfo
                               tickers)
 if st.button('Generate'):
     with st.spinner('Building, please wait'):
+        """
         data = {
             'Company': user_tickers,
             'Company Name': company_name,
@@ -99,7 +100,7 @@ if st.button('Generate'):
         # Reset the index to update the ranking
         filtered_df = filtered_df.reset_index(drop=True)
         st.dataframe(filtered_df.set_index("Rank"))
-
+        """
        
 
         predicted_stocks=requests.get("http://34.125.120.216:8000/predict?ticker={}".format(",".join(user_tickers)))
