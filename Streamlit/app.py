@@ -22,8 +22,8 @@ US-listed stocks are ranked according to the AI Score, which rates the probabili
 
 """)
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
-result_df = pd.read_csv('result.csv')
-techscore_df = pd.read_csv("techscore.csv")
+result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
+techscore_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/techscore.csv")
 # techscore_df = pd.read_csv("scores.csv")
 tickers = tick_data["Ticker"].tolist()
 company_name = tick_data["Company Name"].tolist()
