@@ -1,11 +1,5 @@
 import datetime
-
 import numpy as np
-
-
-from pip._internal import main as pipmain
-
-pipmain(['install', 'yfinance'])
 import yfinance as yf
 
 def get_ytd_performance(stock_symbol):
