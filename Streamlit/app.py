@@ -1,20 +1,11 @@
 import streamlit as st
-import copy
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-from datetime import datetime
 from pyportfolioopt import weights_max_sharpe, plot_efficient_frontier
 from fundamental_score import get_score
-from ytd_performance import get_ytd_performance
-import os
-import tensorflow as tf
 import random
 import requests
 import json
-from st_aggrid import AgGrid
-
 
 st.markdown("""# AI-Powered Stock Picking 
 Invest with the odds in your favor. 
