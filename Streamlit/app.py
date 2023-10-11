@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pyportfolioopt import weights_max_sharpe, plot_efficient_frontier
 from fundamental_score import get_score
-from ytd_performance import *
+from ytd_performance import get_ytd_performance
 import random
 import requests
 import json
