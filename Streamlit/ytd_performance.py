@@ -1,5 +1,6 @@
 import datetime
 import yfinance as yf
+import numpy as np
 
 
 def get_ytd_performance(stock_symbol):
@@ -18,4 +19,4 @@ def get_ytd_performance(stock_symbol):
         return ytd_performance
 
     except Exception as e:
-        return f"Error: {str(e)}"
+        return np.NaN

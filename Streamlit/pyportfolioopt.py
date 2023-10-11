@@ -10,39 +10,35 @@ import streamlit as st
 
 # Calculates expected return over user selected date range i.e. freq (days)
 def expected_return(df, freq):
-    # expected_returns = []
-    # for i in df.columns:
-    #  expected_returns.append(df[i].mean()*freq)
-    return expected_returns.mean_historical_return(df, frequency=freq)
-
+  #expected_returns = []
+  #for i in df.columns:
+  #  expected_returns.append(df[i].mean()*freq)
+  return expected_returns.mean_historical_return(df, frequency=freq)
 
 # Calculates covariance over user selected date range i.e. freq (days)
 def covariance(df, freq):
-    # return df.cov()*freq
+    #return df.cov()*freq
     return risk_models.sample_cov(df, frequency=freq)
-
 
 # Returns optimal portfolio weightage that maximizes Sharpe Ratio
 def weights_max_sharpe(df, freq):
-    returns = expected_return(df, freq)
+    returns = expected_return(df,freq)
     cov = covariance(df, freq)
     ef = EfficientFrontier(returns, cov)
     ef.max_sharpe()
     cleaned_weights = ef.clean_weights()
-    mu, sigma, sharpe = ef.portfolio_performance(verbose=True)
+    mu, sigma, sharpe=ef.portfolio_performance(verbose=True)
     return mu, sigma, sharpe, cleaned_weights
-
 
 # Returns portfolio weightage for user selected return rate
 def weights_return_rate(df, freq, return_rate):
-    returns = expected_return(df, freq)
+    returns = expected_return(df,freq)
     cov = covariance(df, freq)
     ef = EfficientFrontier(returns, cov)
-    ef.efficient_return(return_rate / 100, market_neutral=False)
+    ef.efficient_return(return_rate/100, market_neutral=False)
     cleaned_weights = ef.clean_weights()
     ef.portfolio_performance(verbose=True)
     return cleaned_weights
-
 
 # Plots the portfolio weights as horizontal bar chart
 def plot_weights(weights):
@@ -52,13 +48,12 @@ def plot_weights(weights):
     # Output
     ax.set_title("Portfolio Weightage")
     plt.tight_layout()
-    # plt.savefig("ef_scatter.png", dpi=200)
+    #plt.savefig("ef_scatter.png", dpi=200)
     plt.show()
-
 
 # Plots the efficient frontier curve **(Work in progress)**
 def plot_efficient_frontier(df, freq):
-    returns = expected_return(df, freq)
+    returns = expected_return(df,freq)
     cov = covariance(df, freq)
     ef = EfficientFrontier(returns, cov)
     fig, ax = plt.subplots()
@@ -82,5 +77,5 @@ def plot_efficient_frontier(df, freq):
     ax.set_title("Efficient Frontier with random portfolios")
     ax.legend()
     plt.tight_layout()
-    # plt.savefig("ef_scatter.png", dpi=200)
-    st.pyplot(fig)
+    #plt.savefig("ef_scatter.png", dpi=200)
+    plt.show()
