@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pyportfolioopt import weights_max_sharpe, plot_efficient_frontier
 from fundamental_score import get_score
-from ytd_performance import get_ytd_performance
+#from ytd_performance import get_ytd_performance
 import random
 import requests
 import json
@@ -53,7 +53,7 @@ with st.spinner("Loading, please wait..."):
     df = pd.concat([df, result_df.set_index("tickers")], axis=1)
     flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
     df = df.loc[flag]
-    df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
+    #df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
     show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
     show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
     show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
@@ -87,7 +87,7 @@ if st.button('Generate'):
         df = pd.concat([df, result_df.set_index("tickers")], axis=1)
         flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
         df = df.loc[flag]
-        df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
+        #df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
         show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
         show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
         show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
