@@ -21,7 +21,7 @@ st.markdown("""## Stocks Ranked by AI
 US-listed stocks are ranked according to the AI Score, which rates the probability of beating the market in the next 3 months.
 
 """)
-tick_data=pd.read_csv('~/Stock_Portfolio_Prediction/Streamlit/sp500_companies.csv')
+tick_data=pd.read_csv('kychee2013/Stock_Portfolio_Prediction/Streamlit/sp500_companies.csv')
 result_df = pd.read_csv('result.csv')
 techscore_df = pd.read_csv("techscore.csv")
 # techscore_df = pd.read_csv("scores.csv")
