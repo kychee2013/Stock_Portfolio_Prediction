@@ -135,7 +135,7 @@ if st.button('Generate'):
 
         # Line chart for predicted stock prices
 
-        fig2, axes2 = plt.subplots(figsize=(20, 5))
+        fig2, axes2 = plt.subplots(figsize=(20, 20))
         for stock in predicted_stocks:
             axes2.plot(predicted_1mo[stock], label = stock)
 
