@@ -24,8 +24,8 @@ portfolios, and make smart data-driven investment decisions.""")
 
 #""")
 
-st.markdown("""## Stocks Ranked by AI
-US-listed stocks are ranked according to the Piotroski Score, which rates the probability of beating the market in the next 1 months.
+st.markdown("""##Top 10 AI Recommended Stocks for the Next 1 Month
+US-listed stocks are ranked according to the Piotroski Score, which takes into account of 3 criterias i.e. Profitability, Operating Efficiency & Leverage/Liquidity/Source of Funds
 
 """)
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
