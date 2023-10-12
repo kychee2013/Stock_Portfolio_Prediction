@@ -119,8 +119,20 @@ if st.button('Generate'):
             predicted_1mo[stock] = predicted_stocks[stock]
         mu, sigma, sharpe, a = weights_max_sharpe(pd.DataFrame.from_dict(predicted_1mo), 21)
         st.subheader("Expected annual return: {:.1f}%".format(100 * mu))
+        st.markdown("Return")
+        
         st.subheader("Annual volatility: {:.1f}%".format(100 * sigma))
+        st.markdown("""Measure of the dispersion of returns for a stock portfolio.
+        Measured from the standard deviation between returns from that same stock portfolio.
+        The higher the volatility, the riskier the security.""")
+        
         st.subheader("Sharpe Ratio: {:.2f}".format(sharpe))
+        st.markdown("""Difference between the risk-free return and the return of a portfolio divided by the portfolio’s standard deviation.
+        It is often used to carry out the performance of a particular share against the risk.
+        Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.
+            - A ratio higher than 2.0 is rated as very good.
+            - A ratio of 3.0 or higher is considered excellent.
+            - A ratio under 1.0 is considered sub-optimal.""")
 
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
