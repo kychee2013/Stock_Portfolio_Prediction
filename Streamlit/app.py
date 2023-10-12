@@ -32,6 +32,7 @@ tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfo
 result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
 techscore_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/techscore.csv")
 allscores_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/scores.csv")
+ytd_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/ytd.csv")
 # techscore_df = pd.read_csv("scores.csv")
 tickers = tick_data["Ticker"].tolist()
 company_name = tick_data["Company Name"].tolist()
