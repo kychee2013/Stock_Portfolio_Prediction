@@ -31,7 +31,7 @@ tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfo
 result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
 techscore_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/techscore.csv")
 allscores_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/scores.csv")
-ytd_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/ytd.csv")
+ytd_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/top10_ytd.csv")
 # techscore_df = pd.read_csv("scores.csv")
 tickers = tick_data["Ticker"].tolist()
 company_name = tick_data["Company Name"].tolist()
@@ -60,6 +60,7 @@ with st.spinner("Loading, please wait..."):
     df = pd.concat([df, result_df.set_index("tickers")], axis=1)
     flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
     df = df.loc[flag]
+    df = pd.concat([df, ytd_csv.set_index("Ticker")], axis=1)
     # df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
     show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
     show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
