@@ -23,7 +23,7 @@ portfolios, and make smart data-driven investment decisions.""")
 #US-listed stocks are ranked according to the AI Score, which rates the probability of beating the market in the next 3 months.
 
 #""")
-st.header("Top 10 AI Recommended Stocks for the Next 1 Month")
+st.header("Top 10 AI Recommended Stocks for the Next 1 Month", divider = 'rainbow')
 st.markdown("""
 US-listed stocks are ranked according to the Piotroski Score, which takes into account of 3 criterias i.e. Profitability, Operating Efficiency & Leverage/Liquidity/Source of Funds
 """)
@@ -75,7 +75,7 @@ with st.spinner("Loading, please wait..."):
     
 
 # My stock portfolio optimizer
-st.header("My Stock Portfolio Optimizer")
+st.header("My Stock Portfolio Optimizer", divider = 'rainbow')
 
 user_tickers = st.multiselect('Select all stock tickers to be included in portfolio separated by commas',
                               tickers)
