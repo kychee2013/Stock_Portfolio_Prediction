@@ -156,12 +156,14 @@ if st.button('Generate'):
         st.header("Portfolio's Predicted Performance")
         
         st.subheader("Expected annual return: {:.1f}%".format(100 * mu))
-        st.markdown("Predicted % return (annualized) that can be expected from this portfolio")
+        with st.expander("See explanation"):
+            st.markdown("Predicted % return (annualized) that can be expected from this portfolio")
         
         st.subheader("Annual volatility: {:.1f}%".format(100 * sigma))
-        st.markdown("Measure of the dispersion of returns for a stock portfolio.\n"
-        "Measured from the standard deviation between returns from that same stock portfolio.\n"
-        "The higher the volatility, the riskier the security.")
+        with st.expander("See explanation"):
+            st.markdown("Measure of the dispersion of returns for a stock portfolio.\n"
+            "Measured from the standard deviation between returns from that same stock portfolio.\n"
+            "The higher the volatility, the riskier the security.")
 
         #sharpe_dict = {
         #    range(0,1): 'Sub-optimal',
@@ -172,12 +174,13 @@ if st.button('Generate'):
         
         st.subheader("Sharpe Ratio: {:.2f}".format(sharpe))
         #st.subheader("({score})".format(score = sharpe_dict[int(sharpe)]))
-        st.markdown("Difference between the risk-free return and the return of a portfolio divided by the portfolio’s standard deviation.\n"
-        "It is often used to carry out the performance of a particular share against the risk.\n"
-        "Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.\n"
-        "- A ratio higher than 2.0 is rated as very good.\n"
-        "- A ratio of 3.0 or higher is considered excellent.\n"
-        "- A ratio under 1.0 is considered sub-optimal.")
+        with st.expander("See explanation"):
+            st.markdown("Difference between the risk-free return and the return of a portfolio divided by the portfolio’s standard deviation.\n"
+            "It is often used to carry out the performance of a particular share against the risk.\n"
+            "Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.\n"
+            "- A ratio higher than 2.0 is rated as very good.\n"
+            "- A ratio of 3.0 or higher is considered excellent.\n"
+            "- A ratio under 1.0 is considered sub-optimal.")
 
         st.header("Portfolio Weightage (%)")
         st.markdown("""Note: Portfolio weightage shown below is optimized for Sharpe Ratio i.e. portfolio with the maximum return-risk ratio""")
