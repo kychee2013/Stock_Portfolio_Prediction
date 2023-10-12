@@ -119,49 +119,25 @@ if st.button('Generate'):
 
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
-        fig, axes = plt.subplots(figsize=(5, 5))
+        fig1, axes1 = plt.subplots(figsize=(5, 5))
 
-        wedges, texts = axes.pie(sizes, labels=labels, startangle=90)
+        wedges, texts = axes1.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
             text.set(size=15, color='black')
-        st.pyplot(fig)
+        st.pyplot(fig1)
 
         plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
 
         # Line chart for predicted stock prices
 
-        fig, axes = plt.subplots(figsize=(20, 5))
+        fig2, axes2 = plt.subplots(figsize=(20, 5))
         for stock in predicted_stocks:
-            axes.plot(predicted_1mo[stock], label = stock)
+            axes2.plot(predicted_1mo[stock], label = stock)
 
-        axes.set_xlabel('Days from Today', fontsize = 10)
-        axes.set_ylabel('Predicted Stock Close Price', fontsize = 10)
-        axes.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
-        axes.legend()
-        st.pyplot(fig)
-        
-
-
-        # Plotly for predicted stock return
-        
-        #fig = graph_objects.Figure()
-        #for stock in predicted_stocks:
-            #stock.get_historical_data('5y')
-            #stock.get_technical_indicators()
-            #fig.add_trace(graph_objects.Scatter(x=predicted_stocks.index, y=predicted_stocks[stock], mode='lines', name=stock))
-        
-        # Set the Layout
-        #fig.update_layout(
-            #title="Stock - Close Price History",
-            #xaxis=dict(title='Date', showgrid=True, gridcolor='lightgray'),
-            #yaxis=dict(title='Close Price USD ($)',showgrid=True, gridcolor='lightgray'),
-            #legend=dict(x=0.01, y=0.99, bordercolor='black', borderwidth=1),
-            #plot_bgcolor='white',
-            #paper_bgcolor='white',
-            #showlegend=True,
-        #)
-        
-        # Show the figure
-        #fig.show()
+        axes2.set_xlabel('Days from Today', fontsize = 10)
+        axes2.set_ylabel('Predicted Stock Close Price', fontsize = 10)
+        axes2.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
+        axes2.legend()
+        st.pyplot(fig2)
 
         
