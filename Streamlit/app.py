@@ -85,7 +85,7 @@ user_tickers = st.multiselect('Select all stock tickers to be included in portfo
                               tickers)
 if st.button('Generate'):
     with st.spinner('Building, please wait'):
-        """
+        
         data = {
             'Company': user_tickers,
             'Company Name': company_name,
@@ -99,6 +99,9 @@ if st.button('Generate'):
         df = pd.concat([df, result_df.set_index("tickers")], axis=1)
         flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
         df = df.loc[flag]
+        df = pd.concat([df, ytd_df.set_index("Ticker")["YTD Performance"]], axis=1)
+        df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
+        df["YTD Performance (%)"] = df["YTD Performance (%)"].astype('int32')
         # df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
         show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
         show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
@@ -110,7 +113,7 @@ if st.button('Generate'):
         # Reset the index to update the ranking
         filtered_df = filtered_df.reset_index(drop=True)
         st.dataframe(filtered_df.set_index("Rank"))
-        """
+        
        
 
         predicted_stocks=requests.get("http://34.125.120.216:8000/predict?ticker={}".format(",".join(user_tickers)))
