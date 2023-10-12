@@ -24,7 +24,7 @@ portfolios, and make smart data-driven investment decisions.""")
 
 #""")
 
-st.markdown("""##Top 10 AI Recommended Stocks for the Next 1 Month
+st.markdown("""## Top 10 AI Recommended Stocks for the Next 1 Month
 US-listed stocks are ranked according to the Piotroski Score, which takes into account of 3 criterias i.e. Profitability, Operating Efficiency & Leverage/Liquidity/Source of Funds
 
 """)
