@@ -147,7 +147,8 @@ if st.button('Generate'):
             range(3,1000): 'Excellent'
         }
         
-        st.subheader("Sharpe Ratio: {:.2f}".format(sharpe) + " ({score})".format(score = sharpe_dict[int(sharpe)]))
+        st.subheader("Sharpe Ratio: {:.2f}".format(sharpe))
+        st.subheader("({score})".format(score = sharpe_dict[int(sharpe)]))
         st.markdown("Difference between the risk-free return and the return of a portfolio divided by the portfolio’s standard deviation.\n"
         "It is often used to carry out the performance of a particular share against the risk.\n"
         "Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.\n"
