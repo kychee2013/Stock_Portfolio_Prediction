@@ -32,6 +32,7 @@ Higher combined score indicates better value stocks.
 Technical score is calculated based on...
 
 Fundamental score is calculated based on Piotroski Score.
+
 Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.
 
 The Piotroski score is a discrete score between zero and nine that reflects nine criteria used to determine the strength of a firm's financial position. 
