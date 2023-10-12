@@ -124,18 +124,18 @@ if st.button('Generate'):
 
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
-        fig1, axes1 = plt.subplots(figsize=(5, 5))
+        fig1, axes1 = plt.subplots(figsize=(10, 10))
 
         wedges, texts = axes1.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
-            text.set(size=7, color='black')
+            text.set(size=10, color='black')
         st.pyplot(fig1)
 
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
 
         # Line chart for predicted stock prices
 
-        fig2, axes2 = plt.subplots(figsize=(20, 20))
+        fig2, axes2 = plt.subplots(figsize=(10, 10))
         for stock in predicted_stocks:
             axes2.plot(predicted_1mo[stock], label = stock)
 
