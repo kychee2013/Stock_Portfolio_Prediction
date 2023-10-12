@@ -101,8 +101,8 @@ if st.button('Generate'):
         df = pd.concat([df, allscores_df.set_index("Ticker")["Score"]], axis=1, join="inner")
         df.rename(columns={"Score": "Technical Score"}, inplace=True)
         df = pd.concat([df, result_df.set_index("tickers")], axis=1, join='inner')
-        flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
-        df = df.loc[flag]
+        #flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
+        #df = df.loc[flag]
         df = pd.concat([df, ytd_df.set_index("Ticker")["YTD Performance"]], axis=1, join='inner')
         df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
         #df["YTD Performance (%)"] = df["YTD Performance (%)"].astype('int32')
