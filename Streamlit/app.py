@@ -144,6 +144,8 @@ if st.button('Generate'):
         "- A ratio of 3.0 or higher is considered excellent.\n"
         "- A ratio under 1.0 is considered sub-optimal.")
 
+        st.header("Portfolio Weightage (%)", divider=True)
+        
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
         fig1, axes1 = plt.subplots(figsize=(10, 10))
@@ -151,7 +153,7 @@ if st.button('Generate'):
         wedges, texts = axes1.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
             text.set(size=15, color='black')
-        axes1.set_title('Portfolio Weightage', fontsize = 20)
+        axes1.set_title('Portfolio Weightage (%)', fontsize = 20)
         st.pyplot(fig1)
 
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
