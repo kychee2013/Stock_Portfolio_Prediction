@@ -149,6 +149,7 @@ if st.button('Generate'):
         "- A ratio under 1.0 is considered sub-optimal.")
 
         st.header("Portfolio Weightage (%)")
+        st.markdown("""Note: Portfolio weightage shown below is optimized for Sharpe Ratio i.e. portfolio with the maximum return-risk ratio""")
         
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
