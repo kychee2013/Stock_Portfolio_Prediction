@@ -14,6 +14,7 @@ st.markdown("""# AI-Powered Stock Portfolio Manager
 Invest with the odds in your favor. 
 Get unique insights, boost your 
 portfolios, and make smart data-driven investment decisions.""")
+st.divider()
 
 # Adding a text in the sidebar
 # st.sidebar.text('Your Text Here')
@@ -25,6 +26,7 @@ portfolios, and make smart data-driven investment decisions.""")
 
 #""")
 st.header("Top 10 Recommended S&P500 Stocks for the Next 1 Month")
+st.divider()
 st.markdown("""
 S&P500 stocks are ranked in descending order based on the sum of Technical and Fundamental Score.
 Higher combined score indicates better value stocks.
@@ -153,6 +155,7 @@ if st.button('Generate'):
         mu, sigma, sharpe, a = weights_max_sharpe(pd.DataFrame.from_dict(predicted_1mo), 21)
 
         st.header("Portfolio's Predicted Performance")
+        st.divider()
         
         st.subheader("Expected annual return: {:.1f}%".format(100 * mu))
         st.markdown("Predicted % return (annualized) that can be expected from this portfolio")
@@ -179,6 +182,7 @@ if st.button('Generate'):
         "- A ratio under 1.0 is considered sub-optimal.")
 
         st.header("Portfolio Weightage (%)")
+        st.divider()
         st.markdown("""Note: Portfolio weightage shown below is optimized for Sharpe Ratio i.e. portfolio with the maximum return-risk ratio""")
         
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
@@ -194,6 +198,7 @@ if st.button('Generate'):
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
 
         st.header("Predicted 1 Month Stock Close Price USD ($)")
+        st.divider()
         
         # Line chart for predicted stock prices
         fig2, axes2 = plt.subplots(figsize=(10, 10))
