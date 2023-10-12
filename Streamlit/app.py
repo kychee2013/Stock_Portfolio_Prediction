@@ -7,6 +7,7 @@ from ytd_performance import get_ytd_performance
 import random
 import requests
 import json
+import plotly.graph_objects as go
 
 st.markdown("""# AI-Powered Stock Picking 
 Invest with the odds in your favor. 
@@ -125,4 +126,26 @@ if st.button('Generate'):
             text.set(size=15, color='black')
         st.pyplot(fig)
 
-        plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
+        # Plotly for predicted stock return
+        
+        fig = go.Figure()
+        for stock in predicted_stocks:
+            #stock.get_historical_data('5y')
+            #stock.get_technical_indicators()
+            fig.add_trace(go.Scatter(x=predicted_stocks.index, y=predicted_stocks[stock], mode='lines', name=stock))
+        
+        # Set the Layout
+        fig.update_layout(
+            title="Stock - Close Price History",
+            xaxis=dict(title='Date', showgrid=True, gridcolor='lightgray'),
+            yaxis=dict(title='Close Price USD ($)',showgrid=True, gridcolor='lightgray'),
+            legend=dict(x=0.01, y=0.99, bordercolor='black', borderwidth=1),
+            plot_bgcolor='white',
+            paper_bgcolor='white',
+            showlegend=True,
+        )
+        
+        # Show the figure
+        fig.show()
+
+        #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
