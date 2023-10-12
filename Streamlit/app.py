@@ -150,7 +150,8 @@ if st.button('Generate'):
 
         wedges, texts = axes1.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
-            text.set(size=10, color='black')
+            text.set(size=15, color='black')
+        axes1.set_title('Portfolio Weightage', fontsize = 20)
         st.pyplot(fig1)
 
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
