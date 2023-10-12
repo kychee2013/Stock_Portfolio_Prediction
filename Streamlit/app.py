@@ -87,38 +87,38 @@ user_tickers = st.multiselect('Select all stock tickers to be included in portfo
 if st.button('Generate'):
     with st.spinner('Building, please wait'):
 
-        company_name = tick_data[tick_data["Ticker"].isin(user_tickers)]["Company Name"].tolist()
-        sector = tick_data[tick_data["Ticker"].isin(user_tickers)]["Sector"].tolist()
+        #company_name = tick_data[tick_data["Ticker"].isin(user_tickers)]["Company Name"].tolist()
+        #sector = tick_data[tick_data["Ticker"].isin(user_tickers)]["Sector"].tolist()
         
-        data = {
-            'Company': user_tickers,
-            'Company Name': company_name,
-            'Sector':sector
-        }
+        #data = {
+        #    'Company': user_tickers,
+        #    'Company Name': company_name,
+        #    'Sector':sector
+        #}
 
-        df = pd.DataFrame(data).set_index('Company')
+        #df = pd.DataFrame(data).set_index('Company')
         
-        df = pd.concat([df, allscores_df.set_index("Ticker")["Score"]], axis=1, join="inner")
-        df.rename(columns={"Score": "Technical Score"}, inplace=True)
-        df = pd.concat([df, result_df.set_index("tickers")], axis=1, join='inner')
+        #df = pd.concat([df, allscores_df.set_index("Ticker")["Score"]], axis=1, join="inner")
+        #df.rename(columns={"Score": "Technical Score"}, inplace=True)
+        #df = pd.concat([df, result_df.set_index("tickers")], axis=1, join='inner')
         #flag = df.drop(['Company Name', 'Sector'], axis=1).T.sum().sort_values(ascending=False).index[:10]
         #df = df.loc[flag]
-        df = pd.concat([df, ytd_df.set_index("Ticker")["YTD Performance"]], axis=1, join='inner')
-        df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
+        #df = pd.concat([df, ytd_df.set_index("Ticker")["YTD Performance"]], axis=1, join='inner')
+        #df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
         #df["YTD Performance (%)"] = df["YTD Performance (%)"].astype('int32')
         # df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
         #show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
         #show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
-        df["Technical Score"] = df["Technical Score"].map(lambda x: int(x))
+        #df["Technical Score"] = df["Technical Score"].map(lambda x: int(x))
         #show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
         #show_df["Rank"] = [_+1 for _ in range(df.shape[0])]
 
         #filtered_df = show_df[show_df['Company'].isin(user_tickers)]
-        filtered_df = df
+        #filtered_df = df
 
         # Reset the index to update the ranking
-        filtered_df = filtered_df.reset_index(drop=True)
-        st.dataframe(filtered_df)
+        #filtered_df = filtered_df.reset_index(drop=True)
+        #st.dataframe(filtered_df)
         #st.dataframe(filtered_df.set_index("Rank"))
         
        
