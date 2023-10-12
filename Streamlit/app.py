@@ -134,6 +134,10 @@ if st.button('Generate'):
         for stock in predicted_stocks:
             axes.plot(predicted_1mo[stock], label = stock)
 
+        axes.set_xlabel('Days')
+        axes.set_ylabel('Predicted Stock Close Price')
+        axes.set_title('Predicted 1 Month Stock Prices')
+        axes.legend()
         st.pyplot(fig)
         
 
