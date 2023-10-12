@@ -141,8 +141,9 @@ if st.button('Generate'):
 
         axes2.spines['top'].set_visible(False)
         axes2.spines['right'].set_visible(False)
-        axes2.set_xlabel('Days from Today', fontsize = 10)
-        axes2.set_ylabel('Predicted Stock Close Price', fontsize = 10)
+        axes2.tick_params(axis='both', which='major', labelsize=8)
+        axes2.set_xlabel('Days from Today', fontsize = 15)
+        axes2.set_ylabel('Predicted Stock Close Price USD ($)', fontsize = 15)
         axes2.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
         axes2.legend()
         st.pyplot(fig2)
