@@ -9,7 +9,7 @@ import requests
 import json
 #from plotly import graph_objects
 
-st.markdown("""# AI-Powered Stock Picking 
+st.markdown("""# AI-Powered Stock Portfolio Manager 
 Invest with the odds in your favor. 
 Get unique insights, boost your 
 portfolios, and make smart data-driven investment decisions.""")
@@ -19,8 +19,13 @@ portfolios, and make smart data-driven investment decisions.""")
 # # Add a radio button
 # st.sidebar.radio('label', options=[])
 
+#st.markdown("""## Stocks Ranked by AI
+#US-listed stocks are ranked according to the AI Score, which rates the probability of beating the market in the next 3 months.
+
+#""")
+
 st.markdown("""## Stocks Ranked by AI
-US-listed stocks are ranked according to the AI Score, which rates the probability of beating the market in the next 3 months.
+US-listed stocks are ranked according to the Piotroski Score, which rates the probability of beating the market in the next 1 months.
 
 """)
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
@@ -126,7 +131,7 @@ if st.button('Generate'):
             text.set(size=15, color='black')
         st.pyplot(fig1)
 
-        plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
+        #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
 
         # Line chart for predicted stock prices
 
