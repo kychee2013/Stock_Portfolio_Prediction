@@ -62,7 +62,7 @@ with st.spinner("Loading, please wait..."):
     df = df.loc[flag]
     df = pd.concat([df, ytd_df.set_index("Ticker")["YTD Performance"]], axis=1)
     df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
-    df["YTD Performance (%)"].astype('int32')
+    df["YTD Performance (%)"] = df["YTD Performance (%)"].astype('int32')
     #df["YTD Performance (%)"].astype(int)
     # df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
     show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
