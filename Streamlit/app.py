@@ -140,15 +140,15 @@ if st.button('Generate'):
         "Measured from the standard deviation between returns from that same stock portfolio.\n"
         "The higher the volatility, the riskier the security.")
 
-        sharpe_dict = {
-            range(0,1): 'Sub-optimal',
-            range(1,2): 'Good',
-            range(2,3): 'Very good',
-            range(3,1000): 'Excellent'
-        }
+        #sharpe_dict = {
+        #    range(0,1): 'Sub-optimal',
+        #    range(1,2): 'Good',
+        #    range(2,3): 'Very good',
+        #    range(3,1000): 'Excellent'
+        #}
         
         st.subheader("Sharpe Ratio: {:.2f}".format(sharpe))
-        st.subheader("({score})".format(score = sharpe_dict[int(sharpe)]))
+        #st.subheader("({score})".format(score = sharpe_dict[int(sharpe)]))
         st.markdown("Difference between the risk-free return and the return of a portfolio divided by the portfolio’s standard deviation.\n"
         "It is often used to carry out the performance of a particular share against the risk.\n"
         "Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.\n"
