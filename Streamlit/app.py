@@ -126,6 +126,8 @@ if st.button('Generate'):
             text.set(size=15, color='black')
         st.pyplot(fig)
 
+        plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
+
         # Line chart for predicted stock prices
 
         fig, axes = plt.subplots(figsize=(10, 10))
@@ -158,4 +160,4 @@ if st.button('Generate'):
         # Show the figure
         #fig.show()
 
-        #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
+        
