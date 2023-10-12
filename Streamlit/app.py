@@ -119,7 +119,7 @@ if st.button('Generate'):
 
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
-        fig, axes = plt.subplots(figsize=(10, 10))
+        fig, axes = plt.subplots(figsize=(5, 5))
 
         wedges, texts = axes.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
@@ -130,13 +130,13 @@ if st.button('Generate'):
 
         # Line chart for predicted stock prices
 
-        fig, axes = plt.subplots(figsize=(10, 10))
+        fig, axes = plt.subplots(figsize=(20, 5))
         for stock in predicted_stocks:
             axes.plot(predicted_1mo[stock], label = stock)
 
-        axes.set_xlabel('Days')
-        axes.set_ylabel('Predicted Stock Close Price')
-        axes.set_title('Predicted 1 Month Stock Prices')
+        axes.set_xlabel('Days from Today', fontsize = 10)
+        axes.set_ylabel('Predicted Stock Close Price', fontsize = 10)
+        axes.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
         axes.legend()
         st.pyplot(fig)
         
