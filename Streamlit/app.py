@@ -115,7 +115,7 @@ if st.button('Generate'):
         #filtered_df = show_df[show_df['Company'].isin(user_tickers)]
 
         # Reset the index to update the ranking
-        filtered_df = filtered_df.reset_index(drop=True)
+        #filtered_df = filtered_df.reset_index(drop=True)
         st.dataframe(filtered_df)
         #st.dataframe(filtered_df.set_index("Rank"))
         
