@@ -110,13 +110,14 @@ if st.button('Generate'):
         show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
         show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
         show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
-        show_df["Rank"] = [_+1 for _ in range(df.shape[0])]
+        #show_df["Rank"] = [_+1 for _ in range(df.shape[0])]
 
-        filtered_df = show_df[show_df['Company'].isin(user_tickers)]
+        #filtered_df = show_df[show_df['Company'].isin(user_tickers)]
 
         # Reset the index to update the ranking
         filtered_df = filtered_df.reset_index(drop=True)
-        st.dataframe(filtered_df.set_index("Rank"))
+        st.dataframe(filtered_df)
+        #st.dataframe(filtered_df.set_index("Rank"))
         
        
 
