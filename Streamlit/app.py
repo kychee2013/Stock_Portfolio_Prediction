@@ -129,8 +129,11 @@ if st.button('Generate'):
         for stock in predicted_stocks:
             predicted_1mo[stock] = predicted_stocks[stock]
         mu, sigma, sharpe, a = weights_max_sharpe(pd.DataFrame.from_dict(predicted_1mo), 21)
+
+        st.header("Portfolio's Predicted Performance")
+        
         st.subheader("Expected annual return: {:.1f}%".format(100 * mu))
-        st.markdown("Return")
+        st.markdown("Predicted % return (annualized) that can be expected from this portfolio")
         
         st.subheader("Annual volatility: {:.1f}%".format(100 * sigma))
         st.markdown("Measure of the dispersion of returns for a stock portfolio.\n"
