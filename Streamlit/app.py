@@ -32,6 +32,7 @@ Higher combined score indicates better value stocks.
 Technical score is calculated based on...
 
 Fundamental score is calculated based on Piotroski Score.
+Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.
 
 The Piotroski score is a discrete score between zero and nine that reflects nine criteria used to determine the strength of a firm's financial position. 
 
@@ -44,8 +45,6 @@ The Piotroski score is a discrete score between zero and nine that reflects nine
     - No new shares were issued in the last year (lack of dilution) (1 point).
     - A higher gross margin compared to the previous year (1 point)
     - A higher asset turnover ratio compared to the previous year (1 point)
-
-Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.
 """)
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
 result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
