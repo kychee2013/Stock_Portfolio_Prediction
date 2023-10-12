@@ -7,7 +7,7 @@ from ytd_performance import get_ytd_performance
 import random
 import requests
 import json
-import plotly.graph_objects as go
+from plotly import graph_objects
 
 st.markdown("""# AI-Powered Stock Picking 
 Invest with the odds in your favor. 
@@ -128,11 +128,11 @@ if st.button('Generate'):
 
         # Plotly for predicted stock return
         
-        fig = go.Figure()
+        fig = graph_objects.Figure()
         for stock in predicted_stocks:
             #stock.get_historical_data('5y')
             #stock.get_technical_indicators()
-            fig.add_trace(go.Scatter(x=predicted_stocks.index, y=predicted_stocks[stock], mode='lines', name=stock))
+            fig.add_trace(graph_objects.Scatter(x=predicted_stocks.index, y=predicted_stocks[stock], mode='lines', name=stock))
         
         # Set the Layout
         fig.update_layout(
