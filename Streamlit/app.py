@@ -107,9 +107,9 @@ if st.button('Generate'):
         df.rename(columns={"YTD Performance":"YTD Performance (%)"}, inplace=True)
         #df["YTD Performance (%)"] = df["YTD Performance (%)"].astype('int32')
         # df["YTD Performance"] = [get_ytd_performance(ticker) for ticker in flag]
-        show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
+        #show_df = df.rename(columns={"Sum": 'Fundamental Score'}).reset_index().rename(columns={"index": 'Company'})
         show_df["Technical Score"] = show_df["Technical Score"].map(lambda x: int(x))
-        show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
+        #show_df["Fundamental Score"] = show_df["Fundamental Score"].map(lambda x: int(x))
         #show_df["Rank"] = [_+1 for _ in range(df.shape[0])]
 
         #filtered_df = show_df[show_df['Company'].isin(user_tickers)]
