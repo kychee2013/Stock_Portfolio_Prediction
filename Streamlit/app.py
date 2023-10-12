@@ -128,7 +128,7 @@ if st.button('Generate'):
 
         wedges, texts = axes1.pie(sizes, labels=labels, startangle=90)
         for label, text in zip(labels, texts):
-            text.set(size=15, color='black')
+            text.set(size=7, color='black')
         st.pyplot(fig1)
 
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
