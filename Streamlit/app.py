@@ -25,28 +25,29 @@ portfolios, and make smart data-driven investment decisions.""")
 
 #""")
 st.header("Top 10 Recommended S&P500 Stocks for the Next 1 Month")
-st.markdown("""
-S&P500 stocks are ranked in descending order based on the sum of Technical and Fundamental Score.
-Higher combined score indicates better value stocks.
-
-Technical score is calculated based on...
-
-Fundamental score is calculated based on Piotroski Score.
-
-Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.
-
-The Piotroski score is a discrete score between zero and nine that reflects nine criteria used to determine the strength of a firm's financial position. 
-
-    - Positive net income (1 point)
-    - Positive return on assets (ROA) in the current year (1 point)
-    - Positive operating cash flow in the current year (1 point)
-    - Cash flow from operations being greater than net Income (quality of earnings) (1 point)
-    - Lower amount of long term debt in the current period, compared to the previous year (decreased leverage) (1 point)
-    - Higher current ratio this year compared to the previous year (more liquidity) (1 point)
-    - No new shares were issued in the last year (lack of dilution) (1 point).
-    - A higher gross margin compared to the previous year (1 point)
-    - A higher asset turnover ratio compared to the previous year (1 point)
-""")
+with st.expander("See explanation"):
+    st.markdown("""
+    S&P500 stocks are ranked in descending order based on the sum of Technical and Fundamental Score.
+    Higher combined score indicates better value stocks.
+    
+    Technical score is calculated based on...
+    
+    Fundamental score is calculated based on Piotroski Score.
+    
+    Piotroski score is used to determine the best value stocks, with nine being the best and zero being the worst.
+    
+    The Piotroski score is a discrete score between zero and nine that reflects nine criteria used to determine the strength of a firm's financial position. 
+    
+        - Positive net income (1 point)
+        - Positive return on assets (ROA) in the current year (1 point)
+        - Positive operating cash flow in the current year (1 point)
+        - Cash flow from operations being greater than net Income (quality of earnings) (1 point)
+        - Lower amount of long term debt in the current period, compared to the previous year (decreased leverage) (1 point)
+        - Higher current ratio this year compared to the previous year (more liquidity) (1 point)
+        - No new shares were issued in the last year (lack of dilution) (1 point).
+        - A higher gross margin compared to the previous year (1 point)
+        - A higher asset turnover ratio compared to the previous year (1 point)
+    """)
 tick_data=pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/sp500_companies.csv')
 result_df = pd.read_csv('https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/result.csv')
 techscore_df = pd.read_csv("https://raw.githubusercontent.com/kychee2013/Stock_Portfolio_Prediction/main/Streamlit/techscore.csv")
