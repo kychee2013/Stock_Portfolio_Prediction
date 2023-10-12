@@ -86,8 +86,8 @@ user_tickers = st.multiselect('Select all stock tickers to be included in portfo
 if st.button('Generate'):
     with st.spinner('Building, please wait'):
 
-        company_name = tick_data[user_tickers]["Company Name"].tolist()
-        sector = tick_data[user_tickers]["Sector"].tolist()
+        company_name = tick_data[tick_data["Ticker"].isin(user_tickers)]["Company Name"].tolist()
+        sector = tick_data[tick_data["Ticker"].isin(user_tickers)]["Sector"].tolist()
         
         data = {
             'Company': user_tickers,
