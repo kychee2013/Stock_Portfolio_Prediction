@@ -164,7 +164,7 @@ if st.button('Generate'):
         # Line chart for predicted stock prices
         fig2, axes2 = plt.subplots(figsize=(10, 10))
         for stock in predicted_stocks:
-            axes2.plot(x = np.linspace(1, 22, 21), y = predicted_1mo[stock], label = stock)
+            axes2.plot(x = [1, 22], y = predicted_1mo[stock], label = stock)
 
         axes2.spines['top'].set_visible(False)
         axes2.spines['right'].set_visible(False)
