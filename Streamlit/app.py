@@ -144,7 +144,7 @@ if st.button('Generate'):
         "- A ratio of 3.0 or higher is considered excellent.\n"
         "- A ratio under 1.0 is considered sub-optimal.")
 
-        st.header("Portfolio Weightage (%)", divider=True)
+        st.header("Portfolio Weightage (%)")
         
         sizes = [a[_] for _ in a.keys() if a[_] != 0]
         labels = ["{}\n{}%".format(_, round(a[_]*100)) for _ in a.keys() if a[_] != 0]
@@ -158,18 +158,19 @@ if st.button('Generate'):
 
         #plot_efficient_frontier(pd.DataFrame.from_dict(predicted_1mo), 21)
 
+        st.header("Predicted 1 Month Stock Close Price USD ($)")
+        
         # Line chart for predicted stock prices
-
         fig2, axes2 = plt.subplots(figsize=(10, 10))
         for stock in predicted_stocks:
-            axes2.plot(predicted_1mo[stock], label = stock)
+            axes2.plot(x = [1, len(predicted_stocks) + 1], y = predicted_1mo[stock], label = stock)
 
         axes2.spines['top'].set_visible(False)
         axes2.spines['right'].set_visible(False)
         axes2.tick_params(axis='both', which='major', labelsize=10)
         axes2.set_xlabel('Days from Today', fontsize = 15)
         axes2.set_ylabel('Predicted Stock Close Price USD ($)', fontsize = 15)
-        axes2.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
+        axes2.set_title('Predicted 1 Month Stock Prices USD ($)', fontsize = 20)
         axes2.legend()
         st.pyplot(fig2)
 
