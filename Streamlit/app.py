@@ -139,6 +139,8 @@ if st.button('Generate'):
         for stock in predicted_stocks:
             axes2.plot(predicted_1mo[stock], label = stock)
 
+        axes2.spines['top'].set_visible(False)
+        axes2.spines['right'].set_visible(False)
         axes2.set_xlabel('Days from Today', fontsize = 10)
         axes2.set_ylabel('Predicted Stock Close Price', fontsize = 10)
         axes2.set_title('Predicted 1 Month Stock Prices', fontsize = 20)
